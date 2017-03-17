@@ -41,6 +41,7 @@
     "copyfiles": "^1.0.0",
     "css-loader": "^0.23.0",
     "eslint": "^3.0.0",
+    "eslint-import-resolver-webpack": "^0.8.1",
     "eslint-loader": "^1.0.0",
     "eslint-plugin-react": "^6.0.0",
     "file-loader": "^0.9.0",
@@ -86,6 +87,9 @@
       "spaced-comment": 0,
       "import/no-unassigned-import": 0,
       "unicorn/filename-case": 0
+    },
+    "settings": {
+      "import/resolver": "webpack"
     },
     "ignores": [
       "cfg/*"
