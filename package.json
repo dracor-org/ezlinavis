@@ -91,6 +91,15 @@
       "react/jsx-space-before-closing": 0,
       "unicorn/filename-case": 0
     },
+    "overrides": [
+      {
+        "files": "test/**",
+        "rules": {
+          "import/no-unresolved": 0,
+          "import/no-extraneous-dependencies": 0
+        }
+      }
+    ],
     "settings": {
       "import/resolver": "webpack"
     },
