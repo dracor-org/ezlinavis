@@ -102,7 +102,7 @@ class EzlinavisComponent extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
-      listText: 'foo',
+      listText: '',
       list: [],
       isValid: null,
       csv: null
