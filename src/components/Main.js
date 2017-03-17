@@ -4,7 +4,7 @@ require('styles/App.styl');
 import React from 'react';
 
 class AppComponent extends React.Component {
-  render() {
+  render () {
     return (
       <div className="index">
         <div className="notice">Please edit <code>src/components/Main.js</code> to get started!</div>

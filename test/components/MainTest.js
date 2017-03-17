@@ -11,7 +11,6 @@ import createComponent from 'helpers/shallowRenderHelper';
 import Main from 'components/Main';
 
 describe('MainComponent', function () {
-
   beforeEach(function () {
     this.MainComponent = createComponent(Main);
   });
