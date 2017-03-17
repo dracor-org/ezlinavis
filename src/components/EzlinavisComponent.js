@@ -1,5 +1,8 @@
 import React from 'react';
 import {Parser} from 'nearley';
+import Sigma from 'react-sigma/lib/Sigma';
+import RelativeSize from 'react-sigma/lib/RelativeSize';
+import RandomizeNodePositions from 'react-sigma/lib/RandomizeNodePositions';
 import Grammar from './ezlinavis/grammar.ne';
 import ListInput from 'components/ezlinavis/ListInputComponent';
 import Csv from 'components/ezlinavis/CsvComponent';
@@ -62,6 +65,39 @@ function makeCsv (cooccurrences) {
   return csv;
 }
 
+function getCharacters (scenes) {
+  let characters = [];
+  scenes.forEach(function (scene) {
+    if (!scene.characters) {
+      return;
+    }
+    scene.characters.forEach(function (c) {
+      if (characters.indexOf(c) === -1) {
+        characters.push(c);
+      }
+    });
+  });
+  return characters;
+}
+
+function makeGraph (scenes) {
+  let characters = getCharacters(scenes);
+  let nodes = [];
+  characters.forEach(function (c) {
+    nodes.push({id: c, label: c});
+  });
+  let cooccurrences = getCooccurrences(scenes);
+  let edges = [];
+  cooccurrences.forEach(function (cooc) {
+    edges.push({
+      id: cooc[0] + '|' + cooc[1],
+      source: cooc[0],
+      target: cooc[1]
+    });
+  });
+  return {nodes, edges};
+}
+
 class EzlinavisComponent extends React.Component {
   constructor (props) {
     super(props);
@@ -89,10 +125,24 @@ class EzlinavisComponent extends React.Component {
     let scenes = listScenes(list);
     let cooccurrences = getCooccurrences(scenes);
     let csv = cooccurrences.length > 0 ? makeCsv(cooccurrences) : null;
-    this.setState({listText: text, list, isValid, csv});
+    let graph = makeGraph(scenes);
+    this.setState({listText: text, list, isValid, csv, graph});
   }
 
   render () {
+    console.log(this.state.graph);
+    let sigma = null;
+    if (this.state.graph && this.state.graph.nodes.length > 0) {
+      sigma = (<Sigma
+        renderer="canvas"
+        graph={this.state.graph}
+        settings={{drawEdges: true, drawEdgeLabels: true}}
+        >
+        <RelativeSize initialSize={15}/>
+        <RandomizeNodePositions/>
+      </Sigma>);
+    }
+
     return (
       <div className="ezlinavis-component">
         <ListInput
@@ -101,6 +151,7 @@ class EzlinavisComponent extends React.Component {
           onListChange={this.handleListChange.bind(this)}
           />
         <Csv data={this.state.csv}/>
+       {sigma}
       </div>
     );
   }
