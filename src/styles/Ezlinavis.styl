@@ -4,14 +4,17 @@
   align-items: stretch
   flex: 1
 
+color-invalid = #f66
+
 .listinput-component
   flex: 1
+
+  // input validation indicator
   & > div
     height: 100%
+    border-left: 8px solid color-invalid
     &.valid
-      border-top-color: green
-    &.invalid
-      border-top-color: red
+      border-left-color: lightgreen
 
   textarea
     padding: 10px
