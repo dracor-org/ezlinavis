@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from 'components/HeaderComponent';
+import Ezlinavis from 'components/EzlinavisComponent';
 
 require('normalize.css/normalize.css');
 require('styles/App.styl');
@@ -7,7 +9,8 @@ class AppComponent extends React.Component {
   render () {
     return (
       <div className="index">
-        <div className="notice">Please edit <code>src/components/Main.js</code> to get started!</div>
+        <Header/>
+        <Ezlinavis/>
       </div>
     );
   }
