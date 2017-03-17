@@ -84,7 +84,11 @@
       "func-names": 0,
       "max-params": 0,
       "spaced-comment": 0,
-      "import/no-unassigned-import": 0
-    }
+      "import/no-unassigned-import": 0,
+      "unicorn/filename-case": 0
+    },
+    "ignores": [
+      "cfg/*"
+    ]
   }
 }

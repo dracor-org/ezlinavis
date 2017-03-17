@@ -1,7 +1,7 @@
-require('normalize.css/normalize.css');
-require('styles/App.styl');
-
 import React from 'react';
+
+require('normalize.css/normalize.css');
+require('styles/App.styl'); // eslint-disable-line import/no-extraneous-dependencies
 
 class AppComponent extends React.Component {
   render () {
