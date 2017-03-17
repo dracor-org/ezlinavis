@@ -41,9 +41,10 @@
     "copyfiles": "^1.0.0",
     "css-loader": "^0.23.0",
     "eslint": "^3.0.0",
+    "eslint-config-xo-react": "^0.10.0",
     "eslint-import-resolver-webpack": "^0.8.1",
     "eslint-loader": "^1.0.0",
-    "eslint-plugin-react": "^6.0.0",
+    "eslint-plugin-react": "^6.10.0",
     "file-loader": "^0.9.0",
     "glob": "^7.0.0",
     "isparta-instrumenter-loader": "^1.0.0",
@@ -72,6 +73,7 @@
     "xo": "^0.17.1"
   },
   "xo": {
+    "extends": "xo-react",
     "space": true,
     "semicolon": true,
     "envs": [
@@ -86,6 +88,7 @@
       "max-params": 0,
       "spaced-comment": 0,
       "import/no-unassigned-import": 0,
+      "react/jsx-space-before-closing": 0,
       "unicorn/filename-case": 0
     },
     "settings": {
