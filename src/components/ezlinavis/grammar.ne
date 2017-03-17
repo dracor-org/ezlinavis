@@ -14,7 +14,7 @@ character -> text {% id %}
 text -> char {% id %}
       | text char {% appendItemChar(0,1) %}
 
-char -> [^\n\r#] {% id %}
+char -> [^\n\r#,] {% id %}
 
 newline -> "\r\n" | "\n" | "\r" {% empty %}
 

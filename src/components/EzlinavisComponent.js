@@ -59,7 +59,7 @@ function getCooccurrences (scenes) {
 function makeCsv (cooccurrences) {
   let csv = 'Source,Type,Target,Weight\n';
   cooccurrences.forEach(function (line) {
-    line.splice(1, 0, '"Undirected"');
+    line.splice(1, 0, 'Undirected');
     csv += line.join(',') + '\n';
   });
   return csv;
