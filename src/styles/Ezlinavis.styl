@@ -1,10 +1,37 @@
 .ezlinavis-component
-  border: 1px dashed gray
+  border-top: 1px solid gray
+  display: flex
+  align-items: stretch
+  flex: 1
 
 .listinput-component
+  flex: 1
   & > div
-    border-top: 10px solid grey
+    height: 100%
     &.valid
       border-top-color: green
     &.invalid
       border-top-color: red
+
+  textarea
+    padding: 10px
+    border: none
+    outline: none
+    box-sizing: border-box
+    width: 100%
+    height: 100%
+
+.csv-component
+  flex: 1
+  display: flex
+  flex-direction: column
+  border-left: 1px solid grey
+  padding: 10px
+  pre
+    overflow: scroll
+
+.graph
+  flex: 3
+  display: flex
+  flex-direction: column
+  border-left: 1px solid grey

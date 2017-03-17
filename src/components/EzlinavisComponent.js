@@ -151,7 +151,7 @@ class EzlinavisComponent extends React.Component {
           onListChange={this.handleListChange.bind(this)}
           />
         <Csv data={this.state.csv}/>
-       {sigma}
+        <div className="graph">{sigma}</div>
       </div>
     );
   }
