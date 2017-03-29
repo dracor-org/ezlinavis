@@ -1,8 +1,6 @@
 import React from 'react';
 import {Parser} from 'nearley';
-import Sigma from 'react-sigma/lib/Sigma';
-import RelativeSize from 'react-sigma/lib/RelativeSize';
-import RandomizeNodePositions from 'react-sigma/lib/RandomizeNodePositions';
+import {Sigma, EdgeShapes, NodeShapes, ForceAtlas2, RelativeSize, RandomizeNodePositions} from 'react-sigma';
 import Grammar from './ezlinavis/grammar.ne';
 import ListInput from 'components/ezlinavis/ListInputComponent';
 import Csv from 'components/ezlinavis/CsvComponent';
@@ -131,15 +129,30 @@ class EzlinavisComponent extends React.Component {
 
   render () {
     console.log(this.state.graph);
+
+    let settings = {
+      defaultLabelSize: 15,
+      labelThreshold: 5,
+      labelSize: 'fixed',
+      drawLabels: true,
+      drawEdges: true
+    };
+
+    let graph = this.state.graph;
+
     let sigma = null;
-    if (this.state.graph && this.state.graph.nodes.length > 0) {
+    if (graph && graph.nodes.length > 0) {
       sigma = (<Sigma
         renderer="canvas"
         graph={this.state.graph}
-        settings={{drawEdges: true, drawEdgeLabels: true}}
+        settings={settings}
         >
-        <RelativeSize initialSize={15}/>
-        <RandomizeNodePositions/>
+        <EdgeShapes default="tapered"/>
+        <NodeShapes default="circle"/>
+        <RandomizeNodePositions>
+          <ForceAtlas2 iterationsPerRender={1} timeout={10000}/>
+          <RelativeSize initialSize={15}/>
+        </RandomizeNodePositions>
       </Sigma>);
     }
 
