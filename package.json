@@ -91,6 +91,7 @@
       "max-params": 0,
       "spaced-comment": 0,
       "import/no-unassigned-import": 0,
+      "react/jsx-no-bind": 0,
       "react/jsx-space-before-closing": 0,
       "unicorn/filename-case": 0
     },
