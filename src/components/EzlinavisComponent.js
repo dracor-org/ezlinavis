@@ -7,6 +7,9 @@ import Csv from 'components/ezlinavis/CsvComponent';
 
 require('styles/Ezlinavis.styl');
 
+var edgeColor = '#999';
+var nodeColor = '#555';
+
 function listScenes (acts) {
   let scenes = [];
   acts.forEach(function (act) {
@@ -90,7 +93,10 @@ function makeGraph (scenes) {
     edges.push({
       id: cooc[0] + '|' + cooc[1],
       source: cooc[0],
-      target: cooc[1]
+      target: cooc[1],
+      // NB: we set the edge color here since the defaultEdgeColor in Sigma
+      // settings does not to have any effect
+      color: edgeColor
     });
   });
   return {nodes, edges};
@@ -132,6 +138,8 @@ class EzlinavisComponent extends React.Component {
 
     let settings = {
       defaultLabelSize: 15,
+      defaultEdgeColor: edgeColor, // FIXME: this does not seem to work
+      defaultNodeColor: nodeColor,
       labelThreshold: 5,
       labelSize: 'fixed',
       drawLabels: true,
@@ -148,7 +156,7 @@ class EzlinavisComponent extends React.Component {
         settings={settings}
         style={{height: '100%'}}
         >
-        <EdgeShapes default="tapered"/>
+        <EdgeShapes default="line"/>
         <NodeShapes default="circle"/>
         <RandomizeNodePositions>
           <ForceAtlas2 iterationsPerRender={1} timeout={10000}/>
