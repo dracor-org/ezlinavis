@@ -146,6 +146,7 @@ class EzlinavisComponent extends React.Component {
         renderer="canvas"
         graph={this.state.graph}
         settings={settings}
+        style={{height: '100%'}}
         >
         <EdgeShapes default="tapered"/>
         <NodeShapes default="circle"/>
