@@ -146,6 +146,17 @@ class EzlinavisComponent extends React.Component {
       drawEdges: true
     };
 
+    let layoutOptions = {
+      iterationsPerRender: 1,
+      timeout: 2000,
+      adjustSizes: false,
+      gravity: 3,
+      slowDown: 5,
+      linLogMode: true,
+      outboundAttractionDistribution: false,
+      strongGravityMode: false
+    };
+
     let graph = this.state.graph;
 
     let sigma = null;
@@ -159,7 +170,7 @@ class EzlinavisComponent extends React.Component {
         <EdgeShapes default="line"/>
         <NodeShapes default="circle"/>
         <RandomizeNodePositions>
-          <ForceAtlas2 iterationsPerRender={1} timeout={10000}/>
+          <ForceAtlas2 {...layoutOptions}/>
           <RelativeSize initialSize={15}/>
         </RandomizeNodePositions>
       </Sigma>);
