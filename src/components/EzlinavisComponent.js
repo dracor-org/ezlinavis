@@ -148,7 +148,7 @@ class EzlinavisComponent extends React.Component {
 
     let layoutOptions = {
       iterationsPerRender: 1,
-      timeout: 2000,
+      timeout: 1000,
       adjustSizes: false,
       gravity: 3,
       slowDown: 5,
