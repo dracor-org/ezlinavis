@@ -16,9 +16,11 @@ function getCooccurrences (scenes) {
     if (!scene.characters) {
       return;
     }
-    scene.characters.forEach(function (c, i) {
-      if (i < scene.characters.length - 1) {
-        let others = scene.characters.slice(i + 1);
+    // make sure each character occurs only once in scene
+    let characters = scene.characters.filter((v, i, a) => a.indexOf(v) === i);
+    characters.forEach(function (c, i) {
+      if (i < characters.length - 1) {
+        let others = characters.slice(i + 1);
         others.forEach(function (o) {
           let pair = [c, o].sort();
           let key = pair.join('|');
