@@ -1,4 +1,8 @@
-main -> section:+ {% function(d) {return {sections:d[0]}} %}
+main -> header:? newline:* section:+ {% function(d) {return {header:d[0], sections:d[2]}} %}
+
+header -> headerline:+ {% function(d) {return d[0]} %}
+
+headerline -> text newline {% function(d) {return d[0]} %}
 
 section -> sectiontitle:+ characters:? {% function(d) {return {title:d[0], characters: d[1]}} %}
 
@@ -12,7 +16,7 @@ character -> text {% id %}
 text -> char {% id %}
       | text char {% appendItemChar(0,1) %}
 
-char -> [^\n\r#,] {% id %}
+char -> [^\n\r#] {% id %}
 
 newline -> "\r\n" | "\n" | "\r" {% empty %}
 
