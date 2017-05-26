@@ -1,10 +1,8 @@
-main -> act:+ {% function(d) {return d[0]} %}
+main -> section:+ {% function(d) {return {sections:d[0]}} %}
 
-act -> acttitle newline scene:+ {% function(d) {return {title:d[0], scenes: d[2]}} %}
-acttitle -> "# " text {% function(d) {return d[1]} %}
+section -> sectiontitle:+ characters:? {% function(d) {return {title:d[0], characters: d[1]}} %}
 
-scene -> scenetitle newline characters:? {% function(d) {return {title:d[0], characters: d[2]}} %}
-scenetitle -> "## " text {% function(d) {return d[1]} %}
+sectiontitle -> "#":+ " ":+ text newline {% function(d) {return d[2]} %}
 
 characters -> character newline:* {% function(d) {return [d[0]]} %}
             | characters newline character newline:* {% appendItem(0,2) %}

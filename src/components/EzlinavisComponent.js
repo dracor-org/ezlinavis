@@ -10,23 +10,6 @@ require('styles/Ezlinavis.styl');
 var edgeColor = '#999';
 var nodeColor = '#555';
 
-function listScenes (acts) {
-  let scenes = [];
-  acts.forEach(function (act) {
-    if (!act.scenes) {
-      return;
-    }
-    act.scenes.forEach(function (scene) {
-      scenes.push({
-        scene: scene.title,
-        act: act.title,
-        characters: scene.characters
-      });
-    });
-  });
-  return scenes;
-}
-
 function getCooccurrences (scenes) {
   let map = {};
   scenes.forEach(function (scene) {
@@ -119,14 +102,15 @@ class EzlinavisComponent extends React.Component {
     let parser = new Parser(Grammar.ParserRules, Grammar.ParserStart);
     try {
       parser.feed(text);
-      list = parser.results[0] || [];
+      list = parser.results[0] || {};
+      console.log(list);
       isValid = true;
     } catch (err) {
       isValid = false;
-      console.error(err);
+      console.error('XX', err);
     }
 
-    let scenes = listScenes(list);
+    let scenes = list.sections || [];
     let cooccurrences = getCooccurrences(scenes);
     let csv = cooccurrences.length > 0 ? makeCsv(cooccurrences) : null;
     let graph = makeGraph(scenes);
