@@ -10,6 +10,16 @@ require('styles/Ezlinavis.styl');
 var edgeColor = '#999';
 var nodeColor = '#555';
 
+// load example lists
+var examples = [];
+var req = require.context('./ezlinavis/examples', false, /\.txt$/);
+req.keys().forEach(function (key) {
+  let text = req(key);
+  let label = text.split('\n')[0];
+  examples.push({key, label, text});
+});
+console.log(examples);
+
 function getCooccurrences (scenes) {
   let map = {};
   scenes.forEach(function (scene) {

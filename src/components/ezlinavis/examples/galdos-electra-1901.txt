@@ -1,0 +1,274 @@
+Benito Pérez Galdós: Electra (1901)
+Character constellation per scene
+Done by Frank Fischer, April 2017
+Formalisation starts with first hashtag:
+
+# ACTO PRIMERO
+## ESCENA PRIMERA
+José
+Marqués
+## ESCENA II
+Don Urbano
+Marqués
+## ESCENA III
+Cuesta
+Marqués
+Don Urbano
+## ESCENA IV
+Cuesta
+Patros
+## ESCENA V
+Cuesta
+Pantoja
+## ESCENA VI
+Evarista
+Marqués
+Pantoja
+Don Urbano
+Cuesta
+## ESCENA VII
+Electra
+Máximo
+Evarista
+Pantoja
+Marqués
+Cuesta
+Máximo
+Don Urbano
+## ESCENA VIII
+José
+Pantoja
+Evarista
+## ESCENA IX
+Electra
+Cuesta
+## ESCENA X
+Electra
+Marqués
+Pantoja
+## ESCENA XI
+Pantoja
+Electra
+## ESCENA XII
+Evarista
+Pantoja
+## ESCENA XIII
+Marqués
+Evarista
+Electra
+Máximo
+## ESCENA XIV
+Don Urbano
+Pantoja
+Evarista
+Marqués
+Máximo
+# ACTO SEGUNDO
+## ESCENA PRIMERA
+Don Urbano
+Evarista
+Balbina
+## ESCENA II
+Máximo
+Evarista
+Don Urbano
+## ESCENA III
+Marqués
+Máximo
+Evarista
+Don Urbano
+## ESCENA IV
+Electra
+Evarista
+Marqués
+Don Urbano
+## ESCENA V
+Evarista
+Electra
+## ESCENA VI
+Electra
+Patros
+## ESCENA VII
+Don Urbano
+José
+## ESCENA VIII
+Don Urbano
+Cuesta
+## ESCENA IX
+Electra
+Patros
+Cuesta
+## ESCENA X
+Cuesta
+Electra
+## ESCENA XI
+Cuesta
+Evarista
+Electra
+Don Urbano
+## ESCENA XII
+Cuesta
+Evarista
+Pantoja
+Don Urbano
+## ESCENA XIII
+Marqués
+Evarista
+Don Urbano
+## ESCENA XIV
+Pantoja
+Electra
+Cuesta
+Marqués
+Evarista
+## ESCENA XV
+Balbina
+Electra
+Don Urbano
+Evarista
+Pantoja
+Evarista
+Cuesta
+## ESCENA XVI
+Pantoja
+Evarista
+José
+Don Urbano
+Marqués
+## ESCENA XVII
+Electra
+Evarista
+Marqués
+Don Urbano
+Pantoja
+# ACTO TERCERO
+## ESCENA PRIMERA
+Máximo
+Electra
+## ESCENA II
+Máximo
+Gil
+Electra
+Mariano
+## ESCENA III
+Máximo
+Operario
+## ESCENA IV
+Electra
+Máximo
+## ESCENA V
+Máximo
+Gil
+## ESCENA VI
+Máximo
+Electra
+## ESCENA VII
+Mariano
+Máximo
+Electra
+## ESCENA VIII
+Electra
+Máximo
+## ESCENA IX
+Máximo
+Marqués
+Electra
+Mariano
+## ESCENA X
+Marqués
+Máximo
+Pantoja
+Electra
+## ESCENA XI
+Marqués
+Máximo
+Electra
+Mariano
+# ACTO CUARTO
+## ESCENA PRIMERA
+Electra
+Patros
+## ESCENA II
+Máximo
+Electra
+## ESCENA III
+Marqués
+Electra
+## ESCENA IV
+Don Urbano
+Marqués
+Electra
+## ESCENA V
+Don Urbano
+Pantoja
+Evarista
+Marqués
+## ESCENA VI
+Pantoja
+Evarista
+## ESCENA VII
+Electra
+Patros
+Marqués
+Don Urbano
+## ESCENA VIII
+Pantoja
+Electra
+## ESCENA IX
+Don Urbano
+Marqués
+Balbina
+Patros
+Pantoja
+## ESCENA X
+Máximo
+Pantoja
+## ESCENA XI
+Evarista
+Máximo
+Patros
+## ESCENA XII
+Evarista
+Máximo
+Electra
+Pantoja
+Marqués
+Don Urbano
+# ACTO QUINTO
+## ESCENA PRIMERA
+Dorotea
+Evarista
+## ESCENA II
+Evarista
+Don Urbano
+## ESCENA III
+Marqués
+Máximo
+Evarista
+Don Urbano
+Dorotea
+## ESCENA IV
+Pantoja
+Máximo
+Marqués
+Evarista
+## ESCENA V
+Marqués
+Máximo
+## ESCENA VI
+Dorotea
+Electra
+## ESCENA VII
+Pantoja
+Dorotea
+Electra
+## ESCENA VIII
+Dorotea
+Electra
+## ESCENA IX
+La Sombra
+Electra
+## ESCENA ULTIMA
+Marqués
+Máximo
+Pantoja

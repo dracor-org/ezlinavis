@@ -54,6 +54,10 @@ function getDefaultModules () {
         loader: 'file-loader'
       },
       {
+        test: /\.txt$/,
+        loader: 'raw-loader'
+      },
+      {
         test: /\.ne$/,
         loader: 'nearley'
       }

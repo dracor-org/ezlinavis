@@ -37,6 +37,10 @@ module.exports = {
         )
       },
       {
+        test: /\.txt$/,
+        loader: 'raw-loader'
+      },
+      {
         test: /\.ne$/,
         loader: 'nearley'
       }
