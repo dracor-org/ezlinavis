@@ -1,22 +1,5 @@
 import React from 'react';
 
-let placeholder = `Type character list, e.g.
-
-# ДЕЙСТВИЕ ПЕРВОЕ
-## ЯВЛЕНИЕ I
-Городничий
-Аммос Федорович
-Артемий Филипович
-Лука Лукич
-## ЯВЛЕНИЕ II
-Почтмейстер
-Городничий
-Аммос Федорович
-Артемий Филипович
-Лука Лукич
-...
-`;
-
 class ListInputComponent extends React.Component {
   render () {
     let className = this.props.text === '' ?
@@ -29,7 +12,7 @@ class ListInputComponent extends React.Component {
       <div className="listinput-component">
         <div className={className}>
           <textarea
-            placeholder={placeholder}
+            placeholder="Enter list of characters or choose one from examples"
             onInput={e => this.props.onListChange(e.target.value)}
             onChange={e => this.props.onListChange(e.target.value)}
             value={this.props.text}
