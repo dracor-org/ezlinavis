@@ -28,7 +28,8 @@
     "normalize.css": "^5.0.0",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
-    "react-sigma": "^1.2.17"
+    "react-sigma": "^1.2.17",
+    "simple-react-modal": "^0.5.1"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
