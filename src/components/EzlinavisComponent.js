@@ -180,9 +180,11 @@ class EzlinavisComponent extends React.Component {
 
     let exampleItems = [];
     examples.forEach((example, i) => {
+      let active = example.text === this.state.listText;
       let item = (
         <li
           onClick={() => this.selectExample(i)}
+          className={active ? 'active' : 'inactive'}
           title={example.label}
           >
           {example.label}
@@ -194,7 +196,7 @@ class EzlinavisComponent extends React.Component {
     return (
       <div className="ezlinavis-component">
         <div className="examples">
-          Examples:
+          <span>Examples: </span>
           <ul>
             {exampleItems}
           </ul>
