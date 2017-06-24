@@ -10,6 +10,16 @@ require('styles/Ezlinavis.styl');
 var edgeColor = '#999';
 var nodeColor = '#555';
 
+// load example lists
+var examples = [];
+var req = require.context('./ezlinavis/examples', false, /\.txt$/);
+req.keys().forEach(function (key) {
+  let text = req(key);
+  let label = text.split('\n')[0];
+  examples.push({key, label, text});
+});
+console.log(examples);
+
 function getCooccurrences (scenes) {
   let map = {};
   scenes.forEach(function (scene) {
@@ -98,6 +108,11 @@ class EzlinavisComponent extends React.Component {
     };
   }
 
+  selectExample (i) {
+    let example = examples[i];
+    this.handleListChange(example.text);
+  }
+
   handleListChange (text) {
     let list = [];
     let isValid = null;
@@ -163,15 +178,38 @@ class EzlinavisComponent extends React.Component {
       </Sigma>);
     }
 
+    let exampleItems = [];
+    examples.forEach((example, i) => {
+      let active = example.text === this.state.listText;
+      let item = (
+        <li
+          onClick={() => this.selectExample(i)}
+          className={active ? 'active' : 'inactive'}
+          title={example.label}
+          >
+          {example.label}
+        </li>
+      );
+      exampleItems.push(item);
+    });
+
     return (
       <div className="ezlinavis-component">
-        <ListInput
-          text={this.state.listText}
-          isValid={this.state.isValid}
-          onListChange={this.handleListChange.bind(this)}
-          />
-        <Csv data={this.state.csv}/>
-        <div className="graph">{sigma}</div>
+        <div className="examples">
+          <span>Examples: </span>
+          <ul>
+            {exampleItems}
+          </ul>
+        </div>
+        <div className="ezlinavis-columns">
+          <ListInput
+            text={this.state.listText}
+            isValid={this.state.isValid}
+            onListChange={this.handleListChange.bind(this)}
+            />
+          <Csv data={this.state.csv}/>
+          <div className="graph">{sigma}</div>
+        </div>
       </div>
     );
   }
