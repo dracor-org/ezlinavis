@@ -5,7 +5,10 @@
   "description": "Easy Linavis - Simple Network Visualization for Literary Texts",
   "author": "Carsten Milling <cmil@hashtable.de>",
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlina/ezlinavis.git"
+  },
   "keywords": [],
   "main": "",
   "scripts": {
