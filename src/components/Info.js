@@ -4,6 +4,8 @@ import Modal, {closeStyle} from 'simple-react-modal';
 require('font-awesome-webpack');
 require('./Info.styl');
 
+var version = require('../../package.json').version;
+
 class Info extends React.Component {
   constructor () {
     super();
@@ -72,6 +74,7 @@ class Info extends React.Component {
               resorting to it in our workshops on network analysis of literary
               texts.
             </p>
+            <p>Version: {version}</p>
           </div>
         </Modal>
       </div>
