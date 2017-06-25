@@ -28,7 +28,8 @@
     "normalize.css": "^5.0.0",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
-    "react-sigma": "^1.2.17"
+    "react-sigma": "^1.2.17",
+    "simple-react-modal": "^0.5.1"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
@@ -48,6 +49,8 @@
     "eslint-loader": "^1.0.0",
     "eslint-plugin-react": "^6.10.0",
     "file-loader": "^0.9.0",
+    "font-awesome": "^4.7.0",
+    "font-awesome-webpack": "0.0.5-beta.2",
     "glob": "^7.0.0",
     "isparta-instrumenter-loader": "^1.0.0",
     "karma": "^1.0.0",
@@ -58,6 +61,7 @@
     "karma-phantomjs-launcher": "^1.0.0",
     "karma-sourcemap-loader": "^0.3.5",
     "karma-webpack": "^1.7.0",
+    "less": "^2.7.2",
     "minimist": "^1.2.0",
     "mocha": "^3.0.0",
     "nearley-loader": "0.0.2",
