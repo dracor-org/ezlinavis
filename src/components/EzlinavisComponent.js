@@ -183,6 +183,7 @@ class EzlinavisComponent extends React.Component {
       let active = example.text === this.state.listText;
       let item = (
         <li
+          key={example.key}
           onClick={() => this.selectExample(i)}
           className={active ? 'active' : 'inactive'}
           title={example.label}
