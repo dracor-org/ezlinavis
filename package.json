@@ -1,7 +1,7 @@
 {
   "name": "ezlinavis",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easy Linavis - Simple Network Visualization for Literary Texts",
   "author": "Carsten Milling <cmil@hashtable.de>",
   "license": "MIT",
