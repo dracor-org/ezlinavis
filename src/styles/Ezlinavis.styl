@@ -35,10 +35,15 @@ color-invalid = #f66
 
 .listinput-component
   flex: 1
+  position: relative
 
   // input validation indicator
   & > div
-    height: 100%
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
     border-left: 8px solid color-invalid
     &.valid
       border-left-color: lightgreen
