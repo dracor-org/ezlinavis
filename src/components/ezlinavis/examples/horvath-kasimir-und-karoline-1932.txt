@@ -1,0 +1,301 @@
+Ödön von Horváth: Kasimir und Karoline (1932)
+Character constellation per scene
+Extracted from http://gutenberg.spiegel.de/buch/2903/2
+By Frank Fischer, July 2017
+Formalisation starts with first hashtag:
+
+# 1. Szene
+# 2. Szene
+# 3. Szene
+Rauch
+Der Ausrufer
+Speer
+Der Liliputaner
+Karoline
+Kasimir
+# 4. Szene
+Karoline
+Schürzinger
+# 5. Szene
+Kasimir
+Karoline
+# 6. Szene
+Karoline
+Schürzinger
+# 7. Szene
+# 8. Szene
+# 9. Szene
+Karoline
+Schürzinger
+# 10. Szene
+Kasimir
+Der Merkl Franz
+Erna
+# 11. Szene
+Kasimir
+Der Merkl Franz
+Erna
+# 12. Szene
+Erna
+Kasimir
+# 13. Szene
+Schürzinger
+Kasimir
+# 14. Szene
+# 15. Szene
+Schürzinger
+Kasimir
+Der Merkl Franz
+Erna
+# 16. Szene
+# 17. Szene
+Kasimir
+Karoline
+Schürzinger
+Der Merkl Franz
+# 18. Szene
+Der Merkl Franz
+Kasimir
+Erna
+# 19. Szene
+Der Merkl Franz
+# 20. Szene
+# 21. Szene
+# 22. Szene
+Elli
+Maria
+# 23. Szene
+Rauch
+Speer
+# 24. Szene
+Karoline
+Schürzinger
+# 25. Szene
+Rauch
+Speer
+# 26. Szene
+Schürzinger
+Karoline
+# 27. Szene
+Speer
+Rauch
+# 28. Szene
+# 29. Szene
+Rauch
+# 30. Szene
+Karoline
+Schürzinger
+# 31. Szene
+Rauch
+Schürzinger
+Karoline
+# 32. Szene
+# 33. Szene
+Rauch
+Schürzinger
+Speer
+Karoline
+# 34. Szene
+# 35. Szene
+Rauch
+Schürzinger
+Speer
+# 36. Szene
+Karoline
+Kasimir
+# 37. Szene
+# 38. Szene
+# 39. Szene
+# 40. Szene
+Der Ausrufer
+# 41. Szene
+Der Ausrufer
+# 42. Szene
+Rauch
+# 43. Szene
+Juanita
+Der Ausrufer
+# 44. Szene
+Der Ausrufer
+Die dicke Dame
+# 45. Szene
+Der Liliputaner
+Der Ausrufer
+Juanita
+Die dicke Dame
+# 46. Szene
+Der Liliputaner
+Juanita
+# 47. Szene
+# 48. Szene
+Karoline
+Schürzinger
+# 49. Szene
+Rauch
+Karoline
+Schürzinger
+# 50. Szene
+Speer
+Rauch
+# 51. Szene
+# 52. Szene
+Karoline
+Schürzinger
+# 53. Szene
+Der Ausrufer
+# 54. Szene
+Juanita
+# 55. Szene
+# 56. Szene
+# 57. Szene
+# 58. Szene
+# 59. Szene
+Alles
+# 60. Szene
+Der Merkl Franz
+Kasimir
+Erna
+# 61. Szene
+Alles
+# 62. Szene
+Kasimir
+Der Merkl Franz
+# 63. Szene
+Alles
+# 64. Szene
+Kasimir
+# 65. Szene
+Erna
+Der Merkl Franz
+# 66. Szene
+Alles
+# 67. Szene
+Kasimir
+Maria
+Der Merkl Franz
+Elli
+# 68. Szene
+Kasimir
+Der Merkl Franz
+Erna
+# 69. Szene
+Kasimir
+# 70. Szene
+Der Merkl Franz
+Kasimir
+Erna
+# 71. Szene
+Alles
+# 72. Szene
+# 73. Szene
+# 74. Szene
+Rauch
+Karoline
+Speer
+# 75. Szene
+Speer
+Rauch
+# 76. Szene
+Rauch
+Speer
+# 77. Szene
+Karoline
+Schürzinger
+# 78. Szene
+Rauch
+Speer
+Karoline
+# 79. Szene
+Rauch
+Speer
+# 80. Szene
+Rauch
+Schürzinger
+# 81. Szene
+Speer
+Rauch
+# 82. Szene
+Rauch
+# 83. Szene
+Karoline
+Rauch
+# 84. Szene
+# 85. Szene
+# 86. Szene
+Der Merkl Franz
+Erna
+# 87. Szene
+Kasimir
+# 88. Szene
+Erna
+Kasimir
+# 89. Szene
+Der Merkl Franz
+Erna
+Kasimir
+# 90. Szene
+Erna
+Kasimir
+# 91. Szene
+# 92. Szene
+Maria
+Speer
+# 93. Szene
+Maria
+Elli
+Speer
+# 94. Szene
+# 95. Szene
+Karoline
+Rauch
+# 96. Szene
+# 97. Szene
+Karoline
+Kasimir
+Rauch
+# 98. Szene
+Kasimir
+# 99. Szene
+# 100. Szene
+# 101. Szene
+Karoline
+Der Sanitäter
+# 102. Szene
+# 103. Szene
+Karoline
+Der Sanitäter
+# 104. Szene
+Der Arzt
+Der Sanitäter
+# 105. Szene
+Karoline
+Der Sanitäter
+Rauch
+# 106. Szene
+# 107. Szene
+Maria
+Elli
+Karoline
+# 108. Szene
+# 109. Szene
+# 110. Szene
+Kasimir
+Erna
+# 111. Szene
+# 112. Szene
+Erna
+Kasimir
+# 113. Szene
+Karoline
+Kasimir
+Erna
+# 114. Szene
+Karoline
+# 115. Szene
+Schürzinger
+Karoline
+# 116. Szene
+Kasimir
+Erna
+# 117. Szene
+Erna
