@@ -1,0 +1,191 @@
+Goethe: Faust. Der Tragödie erster Teil (1808)
+Characters per scene, in order of appearance
+Extracted from TextGrid version:
+http://www.textgridrep.org/textgrid:11g5q.0
+By Frank Fischer, July 2017
+Formalisation starts with first hashtag:
+
+# Vorspiel auf dem Theater
+Direktor
+Dichter
+Lustige Person
+# Prolog im Himmel
+Raphael
+Gabriel
+Michael
+Mephistopheles
+Der Herr
+# Nacht
+Faust
+Geist
+Wagner
+Chor der Engel
+Chor der Weiber
+Chor der Jünger
+# Vor dem Tor
+Einige Handwerksbursche
+Andre Handwerksbursche
+Ein Handwerksbursch
+Zweiter Handwerksbursch
+Ein dritter Handwerksbursch
+Vierter Handwerksbursch
+Fünfter Handwerksbursch
+Dienstmädchen
+Erster Schüler
+Zweiter Schüler
+Bürger
+Bettler
+Andrer Bürger
+Dritter Bürger
+Alte
+Bürgermädchen
+Die Andre
+Soldaten
+Faust
+Wagner
+Bauern
+Alter Bauer
+# Studierzimmer
+Faust
+Geister
+Mephistopheles
+# Studierzimmer
+Faust
+Mephistopheles
+Geisterchor
+Schüler
+# Auerbachs Keller in Leipzig
+Frosch
+Brander
+Siebel
+Altmayer
+Chorus
+Mephistopheles
+Faust
+# Hexenküche
+Faust
+Mephistopheles
+Die Tiere
+Der Kater
+Die Hexe
+# Straße
+Faust
+Gretchen
+Mephistopheles
+# Abend
+Gretchen
+Mephistopheles
+Faust
+# Spaziergang
+Mephistopheles
+Faust
+# Der Nachbarin Haus
+Marthe
+Gretchen
+Mephistopheles
+# Straße
+Faust
+Mephistopheles
+# Garten
+Gretchen
+Faust
+Marthe
+Mephistopheles
+# Ein Gartenhäuschen
+Gretchen
+Faust
+Mephistopheles
+Marthe
+# Wald und Höhle
+Faust
+Mephistopheles
+# Gretchens Stube
+Gretchen
+# Marthens Garten
+Gretchen
+Faust
+Mephistopheles
+# Am Brunnen
+Lieschen
+Gretchen
+# Zwinger
+Gretchen
+# Nacht
+Valentin
+Faust
+Mephistopheles
+Marthe
+Gretchen
+Volk
+# Dom
+Böser Geist
+Gretchen
+Chor im Dom
+# Walpurgisnacht
+Mephistopheles
+Faust
+Irrlicht
+Hexen
+Chor
+Stimme
+Hexenmeister
+Stimmen
+Halbhexe
+General
+Minister
+Parvenu
+Autor
+Trödelhexe
+Die Schöne
+Die Alte
+Proktophantasmist
+Servibilis
+# Walpurgisnachtstraum
+Theatermeister
+Herold
+Oberon
+Puck
+Ariel
+Titania
+Orchester
+Solo
+Geist der sich erst bildet
+Ein Pärchen
+Neugieriger Reisender
+Orthodox
+Nordischer Künstler
+Purist
+Junge Hexe
+Matrone
+Kapellmeister
+Windfahne
+Xenien
+Hennings
+Musaget
+Ci-Devant Genius der Zeit
+Kranich
+Weltkind
+Tänzer
+Tanzmeister
+Fideler
+Dogmatiker
+Idealist
+Realist
+Supernaturalist
+Skeptiker
+Die Gewandten
+Die Unbehülflichen
+Irrlichter
+Sternschnuppe
+Die Massiven
+# Trüber Tag. Feld
+Faust
+Mephistopheles
+# Nacht. Offen Feld
+Faust
+Mephistopheles
+# Kerker
+Faust
+Gretchen
+Mephistopheles
+Stimme von oben
