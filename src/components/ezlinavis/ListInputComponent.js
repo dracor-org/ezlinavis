@@ -1,4 +1,5 @@
 import React from 'react';
+import DebounceInput from 'react-debounce-input';
 
 class ListInputComponent extends React.Component {
   render () {
@@ -11,9 +12,10 @@ class ListInputComponent extends React.Component {
     return (
       <div className="listinput-component">
         <div className={className}>
-          <textarea
+          <DebounceInput
+            element="textarea"
             placeholder="Enter list of characters or choose one from examples"
-            onInput={e => this.props.onListChange(e.target.value)}
+            debounceTimeout={500}
             onChange={e => this.props.onListChange(e.target.value)}
             value={this.props.text}
             />
