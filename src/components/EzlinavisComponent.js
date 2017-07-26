@@ -163,7 +163,7 @@ class EzlinavisComponent extends React.Component {
     let sigma = null;
     if (graph && graph.nodes.length > 0) {
       sigma = (<Sigma
-        key={`sigma-component-${this.state.listText.split('\n').length}`}
+        key={`sigma-component-${this.state.listText.length}`}
         renderer="canvas"
         graph={graph}
         settings={settings}
