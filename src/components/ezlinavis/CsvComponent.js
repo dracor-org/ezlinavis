@@ -12,7 +12,9 @@ class CsvComponent extends React.Component {
     return (
       <div className="csv-component">
         {link}
-        <pre>{this.props.data}</pre>
+        <div>
+          <pre>{this.props.data}</pre>
+        </div>
       </div>
     );
   }

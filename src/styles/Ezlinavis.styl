@@ -66,7 +66,21 @@ color-invalid = #f66
   flex-direction: column
   border-left: 1px solid grey
   padding: 10px
+  position: relative
+  // since Firefox doesn't shrink a long pre (and setting `min-height: 0` on the
+  // parent doesn't seem to work) we use a container div to make the overflow
+  // work and prevent a long csv from breaking the layout.
+  & > div
+    position: absolute
+    top: 30px
+    right: 0
+    left: 0
+    bottom: 0
+    padding: 10px
   pre
+    height: 100%
+    width: 100%
+    margin: 0
     overflow: scroll
 
 .graph
