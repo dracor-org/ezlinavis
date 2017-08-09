@@ -1,7 +1,8 @@
 import React from 'react';
 import {Parser} from 'nearley';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
-import {Sigma, EdgeShapes, NodeShapes, ForceAtlas2, RelativeSize, RandomizeNodePositions} from 'react-sigma';
+import {Sigma, EdgeShapes, NodeShapes, ForceAtlas2, NOverlap, RelativeSize, RandomizeNodePositions} from 'react-sigma';
+import ForceLink from 'react-sigma/lib/ForceLink';
 import Grammar from './ezlinavis/grammar.ne';
 import Info from './Info';
 import ListInput from 'components/ezlinavis/ListInputComponent';
@@ -104,6 +105,7 @@ class EzlinavisComponent extends React.Component {
     super(props);
     this.state = {
       showAbout: false,
+      graphLayout: 'forcelink',
       listText: '',
       list: [],
       isValid: null,
@@ -163,10 +165,19 @@ class EzlinavisComponent extends React.Component {
 
     const graph = this.state.graph;
 
+    let layout;
+    if (this.state.graphLayout === 'noverlap') {
+      layout = <NOverlap gridSize={10} maxIterations={100}/>;
+    } else if (this.state.graphLayout === 'noverlap') {
+      layout = <ForceLink background easing="cubicInOut"/>;
+    } else {
+      layout = <ForceAtlas2 {...layoutOptions}/>;
+    }
+
     let sigma = null;
     if (graph && graph.nodes.length > 0) {
       sigma = (<Sigma
-        key={`sigma-component-${this.state.listText.length}`}
+        key={`sigma-component-${this.state.listText.length}-${this.state.graphLayout}`}
         renderer="canvas"
         graph={graph}
         settings={settings}
@@ -175,7 +186,7 @@ class EzlinavisComponent extends React.Component {
         <EdgeShapes default="line"/>
         <NodeShapes default="circle"/>
         <RandomizeNodePositions>
-          <ForceAtlas2 {...layoutOptions}/>
+          {layout}
           <RelativeSize initialSize={15}/>
         </RandomizeNodePositions>
       </Sigma>);
@@ -206,6 +217,27 @@ class EzlinavisComponent extends React.Component {
           <Nav pullRight>
             <NavDropdown title="Examples" id="examples-menu">
               {menuItems}
+            </NavDropdown>
+            <NavDropdown
+              title="Graph"
+              id="graph-menu"
+              onSelect={layout => this.setState({graphLayout: layout})}
+              >
+              <MenuItem
+                eventKey="noverlap"
+                active={this.state.graphLayout === 'noverlap'}
+                >NOverlap
+              </MenuItem>
+              <MenuItem
+                eventKey="forcelink"
+                active={this.state.graphLayout === 'forcelink'}
+                >ForceLink
+              </MenuItem>
+              <MenuItem
+                eventKey="forceatlas2"
+                active={this.state.graphLayout === 'forceatlas2'}
+                >ForceAtlas2
+              </MenuItem>
             </NavDropdown>
             <NavItem onClick={() => this.setState({showAbout: true})}>
               About
