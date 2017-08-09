@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from 'components/HeaderComponent';
 import Ezlinavis from 'components/EzlinavisComponent';
 
 require('normalize.css/normalize.css');
@@ -9,14 +8,10 @@ class AppComponent extends React.Component {
   render () {
     return (
       <div className="index">
-        <Header/>
         <Ezlinavis/>
       </div>
     );
   }
 }
-
-AppComponent.defaultProps = {
-};
 
 export default AppComponent;

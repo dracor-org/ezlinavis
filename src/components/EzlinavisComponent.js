@@ -1,7 +1,9 @@
 import React from 'react';
 import {Parser} from 'nearley';
+import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 import {Sigma, EdgeShapes, NodeShapes, ForceAtlas2, RelativeSize, RandomizeNodePositions} from 'react-sigma';
 import Grammar from './ezlinavis/grammar.ne';
+import Info from './Info';
 import ListInput from 'components/ezlinavis/ListInputComponent';
 import Csv from 'components/ezlinavis/CsvComponent';
 
@@ -101,6 +103,7 @@ class EzlinavisComponent extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
+      showAbout: false,
       listText: '',
       list: [],
       isValid: null,
@@ -178,30 +181,43 @@ class EzlinavisComponent extends React.Component {
       </Sigma>);
     }
 
-    const exampleItems = [];
+    const menuItems = [];
     examples.forEach((example, i) => {
-      const active = example.text === this.state.listText;
       const item = (
-        <li
+        <MenuItem
           key={example.key}
-          onClick={() => this.selectExample(i)}
-          className={active ? 'active' : 'inactive'}
-          title={example.label}
+          eventKey={i}
+          onSelect={eventKey => this.selectExample(eventKey)}
           >
           {example.label}
-        </li>
+        </MenuItem>
       );
-      exampleItems.push(item);
+      menuItems.push(item);
     });
 
     return (
       <div className="ezlinavis-component">
-        <div className="examples">
-          <span>Examples: </span>
-          <ul>
-            {exampleItems}
-          </ul>
-        </div>
+        <Navbar>
+          <Navbar.Header onClick={() => this.setState({showAbout: true})}>
+            <Navbar.Brand title="Simple Network Visualization for Literary Texts">
+              Easy Linavis
+            </Navbar.Brand>
+          </Navbar.Header>
+          <Nav pullRight>
+            <NavDropdown title="Examples" id="examples-menu">
+              {menuItems}
+            </NavDropdown>
+            <NavItem onClick={() => this.setState({showAbout: true})}>
+              About
+            </NavItem>
+          </Nav>
+        </Navbar>
+
+        <Info
+          show={this.state.showAbout}
+          onHide={() => this.setState({showAbout: false})}
+          />
+
         <div className="ezlinavis-columns">
           <ListInput
             text={this.state.listText}
