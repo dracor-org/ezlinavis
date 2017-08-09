@@ -7,33 +7,33 @@ import Csv from 'components/ezlinavis/CsvComponent';
 
 require('styles/Ezlinavis.styl');
 
-var edgeColor = '#999';
-var nodeColor = '#555';
+const edgeColor = '#999';
+const nodeColor = '#555';
 
 // load example lists
-var examples = [];
-var req = require.context('./ezlinavis/examples', false, /\.txt$/);
-req.keys().forEach(function (key) {
-  let text = req(key);
-  let label = text.split('\n')[0];
+const examples = [];
+const req = require.context('./ezlinavis/examples', false, /\.txt$/);
+req.keys().forEach(key => {
+  const text = req(key);
+  const label = text.split('\n')[0];
   examples.push({key, label, text});
 });
 console.log(examples);
 
 function getCooccurrences (scenes) {
-  let map = {};
-  scenes.forEach(function (scene) {
+  const map = {};
+  scenes.forEach(scene => {
     if (!scene.characters) {
       return;
     }
     // make sure each character occurs only once in scene
-    let characters = scene.characters.filter((v, i, a) => a.indexOf(v) === i);
-    characters.forEach(function (c, i) {
+    const characters = scene.characters.filter((v, i, a) => a.indexOf(v) === i);
+    characters.forEach((c, i) => {
       if (i < characters.length - 1) {
-        let others = characters.slice(i + 1);
-        others.forEach(function (o) {
-          let pair = [c, o].sort();
-          let key = pair.join('|');
+        const others = characters.slice(i + 1);
+        others.forEach(o => {
+          const pair = [c, o].sort();
+          const key = pair.join('|');
           if (map[key]) {
             map[key][2]++;
           } else {
@@ -44,8 +44,8 @@ function getCooccurrences (scenes) {
     });
   });
 
-  let cooccurrences = [];
-  Object.keys(map).sort().forEach(function (key) {
+  const cooccurrences = [];
+  Object.keys(map).sort().forEach(key => {
     cooccurrences.push(map[key]);
   });
 
@@ -54,7 +54,7 @@ function getCooccurrences (scenes) {
 
 function makeCsv (cooccurrences) {
   let csv = 'Source,Type,Target,Weight\n';
-  cooccurrences.forEach(function (line) {
+  cooccurrences.forEach(line => {
     line.splice(1, 0, 'Undirected');
     csv += line.join(',') + '\n';
   });
@@ -62,12 +62,12 @@ function makeCsv (cooccurrences) {
 }
 
 function getCharacters (scenes) {
-  let characters = [];
-  scenes.forEach(function (scene) {
+  const characters = [];
+  scenes.forEach(scene => {
     if (!scene.characters) {
       return;
     }
-    scene.characters.forEach(function (c) {
+    scene.characters.forEach(c => {
       if (characters.indexOf(c) === -1) {
         characters.push(c);
       }
@@ -77,14 +77,14 @@ function getCharacters (scenes) {
 }
 
 function makeGraph (scenes) {
-  let characters = getCharacters(scenes);
-  let nodes = [];
-  characters.forEach(function (c) {
+  const characters = getCharacters(scenes);
+  const nodes = [];
+  characters.forEach(c => {
     nodes.push({id: c, label: c});
   });
-  let cooccurrences = getCooccurrences(scenes);
-  let edges = [];
-  cooccurrences.forEach(function (cooc) {
+  const cooccurrences = getCooccurrences(scenes);
+  const edges = [];
+  cooccurrences.forEach(cooc => {
     edges.push({
       id: cooc[0] + '|' + cooc[1],
       source: cooc[0],
@@ -109,14 +109,14 @@ class EzlinavisComponent extends React.Component {
   }
 
   selectExample (i) {
-    let example = examples[i];
+    const example = examples[i];
     this.handleListChange(example.text);
   }
 
   handleListChange (text) {
     let list = [];
     let isValid = null;
-    let parser = new Parser(Grammar.ParserRules, Grammar.ParserStart);
+    const parser = new Parser(Grammar.ParserRules, Grammar.ParserStart);
     try {
       parser.feed(text);
       list = parser.results[0] || {};
@@ -127,17 +127,17 @@ class EzlinavisComponent extends React.Component {
       console.error('XX', err);
     }
 
-    let scenes = list.sections || [];
-    let cooccurrences = getCooccurrences(scenes);
-    let csv = cooccurrences.length > 0 ? makeCsv(cooccurrences) : null;
-    let graph = makeGraph(scenes);
+    const scenes = list.sections || [];
+    const cooccurrences = getCooccurrences(scenes);
+    const csv = cooccurrences.length > 0 ? makeCsv(cooccurrences) : null;
+    const graph = makeGraph(scenes);
     this.setState({listText: text, list, isValid, csv, graph});
   }
 
   render () {
     console.log(this.state.graph);
 
-    let settings = {
+    const settings = {
       defaultLabelSize: 15,
       defaultEdgeColor: edgeColor, // FIXME: this does not seem to work
       defaultNodeColor: nodeColor,
@@ -147,7 +147,7 @@ class EzlinavisComponent extends React.Component {
       drawEdges: true
     };
 
-    let layoutOptions = {
+    const layoutOptions = {
       iterationsPerRender: 1,
       timeout: 1000,
       adjustSizes: false,
@@ -158,7 +158,7 @@ class EzlinavisComponent extends React.Component {
       strongGravityMode: false
     };
 
-    let graph = this.state.graph;
+    const graph = this.state.graph;
 
     let sigma = null;
     if (graph && graph.nodes.length > 0) {
@@ -178,10 +178,10 @@ class EzlinavisComponent extends React.Component {
       </Sigma>);
     }
 
-    let exampleItems = [];
+    const exampleItems = [];
     examples.forEach((example, i) => {
-      let active = example.text === this.state.listText;
-      let item = (
+      const active = example.text === this.state.listText;
+      const item = (
         <li
           key={example.key}
           onClick={() => this.selectExample(i)}

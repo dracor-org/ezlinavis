@@ -5,8 +5,8 @@
 
 import config from 'config';
 
-describe('appEnvConfigTests', function () {
-  it('should load app config file depending on current --env', function () {
+describe('appEnvConfigTests', () => {
+  it('should load app config file depending on current --env', () => {
     expect(config.appEnv).to.equal('test');
   });
 });

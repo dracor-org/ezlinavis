@@ -3,7 +3,7 @@ import DebounceInput from 'react-debounce-input';
 
 class ListInputComponent extends React.Component {
   render () {
-    let className = this.props.text === '' ?
+    const className = this.props.text === '' ?
       '' :
       this.props.isValid ?
         'valid' :

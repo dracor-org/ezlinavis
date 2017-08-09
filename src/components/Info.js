@@ -4,7 +4,7 @@ import Modal, {closeStyle} from 'simple-react-modal';
 require('font-awesome-webpack');
 require('./Info.styl');
 
-var version = require('../../package.json').version;
+const version = require('../../package.json').version;
 
 class Info extends React.Component {
   constructor () {

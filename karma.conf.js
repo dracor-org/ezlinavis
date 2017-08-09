@@ -1,4 +1,4 @@
-var webpackCfg = require('./webpack.config');
+const webpackCfg = require('./webpack.config');
 
 // Set node environment to testing
 process.env.NODE_ENV = 'test';
