@@ -98,6 +98,7 @@
         "error",
         "always"
       ],
+      "capitalized-comments": 0,
       "func-names": 0,
       "max-params": 0,
       "spaced-comment": 0,
