@@ -208,7 +208,7 @@ class EzlinavisComponent extends React.Component {
 
     return (
       <div className="ezlinavis-component">
-        <Navbar>
+        <Navbar fluid>
           <Navbar.Header onClick={() => this.setState({showAbout: true})}>
             <Navbar.Brand title="Simple Network Visualization for Literary Texts">
               Easy Linavis
