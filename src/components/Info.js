@@ -33,9 +33,10 @@ class Info extends React.Component {
             directly work with the CSV files in Gephi. The network graph in
             the right column is also generated live, using a spring-embedded
             layout, just to give you a first impression of what your network
-            data looks like. To make it easier to understand how ezlinavis
-            works, we provide some example files which can be accessed via the
-            drop-down menu in the first column.
+            data looks like. To make it easier to understand how
+            <em>ezlinavis</em> works, we provide some example files which can
+            be accessed via the corresponding drop-down menu in the right
+            upper corner.
           </p>
           <p>
             <em>ezlinavis</em> was developed by Carsten Milling and Frank
