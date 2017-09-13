@@ -92,6 +92,7 @@ function makeGraph (scenes) {
       id: cooc[0] + '|' + cooc[1],
       source: cooc[0],
       target: cooc[1],
+      size: cooc[2],
       // NB: we set the edge color here since the defaultEdgeColor in Sigma
       // settings does not to have any effect
       color: edgeColor
@@ -129,7 +130,6 @@ class EzlinavisComponent extends React.Component {
       isValid = true;
     } catch (err) {
       isValid = false;
-      console.error('XX', err);
     }
 
     const scenes = list.sections || [];
@@ -143,6 +143,7 @@ class EzlinavisComponent extends React.Component {
     console.log(this.state.graph);
 
     const settings = {
+      maxEdgeSize: 5,
       defaultLabelSize: 15,
       defaultEdgeColor: edgeColor, // FIXME: this does not seem to work
       defaultNodeColor: nodeColor,
@@ -154,6 +155,7 @@ class EzlinavisComponent extends React.Component {
 
     const layoutOptions = {
       iterationsPerRender: 1,
+      edgeWeightInfluence: 0,
       timeout: 1000,
       adjustSizes: false,
       gravity: 3,
