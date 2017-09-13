@@ -40,11 +40,10 @@ class Info extends React.Component {
           </p>
           <p>
             <em>ezlinavis</em> was developed by Carsten Milling and Frank
-            Fischer, making use of the React and Sigma JS libraries. It is
-            mainly meant for didactic purposes, although it could also be
-            suitable to process simply-structured research data. We are mainly
-            resorting to it in our workshops on network analysis of literary
-            texts.
+            Fischer, using the React and Sigma JS libraries. It is mainly
+            meant for didactic purposes, although it could also be suitable
+            to process simply-structured research data. We are mainly resorting
+            to it in our workshops on network analysis of literary texts.
           </p>
           <p>Version: {version}</p>
         </Modal.Body>
