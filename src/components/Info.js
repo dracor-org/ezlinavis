@@ -17,7 +17,7 @@ class Info extends React.Component {
           <p>
             Easy Linavis (<em>ezlinavis</em>) generates CSV files with
             network data from simple segmentations of dramatic texts. In the
-            <strong> left column</strong>, you can list segments (chapters,
+            <strong>left column</strong>, you can list segments (chapters,
             acts, scenes, etc.) and characters appearing or speaking in a
             given segment. Segments are indicated with a hashtag and they can
             be hierarchical, e.g.:
@@ -31,11 +31,11 @@ class Info extends React.Component {
             accordingly. The &quot;type&quot; column in the CSV file is always
             &quot;undirected&quot; here, but we inserted it so you can
             directly work with the CSV files in Gephi. The network graph in
-            the right column is also generated live, using a spring-embedded
-            layout, just to give you a first impression of what your network
-            data looks like. To make it easier to understand how
-            <em>ezlinavis</em> works, we provide some example files which can
-            be accessed via the corresponding drop-down menu in the right
+            the <strong>right column</strong> is also generated live, using
+            a spring-embedded layout, just to give you a first impression of
+            what your network data looks like. To make it easier to understand
+            how <em>ezlinavis</em> works, we provide some example files which
+            can be accessed via the corresponding drop-down menu in the right
             upper corner.
           </p>
           <p>
