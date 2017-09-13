@@ -17,7 +17,7 @@ class Info extends React.Component {
           <p>
             Easy Linavis (<em>ezlinavis</em>) generates CSV files with
             network data from simple segmentations of dramatic texts. In the
-            <strong>left column</strong>, you can list segments (chapters,
+            <strong> left column</strong>, you can list segments (chapters,
             acts, scenes, etc.) and characters appearing or speaking in a
             given segment. Segments are indicated with a hashtag and they can
             be hierarchical, e.g.:
