@@ -1,0 +1,139 @@
+Shakespeare: The Tragedy of Hamlet, Prince of Denmark (c. 1599/1602)
+Characters/speakers per scene, in order of appearance
+Extracted from this version:
+http://shakespeare.mit.edu/hamlet/full.html
+By Frank Fischer, October 2017
+Formalisation starts with first hashtag:
+
+# ACT I
+## SCENE I. Elsinore. A platform before the castle.
+BERNARDO
+FRANCISCO
+HORATIO
+MARCELLUS
+## SCENE II. A room of state in the castle.
+KING CLAUDIUS
+CORNELIUS
+VOLTIMAND
+LAERTES
+LORD POLONIUS
+HAMLET
+QUEEN GERTRUDE
+HORATIO
+MARCELLUS
+BERNARDO
+## SCENE III. A room in Polonius' house.
+LAERTES
+OPHELIA
+LORD POLONIUS
+## SCENE IV. The platform.
+HAMLET
+HORATIO
+MARCELLUS
+## SCENE V. Another part of the platform.
+HAMLET
+Ghost
+MARCELLUS
+HORATIO
+# ACT II
+## SCENE I. A room in POLONIUS' house.
+LORD POLONIUS
+REYNALDO
+OPHELIA
+## SCENE II. A room in the castle.
+KING CLAUDIUS
+QUEEN GERTRUDE
+ROSENCRANTZ
+GUILDENSTERN
+LORD POLONIUS
+VOLTIMAND
+HAMLET
+First Player
+# ACT III
+## SCENE I. A room in the castle.
+KING CLAUDIUS
+ROSENCRANTZ
+GUILDENSTERN
+QUEEN GERTRUDE
+LORD POLONIUS
+OPHELIA
+HAMLET
+## SCENE II. A hall in the castle.
+HAMLET
+First Player
+LORD POLONIUS
+ROSENCRANTZ
+GUILDENSTERN
+HORATIO
+KING CLAUDIUS
+QUEEN GERTRUDE
+OPHELIA
+Prologue
+Player King
+Player Queen
+LUCIANUS
+## SCENE III. A room in the castle.
+KING CLAUDIUS
+GUILDENSTERN
+ROSENCRANTZ
+LORD POLONIUS
+HAMLET
+## SCENE IV. The Queen's closet.
+LORD POLONIUS
+HAMLET
+QUEEN GERTRUDE
+Ghost
+# ACT IV
+## SCENE I. A room in the castle.
+KING CLAUDIUS
+QUEEN GERTRUDE
+## SCENE II. Another room in the castle.
+HAMLET
+ROSENCRANTZ
+GUILDENSTERN
+## SCENE III. Another room in the castle.
+KING CLAUDIUS
+ROSENCRANTZ
+HAMLET
+## SCENE IV. A plain in Denmark.
+PRINCE FORTINBRAS
+Captain
+HAMLET
+ROSENCRANTZ
+## SCENE V. Elsinore. A room in the castle.
+QUEEN GERTRUDE
+Gentleman
+HORATIO
+OPHELIA
+KING CLAUDIUS
+LAERTES
+Danes
+## SCENE VI. Another room in the castle.
+HORATIO
+Servant
+First Sailor
+## SCENE VII. Another room in the castle.
+KING CLAUDIUS
+LAERTES
+Messenger
+QUEEN GERTRUDE
+# ACT V
+## SCENE I. A churchyard.
+First Clown
+Second Clown
+HAMLET
+HORATIO
+LAERTES
+First Priest
+QUEEN GERTRUDE
+KING CLAUDIUS
+## SCENE II. A hall in the castle.
+HAMLET
+HORATIO
+OSRIC
+Lord
+KING CLAUDIUS
+LAERTES
+QUEEN GERTRUDE
+PRINCE FORTINBRAS
+First Ambassador
