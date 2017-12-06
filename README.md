@@ -1,5 +1,8 @@
 # ezlinavis
+
 Easy Linavis (Simple Network Visualisation for Literary Texts)
+
+https://ezlinavis.dracor.org
 
 ## Getting started
 
