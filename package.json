@@ -13,7 +13,7 @@
   "main": "",
   "scripts": {
     "clean": "rimraf dist/*",
-    "copy": "copyfiles -f ./src/index.html ./dist",
+    "copy": "copyfiles -f ./src/index.html ./src/robots.txt ./dist",
     "dist": "npm run copy & webpack --env=dist",
     "lint": "eslint ./src",
     "posttest": "npm run lint",
