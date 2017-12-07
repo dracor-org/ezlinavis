@@ -1,4 +1,4 @@
-Goethe: Faust. Der Tragödie erster Teil (1808)
+Goethe: Faust. Eine Tragödie (1808)
 Characters per scene, in order of appearance
 Extracted from TextGrid version:
 http://www.textgridrep.org/textgrid:11g5q.0
@@ -30,21 +30,24 @@ Zweiter Handwerksbursch
 Ein dritter Handwerksbursch
 Vierter Handwerksbursch
 Fünfter Handwerksbursch
-Dienstmädchen
+Erstes Dienstmädchen
+Andres Dienstmädchen
 Erster Schüler
+Bürgermädchen
 Zweiter Schüler
 Bürger
 Bettler
 Andrer Bürger
 Dritter Bürger
 Alte
-Bürgermädchen
 Die Andre
 Soldaten
+Bauern unter der Linde
 Faust
 Wagner
 Bauern
 Alter Bauer
+Alle (Vor dem Tor)
 # Studierzimmer
 Faust
 Geister
@@ -59,7 +62,6 @@ Frosch
 Brander
 Siebel
 Altmayer
-Chorus
 Mephistopheles
 Faust
 # Hexenküche
@@ -67,6 +69,7 @@ Faust
 Mephistopheles
 Die Tiere
 Der Kater
+Die Kätzin
 Die Hexe
 # Straße
 Faust
@@ -126,10 +129,17 @@ Mephistopheles
 Faust
 Irrlicht
 Hexen
-Chor
-Stimme
+Stimme 1
+Stimme 2
+Stimme 3
+Stimme 4
+Stimme 5
 Hexenmeister
+Stimme 6
 Stimmen
+Stimme 7
+Stimme 8
+Stimme 9
 Halbhexe
 General
 Minister
