@@ -1,0 +1,240 @@
+Carlo Goldoni: Il servitore di due padroni (1746)
+http://www.intratext.com/X/ITA0764.htm
+Character constellation per scene.
+Done by Frank Fischer, December 2017.
+Formalisation starts with first hashtag:
+
+# ATTO PRIMO
+## Scena Prima
+Silvio
+Pantalone
+Clarice
+Dottore
+Smeraldina
+Brighella
+## Scena Seconda
+Truffaldino
+Pantalone
+Smeraldina
+Dottore
+Brighella
+Clarice
+Silvio
+## Scena Terza
+Beatrice
+Pantalone
+Brighella
+Clarice
+Silvio
+Dottore
+## Scena Quarta
+Pantalone
+Beatrice
+Un servitore
+## Scena Quinta
+Brighella
+Beatrice
+## Scena Sesta
+Truffaldino
+## Scena Settima
+Un facchino
+Florindo
+Truffaldino
+## Scena Ottava
+Florindo
+Truffaldino
+## Scena Nona
+Truffaldino
+Beatrice
+Brighella
+## Scena Decima
+Truffaldino
+Silvio
+## Scena Undicesima
+Silvio
+Truffaldino
+Florindo
+## Scena Dodicesima
+Florindo
+## Scena Tredicesima
+Truffaldino
+Florindo
+## Scena Quattordicesima
+Truffaldino
+Un altro facchino
+## Scena Quindicesima
+Beatrice
+Truffaldino
+Un altro facchino
+## Scena Sedicesima
+Truffaldino
+Pantalone
+## Scena Diciassettesima
+Truffaldino
+Florindo
+## Scena Diciottesima
+Pantalone
+Clarice
+Smeraldina
+## Scena Diciannovesima
+Beatrice
+Pantalone
+## Scena Ventesima
+Beatrice
+Clarice
+## Scena Ventunesima
+Pantalone
+Beatrice
+Clarice
+## Scena Ventiduesima
+Clarice
+Beatrice
+# ATTO SECONDO
+## Scena Prima
+Silvio
+Dottore
+## Scena Seconda
+Dottore
+Pantalone
+## Scena Terza
+Pantalone
+Silvio
+## Scena Quarta
+Beatrice
+Pantalone
+Silvio
+## Scena Quinta
+Clarice
+Beatrice
+## Scena Sesta
+Clarice
+Silvio
+## Scena Settima
+Smeraldina
+Clarice
+## Scena Ottava
+Smeraldina
+Silvio
+## Scena Nona
+Silvio
+## Scena Decima
+Truffaldino
+Florindo
+## Scena Undicesima
+Truffaldino
+Beatrice
+## Scena Dodicesima
+Truffaldino
+Brighella
+## Scena Tredicesima
+Beatrice
+Truffaldino
+Pantalone
+Brighella
+## Scena Quattordicesima
+Beatrice
+Pantalone
+Truffaldino
+## Scena Quindicesima
+Un cameriere
+Truffaldino
+Florindo
+Beatrice
+## Scena Sedicesima
+Smeraldina
+Un cameriere
+## Scena Diciassettesima
+Smeraldina
+Truffaldino
+## Scena Diciottesima
+Pantalone
+Smeraldina
+Beatrice
+Truffaldino
+## Scena Diciannovesima
+Truffaldino
+Beatrice
+Florindo
+## Scena Ventesima
+Truffaldino
+Florindo
+# ATTO TERZO
+## Scena Prima
+Truffaldino
+Un cameriere
+## Scena Seconda
+Florindo
+Truffaldino
+## Scena Terza
+Truffaldino
+Beatrice
+Pantalone
+## Scena Quarta
+Dottore
+Pantalone
+## Scena Quinta
+Pantalone
+Silvio
+## Scena Sesta
+Brighella
+Beatrice
+Un cameriere
+Florindo
+## Scena Settima
+Florindo
+Beatrice
+Brighella
+## Scena Ottava
+Florindo
+Beatrice
+## Scena Nona
+Florindo
+Beatrice
+Truffaldino
+Brighella
+Un cameriere
+## Scena Decima
+Florindo
+Truffaldino
+## Scena Undicesima
+Florindo
+Beatrice
+Truffaldino
+## Scena Dodicesima
+Truffaldino
+Florindo
+## Scena Tredicesima
+Pantalone
+Silvio
+Dottore
+Smeraldina
+Clarice
+## Scena Quattordicesima
+Brighella
+Pantalone
+Clarice
+Silvio
+Dottore
+Smeraldina
+## Scena Quindicesima
+Beatrice
+Clarice
+Silvio
+Pantalone
+Dottore
+Smeraldina
+## Scena Sedicesima
+Truffaldino
+Beatrice
+Pantalone
+Smeraldina
+Clarice
+Silvio
+## Scena Ultima
+Florindo
+Pantalone
+Beatrice
+Smeraldina
+Clarice
+Silvio
+Truffaldino
