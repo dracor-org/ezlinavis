@@ -1,0 +1,171 @@
+Aleksis Kivi: Nummisuutarit (1864)
+http://elias.finlit.fi/nummisuutarit/
+Character constellation per scene.
+Segmentation according to German translation:
+https://portal.dnb.de/bookviewer/view/1131828887
+Done by Frank Fischer, December 2017.
+Formalisation starts with first hashtag:
+
+# Ensimäinen näytös
+## 1
+Esko
+Jaana
+## 2
+Jaana
+Kristo
+## 3
+Martta
+Kristo
+Jaana
+Esko
+## 4
+Topias
+Martta
+Esko
+## 5
+Esko
+Martta
+## 6
+Topias
+Sepeteus
+Esko
+## 7
+Sepeteus
+Topias
+Mikko
+Esko
+Martta
+Iivari
+# Toinen näytös
+## 1
+Karri
+Jaakko
+Kreeta
+Teemu
+Eräs naisista
+Karri
+## 2
+Karri
+Esko
+Mikko
+Teemu
+1:n häämies
+2:n häämies
+Jaakko
+## 3
+Esko
+Karri
+Teemu
+Mikko
+1:n häämies
+2:n häämies
+Kreeta
+## 4
+Mikko
+Esko
+Jaakko
+Karri
+## 5
+Esko
+Mikko
+Kreeta
+Nainen
+# Kolmas näytös
+## 1
+Iivari
+## 2
+Sakeri
+Iivari
+## 3
+Niko
+Eerikki
+## 4
+Niko
+Iivari
+Sakeri
+Krouvari
+## 5
+Iivari
+Krouvari
+Sakeri
+## 6
+Sakeri
+Iivari
+Niko
+Krouvari
+# Neljäs näytös
+## 1
+Topias
+Sepeteus
+## 2
+Mikko
+Esko
+## 3
+Mikko
+Kristo
+## 4
+Mikko
+Esko
+## 5
+Antres
+Esko
+## 6
+Esko
+Sakeri
+Iivari
+Antres
+Niko
+## 7
+1:n kuokka
+2:n kuokka
+Mikko
+# Viides näytös
+## 1
+Topias
+Sepeteus
+Martta
+## 2
+Topias
+Martta
+Jaana
+## 3
+Leenan-Kalle
+Martta
+Anna-muori
+Kristo
+Topias
+Sepeteus
+## 4
+Martta
+Topias
+Iivari
+Sakeri
+## 5
+Topias
+Niko
+Jaana
+Anna-muori
+Kristo
+Sakeri
+Iivari
+Esko
+Eerikki
+Sepeteus
+Martta
+## 6
+Esko
+1:n kuokka
+Topias
+Sepeteus
+## 7
+Eerikki
+Topias
+Martta
+Esko
+Sepeteus
+Anna-muori
+Leenan-Kalle
+Iivari
+Jaana
+Niko
+Kristo
