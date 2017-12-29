@@ -8,8 +8,8 @@ Formalisation starts with first hashtag:
 José
 Marqués
 ## ESCENA II
-Don Urbano
 Marqués
+Don Urbano
 ## ESCENA III
 Cuesta
 Marqués
@@ -22,10 +22,10 @@ Cuesta
 Pantoja
 ## ESCENA VI
 Evarista
-Marqués
-Pantoja
-Don Urbano
 Cuesta
+Pantoja
+Marqués
+Don Urbano
 ## ESCENA VII
 Electra
 Máximo
@@ -33,12 +33,12 @@ Evarista
 Pantoja
 Marqués
 Cuesta
-Máximo
 Don Urbano
 ## ESCENA VIII
 José
 Pantoja
 Evarista
+Cuesta
 ## ESCENA IX
 Electra
 Cuesta
@@ -62,6 +62,7 @@ Don Urbano
 Pantoja
 Evarista
 Marqués
+Electra
 Máximo
 # ACTO SEGUNDO
 ## ESCENA PRIMERA
@@ -72,6 +73,7 @@ Balbina
 Máximo
 Evarista
 Don Urbano
+José
 ## ESCENA III
 Marqués
 Máximo
@@ -104,50 +106,52 @@ Electra
 ## ESCENA XI
 Cuesta
 Evarista
-Electra
 Don Urbano
+Electra
 ## ESCENA XII
-Cuesta
 Evarista
+Cuesta
 Pantoja
 Don Urbano
 ## ESCENA XIII
 Marqués
+Pantoja
 Evarista
 Don Urbano
 ## ESCENA XIV
 Pantoja
 Electra
-Cuesta
 Marqués
+Cuesta
 Evarista
 ## ESCENA XV
 Balbina
 Electra
+Evarista
 Don Urbano
-Evarista
 Pantoja
-Evarista
+Marqués
 Cuesta
 ## ESCENA XVI
 Pantoja
-Evarista
 José
+Evarista
 Don Urbano
 Marqués
 ## ESCENA XVII
 Electra
 Evarista
-Marqués
 Don Urbano
+Cuesta
+Marqués
 Pantoja
 # ACTO TERCERO
 ## ESCENA PRIMERA
 Máximo
 Electra
 ## ESCENA II
-Máximo
 Gil
+Máximo
 Electra
 Mariano
 ## ESCENA III
@@ -160,8 +164,8 @@ Máximo
 Máximo
 Gil
 ## ESCENA VI
-Máximo
 Electra
+Máximo
 ## ESCENA VII
 Mariano
 Máximo
@@ -169,6 +173,7 @@ Electra
 ## ESCENA VIII
 Electra
 Máximo
+Operario
 ## ESCENA IX
 Máximo
 Marqués
@@ -176,13 +181,13 @@ Electra
 Mariano
 ## ESCENA X
 Marqués
+Electra
 Máximo
 Pantoja
-Electra
 ## ESCENA XI
+Electra
 Marqués
 Máximo
-Electra
 Mariano
 # ACTO CUARTO
 ## ESCENA PRIMERA
@@ -191,6 +196,7 @@ Patros
 ## ESCENA II
 Máximo
 Electra
+Marqués
 ## ESCENA III
 Marqués
 Electra
@@ -199,18 +205,19 @@ Don Urbano
 Marqués
 Electra
 ## ESCENA V
+Electra
 Don Urbano
-Pantoja
 Evarista
+Pantoja
 Marqués
 ## ESCENA VI
-Pantoja
 Evarista
+Pantoja
 ## ESCENA VII
 Electra
 Patros
-Marqués
 Don Urbano
+Marqués
 ## ESCENA VIII
 Pantoja
 Electra
@@ -236,8 +243,8 @@ Marqués
 Don Urbano
 # ACTO QUINTO
 ## ESCENA PRIMERA
-Dorotea
 Evarista
+Dorotea
 ## ESCENA II
 Evarista
 Don Urbano
@@ -269,6 +276,7 @@ Electra
 La Sombra
 Electra
 ## ESCENA ULTIMA
-Marqués
 Máximo
+Electra
 Pantoja
+Marqués
