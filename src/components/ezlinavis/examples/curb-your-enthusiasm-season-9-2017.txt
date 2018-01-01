@@ -1,0 +1,1503 @@
+Larry David/HBO: Curb Your Enthusiasm, Season 9 (2017)
+All 10 episodes, segmented into scenes,
+listing all characters per segment
+By Frank Fischer, January 2018
+Formalisation starts with first hashtag:
+
+# 9x01: "Foisted!"
+## Shower
+Larry
+## At the entrance
+Larry
+Betty
+## Jeff's office 1
+Jeff
+Larry
+## Jeff's office 2
+Jeff
+Larry
+Susie
+## Jeff's office 3
+Jeff
+Larry
+Susie
+Betty
+## Larry's office 4
+Larry
+Mara
+## Larry's house 1
+Larry
+Leon
+## Larry's house 2
+Betty
+Larry
+## Larry's house 3
+Betty
+Larry
+Leon
+## PAM event 1
+Larry
+Cheryl
+## PAM event 2
+Larry
+Cheryl
+Ted
+## PAM event 3
+Larry
+Jeff
+## PAM event 4
+Larry
+Richard
+## PAM event, outside
+Larry
+Susie
+## Betty's house 1
+Larry
+Betty
+Numa
+## Betty's house 2
+Larry
+Betty
+## Larry's office 1
+Larry
+Mara
+## Larry's office 2
+Mara
+Leon
+## Larry's office 3
+Larry
+Leon
+## At Kimmel's 1
+Larry
+Leon
+Jimmy
+## At Kimmel's 2
+Larry
+Jimmy
+## At Kimmel's, interview
+Larry
+Jimmy
+## Larry's office
+Larry
+Leon
+## Larry's office, phone call 1
+Leon
+Jeff
+## Larry's office, phone call 2
+Larry
+Jeff
+## Jeff's house, background
+Susie
+Mara
+## FBI building
+FBI Agent
+Larry
+Jeff
+## Restaurant 1
+Richard
+Larry
+## Restaurant 2
+Numa
+Larry
+## Larry's house
+Larry
+Susie
+# 9x02: "The Pickle Gambit"
+## Larry's hotel room
+Larry
+Leon
+Jeff
+## Elevator
+Larry
+Paula
+## Reception
+Hotel Day Manager
+Larry
+## Cookie stand
+Larry
+Hotel Day Manager
+## Larry's house
+Larry
+Leon
+## Larry's house
+Funkhouser
+Kenny
+Leon
+Larry
+## Larry's house
+Larry
+Funkhouser
+## Larry's kitchen 1
+Leon
+Kenny
+Funkhouser
+Larry
+## Larry's kitchen 2
+Larry
+Leon
+## Larry's living room 1
+Larry
+Leon
+## Larry's living room 2
+Leon
+Ted
+## Larry's living room 3
+Ted
+Larry
+## Phone call
+Larry
+Mary
+## Al-Abbas Chicken
+Larry
+Shara
+## Larry's bedroom 1
+Shara
+Larry
+## Larry's bedroom 2
+Shara
+Larry
+Swat
+Leon
+## Larry's bedroom 3
+Larry
+Leon
+## Phone call
+Larry
+Mr. Khashayar (Consul)
+## During and after phone call
+Larry
+Swat
+Leon
+## Hotel lobby
+Hotel Day Manager
+Larry
+## Cookie stand 1
+Claudia
+Larry
+## Cookie stand 2
+Claudia
+Larry
+Hotel Day Manager
+## Funkhouser's house
+Funkhouser
+Larry
+## Up at Kenny's room
+Housekeeper
+Kenny
+## In front of hotel
+Leon
+Larry
+## Hotel lobby
+Leon
+Male Hotel Guests
+Hotel Day Manager
+## Hotel bar 1
+Larry
+Paula
+## Hotel bar 2
+Ted
+Cheryl
+## Hotel lobby 1
+Claudia
+Male Hotel Guests
+## Hotel lobby 2
+Claudia
+Male Hotel Guests
+Larry
+Hotel Day Manager
+## Hotel lobby 3
+Larry
+Hotel Day Manager
+Hotel Security Guard
+## At the street
+Mary
+Larry Doppelgänger
+## Larry's house 1
+Paula
+Kenny
+## Larry's house 2
+Funkhouser
+Larry
+## Skype call
+Larry
+Mr. Khashayar (Consul)
+## SWAT operation ;)
+Paula
+Kenny
+Swat
+Leon
+# 9x03: "A Disturbance in the Kitchen"
+## Restaurant
+Larry
+Jeff
+## Restaurant
+Larry
+Jeff
+Restaurant Manager
+## Restaurant kitchen
+Larry
+Chef
+## Leaving the restaurant
+Larry
+Jeff
+Restaurant Manager
+## Outside Jeff's house
+Larry
+Jeff
+## Jeff's house
+Susie
+Ted
+Cheryl
+Jeff
+Larry
+## Jeff's house
+Cheryl
+Ted
+Larry
+## Jeff's house
+Cheryl
+Larry
+## Jeff's house
+Larry
+Susie
+## Jeff's house
+Larry
+Ted
+## At the traffic light ("No one's above the beep!")
+Larry
+Cop (Officer Jenkins)
+## Larry's house (playing cards)
+Larry
+Leon
+## Larry's house
+Larry
+Leon
+Swat
+## Rushdie's house 1
+Butler
+Larry
+## Rushdie's house 2
+Butler
+Salman Rushdie
+## Rushdie's house 3
+Salman Rushdie
+Larry
+## Restaurant
+Hostess (9x03)
+Salman Rushdie
+Larry
+## Restaurant
+Salman Rushdie
+Larry
+## Restaurant ("Compliments of the lady.")
+Larry
+Waiter (9x03)
+Salman Rushdie
+## Restaurant
+Larry
+Elizabeth Banks
+Lucy Walsh
+## Restaurant
+Larry
+Elizabeth Banks
+Lucy Walsh
+Restaurant Manager
+## Jeff's house
+Larry
+Jeff
+Susie
+## Jeff's house
+Larry
+Jeff
+Susie
+Ted
+## Court
+Larry
+Cop (Officer Jenkins)
+Judge
+Court Reporter
+## At the traffic light
+Ted
+Truck Driver
+## Jeff's house ("Mr. Noodle")
+Susie
+Elizabeth Banks
+Larry
+Jeff
+## Outside Jeff's house 1 (Katie returns)
+Katie
+Larry
+Susie
+## Outside Jeff's house 2 ("Where did you find her?")
+Katie
+Susie
+Cop (Officer Jenkins)
+## Cubs hat on the roof
+Larry
+Elizabeth Banks
+## Restaurant
+Larry
+Elizabeth Banks
+## Restaurant ("I'm, looking for Larry David.")
+Cop (Officer Jenkins)
+Restaurant Manager
+## Restaurant kitchen 1
+Larry
+Elizabeth Banks
+## Restaurant kitchen 2
+Larry
+Elizabeth Banks
+Cop (Officer Jenkins)
+## Restaurant kitchen 3
+Larry
+Elizabeth Banks
+Cop (Officer Jenkins)
+Chef
+## Restaurant
+Restaurant Manager
+Two Restaurant Guests
+# 9x04: "Running with the Bulls"
+## Dr. Templeton's office
+Dr. Templeton
+Larry
+## Richard Lewis exhibition 1
+Larry
+Jeff
+## Richard Lewis exhibition 2 ("It's a self-portrait!")
+Larry
+Jeff
+Richard
+## Richard Lewis exhibition 3 ("Did you hear about … Kenny?")
+Larry
+Jeff
+Ted
+Cheryl
+## Richard Lewis exhibition 4
+Larry
+Jeff
+Ted
+Cheryl
+Funkhouser
+## Richard Lewis exhibition 5
+Larry
+Ted
+Cheryl
+## Restroom
+Larry
+## Larry's house 1
+Larry
+Leon
+## Larry's house 2
+Larry
+Leon
+Jeff
+## Larry's house 3
+Larry
+Jeff
+## Larry's house 4
+Larry
+Leon
+Jeff
+## Dr. Templeton's office
+Dr. Templeton
+Larry
+## Rustic Canyon
+Restaurant Host
+Larry
+## Rustic Canyon
+Larry
+Richard
+## House viewing
+Real Estate Agent
+Jeff
+## Jeff's house
+Larry
+Jeff
+## Jeff's house ("I never know with you two.")
+Larry
+Jeff
+Susie
+## At the memorial
+Usher
+Larry
+## At the memorial ("Hey!")
+Larry
+Dr. Templeton
+Mrs. Templeton
+## At the memorial ("What's Dr. Templeton doing here?")
+Larry
+Cheryl
+## At the memorial
+Susie
+Jeff
+## At the memorial
+Susie
+Jeff
+Larry
+## At the memorial ("You're a fucking liar, Jeff.")
+Susie
+Jeff
+## At the memorial ("Honey, I'll be right in.")
+Dr. Templeton
+Mrs. Templeton
+## At the memorial
+Larry
+Dr. Templeton
+## At the memorial (אל מלא רחמים)
+Rabbi
+## At the memorial ('reserve' sign)
+Larry
+Richard
+## At the memorial ("I'm an usher, I'm not a bouncer.")
+Larry
+Usher
+## At the memorial
+Swarthy Guy's Friend
+Larry
+## At the memorial ("Larry, do not address Mrs. Templeton.")
+Larry
+Dr. Templeton
+Mrs. Templeton
+## At the memorial
+Kenny's Cousin
+Larry
+Susie
+Jeff
+## At the memorial
+Rabbi
+Funkhouser
+## Memorial speech
+Funkhouser
+Joey (Funkhouser's Former Daughter Jodie)
+## At the memorial ("Can you whimper?")
+Crying Woman
+Larry
+## At the memorial (turmoil)
+Swarthy Guy
+Larry
+Swarthy Guy's Friend
+## At the memorial ("Sorry.")
+Funkhouser
+Larry
+## House viewing
+Real Estate Agent
+Jeff
+Susie
+## Chair shopping
+Dr. Templeton
+Larry
+# 9x05: "Thank You for Your Service"
+## Entrance to golf club
+Larry
+Sal DeMaestri
+## Golf-club restaurant (John Adams biography)
+Larry
+Jeff
+Richard
+## Food ordering
+Larry
+Jeff
+Richard
+Golf Club Waiter
+## Announcing that Sammi's gonna get married
+Larry
+Jeff
+Richard
+## Reporting back, showing the face
+Larry
+Golf Club Waiter
+## Ken and Shelly from afar
+Ken
+Shelly
+## Chat with Ken ("You know, she looks a little Asian.")
+Ken
+Jeff
+Larry
+Richard
+## Larry's house ("Don't be a stickler.")
+Jean (Mail Carrier)
+Larry
+## Jeff's house
+Susie
+Jeff
+Richard
+## Jeff's house
+Jeff
+Richard
+Larry
+## Susie's order
+Susie
+Jeff
+## Dialogue about mail carrier
+Larry
+Richard
+## Save the date
+Susie
+Larry
+## Introducing the happy couple ("Thank you for your service.")
+Sammi
+Victor
+Susie
+Jeff
+Richard
+Leslie (Neighbor)
+John (Neighbor)
+Larry
+## "You didn't thank him for his service."
+Susie
+Larry
+Leslie (Neighbor)
+John (Neighbor)
+Richard
+Jeff
+## Cinema date
+Jean (Mail Carrier)
+Larry
+## Entrance to golf club
+Larry
+Sal DeMaestri
+## Bar at golf club
+Larry
+Jeff
+## Messenger
+Mr. Takahashi's Assistant
+Larry
+## Chat with the chef
+Larry
+Chef Curtis
+## Chat with the waiter
+Larry
+Golf Club Waiter
+## Mr. Takahashi's office
+Mr. Takahashi
+Larry
+## Larry's house ("Hey, did you get the mail today?")
+Larry
+Leon
+## Phone call
+Larry
+Richard
+## Larry's house ("You hit the fucking reset button.")
+Larry
+Leon
+## No entrance to golf club
+Larry
+Sal DeMaestri
+## Re-enactment
+Larry
+Victor
+## Re-enactment ("Make haste slowly.")
+Larry
+Victor
+Benjamin Franklin
+## Re-enactment
+George Washington
+Victor
+Larry
+## During the battle ("Hello, Sal! I'm sorry.")
+Larry
+Victor
+Sal DeMaestri
+## After the battle, looking for the car
+Larry
+Victor
+## Car park
+Larry
+Mr. Takahashi
+Shelly
+## Going to the golf club
+Larry
+Victor
+## Golf-club entrance
+Larry
+Randy Carter
+## Victor seeing redcoats, flipping out
+Victor
+Larry
+## Mail delivery
+Larry
+Jean (Mail Carrier)
+## End gag ("Welcome home, soldier. Thank you for your service.")
+Larry
+Leon
+# 9x06: "The Accidental Text on Purpose"
+## "No hanky-panky, Mr. Beshraavi." (watching "Arabesque")
+Larry
+## Airport gate
+Larry
+Gate Agent
+## On the flight
+Flight Attendant
+Larry
+## "It's the Wild West."
+Airplane Passenger
+Larry
+## Seat
+Dr. Winocur
+Larry
+## Seat
+Larry
+Bebe
+## Asking for an upgrade
+Larry
+Flight Attendant
+## "I have a bladder condition."
+Larry
+Bebe
+## Seat
+Dr. Winocur
+Larry
+## Kleenex
+Bebe
+Dr. Winocur
+## Dental floss
+Larry
+Bebe
+## Emergency
+Flight Attendant
+Sick Passenger
+## Asking for a doctor
+Larry
+Dr. Winocur
+## Excuse me
+Larry
+Bebe
+## Goodbye 1
+Larry
+Dr. Winocur
+## Goodbye 2
+Larry
+Bebe
+## Goodbye 3
+Bebe
+Dr. Winocur
+## Larry's house
+Larry
+Leon
+## Dinner
+Larry
+Funkhouser
+Jeff
+## Dinner ("Jeff, you're taking me to the airport.")
+Susie
+Larry
+Jeff
+## "I really like your friends."
+Rhonda
+Richard
+## "Please do not sit on the arm of the chair."
+Larry
+Marilyn
+## "Did you fucking catch that?"
+Jeff
+Larry
+## "Honey!""
+Richard
+Rhonda
+## "You just gave a premature 'honey'."
+Richard
+Larry
+## Dinner (the 'water' incident)
+Marilyn
+Funkhouser
+Susie
+Larry
+Rhonda
+Jeff
+Richard
+## Driving by a bus
+School Kids on Bus
+Larry
+## Lunch
+Larry
+Richard
+## Lunch ("Honey! Honey! Honey!")
+Larry
+Richard
+Rhonda
+## "I got an idea. Accidental text on purpose."
+Jeff
+Larry
+## "We should make it interesting, play for some cheddar."
+Larry
+Funkhouser
+Dr. Winocur
+Jeff
+## Golf course
+Larry
+Funkhouser
+Jeff
+## Golf course
+Larry
+Funkhouser
+Dr. Winocur
+Jeff
+## Perfume incident
+Larry
+Perfume Saleswoman
+## Trying on pants
+Larry
+Rhonda
+## Larry's kitchen
+Larry
+Leon
+Funkhouser
+## Trying on pants again
+Larry
+Rhonda
+## Larry's house
+Larry
+Leon
+## "Ignore him."
+Susie
+Funkhouser
+## Info poster: "Please join us to honor Tip McDougal."
+Larry
+Richard
+## "I call everybody girlfriend."
+Rhonda
+Richard
+## "We hit it off at baggage claim."
+Larry
+Dr. Winocur
+Bebe
+## Speech
+Golf Club President
+Tip McDougal
+## Dinner Table
+Larry
+Susie
+Jeff
+Richard
+Marilyn
+Funkhouser
+## "This guy just took my joke."
+Larry
+Dr. Winocur
+## "Sir. Sir! I have a condition."
+Larry
+Bebe
+## Announcing
+Golf Club President
+Dr. Winocur
+## Carwash
+Larry
+Dave
+# 9x07: "Namaste"
+## Yoga class 1
+Yogi Tina
+Larry
+Leon
+## Yoga class 2
+Yogi Tina
+Leon
+## Yoga class 3
+Yogi Tina
+Larry
+## Bumping into another car
+Leon
+Larry
+## Jeff's house
+Susie
+Larry
+## Jeff's house
+Susie
+Jeff
+Larry
+## On the phone
+Larry
+Greg
+## Car service station
+Larry
+Greg
+## Uber ride ("my Uber rating …, looks-wise")
+Romanian Uber Driver
+Larry
+## On the phone
+Justin Brown
+Larry
+## First date with Bridget
+Larry
+Bridget
+## Bridget's house (interrupted kiss)
+Larry
+Bridget
+Eddie
+## Jeff's house
+Larry
+Jeff
+## Upstairs
+Susie
+Larry
+## Uber ride ("One-Star Larry")
+Larry
+Other Uber Driver
+## Larry's house ("It's 92 degrees.")
+Larry
+Leon
+## Larry's house ("optimal temperature")
+Larry
+Leon
+Yogi Tina
+## Walking
+Larry
+Bridget
+Eddie
+## Talking to the Romanian Uber driver
+Romanian Uber Driver
+Larry
+## Larry's house 1
+Larry
+Jeff
+## Larry's house 2
+Larry
+Jeff
+Susie
+## Larry's house 3
+Larry
+AC Repairman
+Jeff
+## Talking to the repairman
+Larry
+AC Repairman
+## At the door
+Justin Brown
+Leon
+## "Hey, man, white people."
+Larry
+Leon
+## Car service station
+Larry
+Greg
+## Cafe
+Leon
+Larry
+## Bus ("Does this go to Olympic and Hauser?")
+Larry
+Bus Driver 1
+## Bus ("What are you sitting in the middle for?")
+Larry
+Chinese Bus Passenger
+## Bus ("This bus is a very cold, unforgiving place.")
+Larry
+Bus Passenger 2
+## Bus Stop
+Larry
+Bus Passenger 3
+## Bus ("Do you wanna drive this bus, sir?")
+Larry
+Bus Driver 2
+## Bus ("Sit down!")
+Larry
+Bus Driver 2
+Bus People
+## Bus ("You bus people are starting to get on my nerves.")
+Larry
+Bus People
+## Larry's house ("I'm not gonna do *that*!")
+Larry
+Leon
+Jewish Woman
+# 9x08: "Never Wait for Seconds!"
+## Larry's office
+Larry
+Kissing Couple Female
+Kissing Couple Male
+## Office (Cesar accepts no tip)
+Larry
+Cesar
+## Bridget's kitchen
+Larry
+Bridget
+## Breakfast ("Take your toast." – "I can't see the butter.")
+Larry
+Bridget
+Eddie
+## Bridget's kitchen
+Larry
+Bridget
+## Herringbone
+Larry
+Bridget
+## "Can I bring you some water while you wait?"
+Brunch Waiter
+Larry
+Bridget
+## Phone call
+Cesar
+Larry
+## Brunch party
+Marilyn
+Funkhouser
+Larry
+Bridget
+## Brunch party ("We want some tap water.")
+Brunch Waiter
+Larry
+Funkhouser
+Marilyn
+Bridget
+## Brunch buffet
+Brunch People
+Morsi
+## Brunch buffet ("Never, never wait for seconds.")
+Larry
+Morsi
+Brunch People
+Funkhouser
+## At the table (ketchup and leaving)
+Larry
+Marilyn
+Funkhouser
+Bridget
+## At the table
+Larry
+Bridget
+## Waiting at toilet
+Morsi
+Larry
+## In front of toilet
+Larry
+Bridget
+## Bridget's house
+Larry
+Bridget
+Eddie
+## Eddie's room
+Larry
+Eddie
+## Larry's office
+Larry
+Funkhouser
+## Larry's office
+Larry
+Cesar
+## Larry's office ("Can Cesar and his family use your pool?")
+Larry
+Cesar
+Funkhouser
+## Investigation
+Morsi
+Monena
+## Investigation
+Morsi
+Yoshi
+## Investigation
+Morsi
+Denise Handicapped
+## Investigation
+Morsi
+Lisa Thompson
+## Investigation
+Morsi
+Krazee-Eyez Killa
+## Investigation
+Morsi
+Rachel Heinemann
+## Investigation
+Morsi
+Michael J. Fox
+## Pemberton Academy
+Larry
+Admissions Person 1
+Admissions Person 2
+## On the phone
+Larry
+Funkhouser
+## Herringbone
+Larry
+Bridget
+## At the able
+Larry
+Bridget
+Funkhouser
+Marilyn
+## Black Mercedes ("Mr. David, get in.")
+Morsi
+Larry
+## Interrogation
+Morsi
+Larry
+Head Mufti
+Mufti 1
+Mufti 2
+Mufti 3
+Mufti 4
+## Trying to give a tip
+Larry
+Morsi Driver
+# 9x09: "The Shucker"
+## Dinner at Larry's house
+Larry
+Bridget
+Susie
+Jeff
+Ted
+Cheryl
+Leon
+The Shucker
+## At the door
+Rose Shapiro
+Larry
+## Back at the table
+Larry
+Bridget
+Susie
+Jeff
+Ted
+Cheryl
+Leon
+## Mrs. Shapiro comes back
+Larry
+Bridget
+Susie
+Jeff
+Ted
+Cheryl
+Leon
+Rose Shapiro
+## The Shucker says goodbye
+Larry
+Bridget
+Susie
+Jeff
+Ted
+Cheryl
+Leon
+The Shucker
+## Larry showing him out
+Larry
+The Shucker
+## "That's enough, dinner's over."
+Larry
+Bridget
+Susie
+Jeff
+Ted
+Cheryl
+Leon
+## Waiting for Lin
+Larry
+Jeff
+## Passing by the receptionist
+Larry
+Jeff
+Receptionist
+## Aaron's office
+Larry
+Jeff
+Aaron Burr
+## Lin comes
+Larry
+Jeff
+Aaron Burr
+Lin
+## Discussing the muscial
+Larry
+Jeff
+Lin
+## Leaving the office while Lin's on the phone
+Larry
+Jeff
+## They come back in
+Larry
+Jeff
+Lin
+## Larry's house, watching "Chicago Homicide"
+Larry
+Bridget
+## Mrs. Shapiro's back!
+Larry
+Rose Shapiro
+## "Fuck me, Tex!"
+Jeff
+Susie
+## Before the meeting with Lin
+Larry
+Jeff
+## Receptionist overhears conversation
+Larry
+Jeff
+Receptionist
+## Encounter with Ted ("Cheryl and I are going up to Tahoe.")
+Larry
+Jeff
+Ted
+## "What happened in Tahoe?"
+Larry
+Jeff
+## Lin comes
+Larry
+Jeff
+Lin
+## Receptionist gives green light
+Larry
+Jeff
+Lin
+Receptionist
+## Run for the desk
+Larry
+Lin
+## In the office
+Larry
+Jeff
+Lin
+## At Larry's house
+Larry
+Leon
+## Jeff drops in
+Larry
+Leon
+Jeff
+## Heading over to Mrs. Shapiro's
+Larry
+Leon
+## In Mrs. Shapiro's house
+Larry
+Leon
+Rose Shapiro
+## Phone call
+Larry
+Lin
+## Party at Cheryl's house
+Larry
+Cheryl
+## Chatting with the Shucker
+Larry
+The Shucker
+## "Ted is shooting a limited series in Vancouver."
+Cheryl
+Susie
+Larry
+The Shucker
+## Outside of Cheryl's house
+Larry
+The Shucker
+## Larry's house ("This is a relationship non-disclosure agreement?")
+Larry
+Bridget
+## Trial on TV
+Larry
+Rose Shapiro
+Judge Judy Sheindlin
+Judge Judy Bailiff
+Leon
+## Cheryl watching the show
+Cheryl
+## Susie watching the show
+Susie
+The Shucker
+## Bridget watching the show
+Bridget
+Bridget's Friend
+## Lin watching the show
+Lin
+Lin's Wife
+## At "Hamilton"
+Larry
+Lin's Wife
+Lin's Wife's Friend
+# 9x10: "Fatwa!"
+## Rehearsal ("I do not like this man!")
+Lin
+F. Murray Abraham
+## Clapping
+Musical Director
+Larry
+Jeff
+## Quick chat ("How about Susan Stroman?")
+Larry
+Jeff
+## Announcement on stage
+Cody
+Lin
+F. Murray Abraham
+## Quick poster question
+Larry
+Production Assistant
+## Discussing how to denunciate
+Larry
+F. Murray Abraham
+## Discussing the old opening
+Cody
+Lin
+Larry
+## Demonstrating the old opening
+Larry
+Lin
+Cody
+## Paintball idea
+Larry
+Lin
+## Wardrobe
+Costume Designer
+Lin
+Larry
+## "Can they stay with you?"
+Lin
+Larry
+## Waitin in the restaurant
+Larry
+Jeff
+Susie
+## Seating policy
+Larry
+Hostess (9x10)
+## "Okay, I'm gonna take care of this."
+Larry
+Marie Deschamps
+## "We have four."
+Larry
+Hostess (9x10)
+Jeff
+Susie
+Marie Deschamps
+## At the table
+Larry
+Marie Deschamps
+Jeff
+Susie
+## Funkhouser comes
+Larry
+Funkhouser
+Marie Deschamps
+## Funkhouser sits down
+Larry
+Funkhouser
+Susie
+Jeff
+## Coming to work
+Larry
+Security Guard
+## "Thanks for paintball!"
+Larry
+Member of Theater Crew
+## "That was so sweet of you!"
+Larry
+Wife 1 in Musical
+## "Get me the salmon with the salad."
+Cody
+Production Assistant
+## Passing by
+Larry
+Production Assistant
+## "I can't go…"
+Larry
+Cody
+## "Same pants as yesterday?"
+Larry
+F. Murray Abraham
+## Thanking for the paintball
+Larry
+Four Members of Theater Crew
+## Wardrobe
+Larry
+Lin
+## Wardrobe
+Lin
+Costume Designer
+## Meeting the cousin
+Valentina
+Ernst
+Lin
+Larry
+Costume Designer
+## "your tepid thank yous"
+Larry
+Lin
+## "Let's find a dumpster."
+Lin
+Costume Designer
+## "Salman, get out!"
+Cody
+Sign Language Interpreter
+Larry
+Musical Director
+Lin
+Wife 1 in Musical
+Husband 1 in Musical
+Wife 2 in Musical
+Husband 2 in Musical
+Wife 3 in Musical
+Husband 3 in Musical
+## "Too bad you missed it."
+Larry
+Musical Director
+## "You're a star!"
+Lin
+Sign Language Interpreter
+## "The number's not working."
+Lin
+Larry
+## Larry's house
+Larry
+Jeff
+## Cousin's coming
+Valentina
+Ernst
+Larry
+Leon
+## Jeff's and Susie's new house
+Susie
+Jeff
+Larry
+## "By the way, this house…"
+Larry
+Jeff
+## Saying hello
+Larry
+Jeff
+Susie
+Victor
+Victor's Mom
+Victor's Dad
+Sammi
+## "I'm hungry."
+Larry
+Jeff
+Susie
+Victor's Dad
+## Dialogue
+Larry
+Jeff
+## Victor's Dad coming back
+Larry
+Jeff
+Victor's Dad
+## Funkhouser showing up, apologizing
+Larry
+Jeff
+Victor's Dad
+Funkhouser
+## "Let's eat."
+Susie
+Larry
+## Sign language
+Victor's Dad
+Victor's Mom
+## Rehearsing the rewrite
+Larry
+Wife 1 in Musical
+Husband 1 in Musical
+Lin
+F. Murray Abraham
+## Party at Larry's house
+Larry
+Leon
+## Guests dropping in
+Larry
+Leon
+Male Swinger
+Female Swinger
+## Going into the party room
+Valentina
+Ernst
+Male Swinger
+Female Swinger
+## Next morning
+Larry
+Leon
+## Paintball
+Larry
+Cody
+## "Hey, Lar."
+Wife 1 in Musical
+Larry
+## Dialogue
+F. Murray Abraham
+Larry
+## "Be careful what you say around this guy."
+Lin
+F. Murray Abraham
+Larry
+## "They broke my curtain remote."
+Lin
+Larry
+## "It's a duel."
+Lin
+Larry
+Cody
+## Introducing the seconds
+Lin
+Larry
+Cody
+F. Murray Abraham
+Costume Designer
+## "I don't know how to do this."
+Larry
+Costume Designer
+## "Ten, nine, eight, …"
+Larry
+Lin
+Cody
+## Wedding, walking down the aisle
+Sammi
+Jeff
+## Accidentally firing
+Larry
+Lin
+## Wedding ("Where the fuck is he?")
+Susie
+Jeff
+## Ceremony
+Officiant
+Sign Language Interpreter
+Victor's Mom
+Victor's Dad
+Ted
+Cheryl
+Jeff
+Victor
+Sammi
+Susie
+## In the ambulance
+Larry
+Lin
+Paramedic
+## Talking to the driver
+Larry
+Ambulance Driver
+## Dialing a number
+Larry
+Lin
+## Phone call
+Larry
+Marie Deschamps
+## "We have to start the speeches."
+Susie
+Jeff
+## Sign language
+Victor's Mom
+Victor's Dad
+## The stand-in comes
+Marie Deschamps
+Jeff
+Susie
+## "Her name's Marie. Larry rents her."
+Cheryl
+Funkhouser
+## Sign language
+Victor's Mom
+Victor's Dad
+## "Separate bedrooms!"
+Marie Deschamps
+Susie
+## "What's your name again?"
+Marie Deschamps
+Sammi
+Victor
+## Restaurant
+Larry
+Jeff
+Susie
+Leon
+Funkhouser
+## "Here's your veggie burger."
+Larry
+Waitress (9x10)
+## "Where's my food?"
+Susie
+Larry
+## Last scene
+Larry
+Angry Muslim
