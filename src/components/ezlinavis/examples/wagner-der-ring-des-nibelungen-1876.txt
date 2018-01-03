@@ -1,0 +1,196 @@
+Richard Wagner: Der Ring des Nibelungen (1876)
+Character co-presence per scene
+Done by Frank Fischer, January 2018
+Formalisation starts with first hashtag:
+
+# Das Rheingold
+## Vorspiel und Erste Szene
+Woglinde
+Wellgunde
+Flosshilde
+Alberich
+## Zweite Szene
+Fricka
+Wotan
+Freia
+Fasolt
+Fafner
+Froh
+Donner
+Loge
+## Dritte Szene
+Alberich
+Mime
+Loge
+Wotan
+## Vierte Szene
+Loge
+Alberich
+Wotan
+Froh
+Donner
+Fricka
+Fasolt
+Fafner
+Freia
+Erda
+Woglinde
+Wellgunde
+Flosshilde
+# Die Walküre
+## Erster Aufzug
+### Erste Szene
+Siegmund
+Sieglinde
+### Zweite Szene
+Sieglinde
+Hunding
+Siegmund
+### Dritte Szene
+Siegmund
+Sieglinde
+## Zweiter Aufzug
+### Erste Szene
+Wotan
+Brünnhilde
+Fricka
+### Zweite Szene
+Brünnhilde
+Wotan
+### Dritte Szene
+Siegmund
+Sieglinde
+### Vierte Szene
+Brünnhilde
+Siegmund
+### Fünfte Szene
+Siegmund
+Sieglinde
+Hunding
+Brünnhilde
+Wotan
+## Dritter Aufzug
+### Erste Szene
+Gerhilde
+Helmwige
+Waltraute
+Schwertleite
+Ortlinde
+Siegrune
+Grimgerde
+Rossweisse
+Brünnhilde
+Sieglinde
+Wotan
+### Zweite Szene
+Wotan
+Gerhilde
+Ortlinde
+Waltraute
+Helmwige
+Schwertleite
+Grimgerde
+Rossweisse
+Siegrune
+Brünnhilde
+### Dritte Szene
+Brünnhilde
+Wotan
+# Siegfried
+## Erster Aufzug
+### Erste Szene
+Mime
+Siegfried
+### Zweite Szene
+Wandrer
+Mime
+### Dritte Szene
+Mime
+Siegfried
+## Zweiter Aufzug
+### Erste Szene
+Alberich
+Wandrer
+Fafner
+### Zweite Szene
+Mime
+Siegfried
+Fafner
+Stimme des Waldvogels
+### Dritte Szene
+Alberich
+Mime
+Siegfried
+Stimme des Waldvogels
+## Dritter Aufzug
+### Erste Szene
+Wandrer
+Erda
+### Zweite Szene
+Wandrer
+Siegfried
+### Dritte Szene
+Siegfried
+Brünnhilde
+# Götterdämmerung
+## Vorspiel
+Die erste Norn
+Die zweite Norn
+Die dritte Norn
+Brünnhilde
+Siegfried
+## Erster Aufzug
+### Erste Szene
+Gunther
+Hagen
+Gutrune
+Siegfried
+### Zweite Szene
+Hagen
+Siegfried
+Gunther
+Gutrune
+### Dritte Szene
+Brünnhilde
+Waltraute
+Siegfried
+## Zweiter Aufzug
+### Erste Szene
+Alberich
+Hagen
+### Zweite Szene
+Siegfried
+Hagen
+Gutrune
+### Dritte Szene
+Hagen
+Mannen
+### Vierte Szene
+Mannen
+Gunther
+Siegfried
+Brünnhilde
+Hagen
+Gutrune
+Frauen
+### Fünfte Szene
+Brünnhilde
+Hagen
+Gunther
+## Dritter Aufzug
+### Vorspiel und Erste Szene
+Woglinde
+Wellgunde
+Flosshilde
+Siegfried
+Hagen
+### Zweite Szene
+Mannen
+Siegfried
+Hagen
+Gunther
+### Dritte Szene
+Gutrune
+Hagen
+Gunther
+Brünnhilde
