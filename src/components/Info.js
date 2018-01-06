@@ -22,7 +22,7 @@ class Info extends React.Component {
             given segment. Segments are indicated with a hashtag and they can
             be hierarchical, e.g.:
           </p>
-          <pre>{'# First Act\n## First Scene\n### …'}</pre>
+          <pre>{'# First Act\n## First Scene\nCharacter 1\nCharacter 2\n…'}</pre>
           <p>
             This will automatically generate a CSV file with node-node
             relations (source, type, target, weight) in the <strong>column in
@@ -39,11 +39,13 @@ class Info extends React.Component {
             upper corner.
           </p>
           <p>
-            <em>ezlinavis</em> was developed by Carsten Milling and Frank
-            Fischer, using the React and Sigma JS libraries. It is mainly
-            meant for didactic purposes, although it could also be suitable
-            to process simply-structured research data. We are mainly resorting
-            to it in our workshops on network analysis of literary texts.
+            <em>ezlinavis</em> was developed in 2017 by Carsten Milling and
+            Frank Fischer, using the React and Sigma JS libraries. It is
+            mainly meant for didactic purposes (we are mainly resorting to it
+            in our workshops on the network analysis of literary texts),
+            although in principle it is also suited to handle bigger network
+            data. If you want to contact us, please drop a line to
+            ffischer(at)hse.ru.
           </p>
           <p>Version: {version}</p>
         </Modal.Body>
