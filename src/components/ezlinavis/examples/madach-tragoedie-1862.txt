@@ -1,0 +1,171 @@
+Imre Madách: Die Tragödie des Menschen (1862)
+Hungarian original: "Az ember tragédiája"
+http://mek.oszk.hu/00800/00849/html/
+Character constellation per scene,
+extracted from German translation:
+http://mek.oszk.hu/00900/00920/html/
+Done by Frank Fischer, March 2018.
+Formalisation starts with first hashtag:
+
+# Erstes Bild
+Chor der Engel
+Der Herr
+Erzengel Gabriel
+Erzengel Michael
+Erzengel Raphael
+Luzifer
+# Zweites Bild
+Eva
+Adam
+Der Herr
+Luzifer
+Himmelschor
+Cherub
+# Drittes Bild
+Adam
+Eva
+Luzifer
+Stimme des Erdgeistes
+# Viertes Bild
+Luzifer
+Adam
+Der Sklave
+Eva
+# Fünftes Bild
+Eva
+Kimon
+1. aus dem Volk
+2. aus dem Volk
+3. aus dem Volk
+1. Demagog
+2. Demagog
+Aus dem Volk
+Dienerinnen
+Eros
+Chariten
+1. Bürger (5. Bild)
+2. Bürger (5. Bild)
+Krispos
+Thersites
+Luzifer
+Adam
+# Sechstes Bild
+Catulus
+Adam
+Luzifer
+Hippia
+Eva
+Cluvia
+Alle
+Petrus
+# Siebentes Bild
+1. Bürger (7. Bild)
+2. Bürger (7. Bild)
+Adam
+Luzifer
+3. Bürger (7. Bild)
+4. Bürger (7. Bild)
+Mehrere
+Patriarch
+Die Mönche
+Ein alter Ketzer
+Ein Mönch
+Die Ketzer
+Ein (anderer) Mönch
+Die Kreuzfahrer
+Eva
+Helene
+Das Gerippe
+Hexen
+# Achtes Bild
+1. Höfling
+2. Höfling
+Luzifer
+Rudolf
+Adam
+3. Höfling
+4. Höfling
+Eva
+# Neuntes Bild
+Adam
+Volksmenge
+Rekruten
+Offizier
+Ein Sansculotte
+Der Marquis
+Eva
+Ein (anderer) Sansculotte
+Saint-Just
+Robespierre
+# Zehntes Bild
+Luzifer
+Adam
+Eva
+3. Höfling
+Ein Schüler (10. Bild)
+# Elftes Bild
+Chor
+Adam
+Luzifer
+Puppenspieler
+Kleines Mädchen
+Eine Mutter
+Ein Mädchen
+Ein Juwelier
+1. Bürgermädchen
+2. Bürgermädchen
+Gastwirt
+1. Arbeiter
+2. Arbeiter
+3. Arbeiter
+1. Bettler
+2. Bettler
+Soldat
+1. Handwerksbursche
+2. Handwerksbursche
+Eine Dirne
+Musikant
+Ein Händler
+2. Händler
+Jüngling (Arthur)
+Eva
+Eine (andere) Mutter
+Zigeunerin
+1. Schüler
+2. Schüler
+3. Schüler
+4. Schüler
+1. Fabrikant
+2. Fabrikant
+Scharlatan
+Aus der Menge
+Lovel
+Ein Arbeiter
+Ein Schüler (11. Bild)
+Der Verurteilte
+# Zwölftes Bild
+Adam
+Luzifer
+Gelehrter
+Stimme des Erdgeistes
+Der Älteste
+Luther
+Cassius
+Platon
+Michelangelo
+Eva
+# Dreizehntes Bild
+Adam
+Luzifer
+Stimme des Erdgeistes
+# Vierzehntes Bild
+Adam
+Luzifer
+Eskimo
+Eva
+# Fünfzehntes Bild
+Adam
+Luzifer
+Eva
+Der Herr
+Chor der Engel
