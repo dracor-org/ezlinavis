@@ -1,0 +1,78 @@
+Bertolt Brecht: Mutter Courage und ihre Kinder (1941)
+Eine Chronik aus dem Dreißigjährigen Krieg
+(Suhrkamp edition, 1950)
+Co-occurrence of (speaking) characters per scene
+Done by Frank Fischer, April 2018
+Formalisation starts with first hashtag:
+
+# 1
+Der Werber
+Der Feldwebel (1)
+Mutter Courage
+Eilif
+Schweizerkas
+# 2
+Der Koch
+Mutter Courage
+Der Feldhauptmann
+Eilif
+Der Feldprediger
+# 3
+Der Zeugmeister
+Mutter Courage
+Schweizerkas
+Yvette
+Der Feldprediger
+Der Koch
+Der Soldat (3)
+Der mit der Binde
+Der Feldwebel (3)
+Der Obrist
+# 4
+Der Schreiber
+Mutter Courage
+Junger Soldat
+Älterer Soldat
+# 5
+Mutter Courage
+Erster Soldat (5)
+Der Feldprediger
+Die Bauersfrau (5)
+Zweiter Soldat (5)
+Ein Bauer (5)
+# 6
+Der Feldprediger
+Mutter Courage
+Der Schreiber
+Rufe vom Ausschank
+Ein Soldat (6)
+# 7
+Mutter Courage
+# 8
+Mutter Courage
+Der junge Mann
+Die alte Frau
+Stimmen (8)
+Der Feldprediger
+Stimme (8)
+Der Koch
+Yvette
+Eilif
+Ein Soldat (8)
+# 9
+Der Koch
+Mutter Courage
+Stimme von oben (9)
+# 10
+Die Stimme (10)
+# 11
+Der Fähnrich
+Erster Soldat (11)
+Der Bauer (11+12)
+Die Bäuerin (11+12)
+Der junge Bauer (11)
+Zweiter Soldat (11)
+# 12
+Der Bauer (11+12)
+Die Bäuerin (11+12)
+Mutter Courage
