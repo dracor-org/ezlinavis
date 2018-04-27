@@ -1,0 +1,72 @@
+Euripides: Electra (c. 420–413 BC)
+Characters/speakers per segment, in order of appearance
+Extracted by Frank Fischer, April 2018
+Formalisation starts with first hashtag:
+
+# Prologue (1–166)
+## The Farmer's monologue (1–53)
+Farmer
+## Electra and Farmer (54–81)
+Electra
+Farmer
+## Orestes arrives with Pylades (mute) (82–111)
+Orestes
+## Electra's lament (112–166)
+Electra
+# Parodos (167–212)
+Chorus
+Electra
+# First Episode (213–431)
+## Orestes and Electra (213–340)
+Leader
+Electra
+Chorus
+## Farmer, Orestes, Electra (341–431)
+Farmer
+Electra
+Orestes
+Chorus
+# First Stasimon (432–486)
+Chorus
+# Second Episode (487–698)
+## Old Man and Electra (487–552)
+Old Man
+Electra
+## Orestes, Electra, Old Man (553–698)
+Orestes
+Electra
+Old Man
+Chorus
+# Second Stasimon (699–746)
+Chorus
+# Third Episode (747–1146)
+## Messenger and Electra (747–859)
+Leader
+Electra
+Messenger
+## Celebration of Orestes' deed (860–879)
+Chorus
+Electra
+## Orestes, Electra and body of Aegisthus (880–987)
+Electra
+Orestes
+Chorus
+## Clytemnestra and Electra (988–1146)
+Chorus
+Clytemnestra
+Electra
+# Third Stasimon (1147–1164)
+Chorus
+# Fourth Episode (1165–1232)
+## 1165–1176
+Clytemnestra
+Chorus
+## 1177–1232
+Orestes
+Electra
+Chorus
+# Exodos (1233–1359)
+Chorus
+Castor
+Electra
+Orestes
