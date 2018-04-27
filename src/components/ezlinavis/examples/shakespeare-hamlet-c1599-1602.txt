@@ -7,133 +7,133 @@ Formalisation starts with first hashtag:
 
 # ACT I
 ## SCENE I. Elsinore. A platform before the castle.
-BERNARDO
-FRANCISCO
-HORATIO
-MARCELLUS
+Bernardo
+Francisco
+Horatio
+Marcellus
 ## SCENE II. A room of state in the castle.
-KING CLAUDIUS
-CORNELIUS
-VOLTIMAND
-LAERTES
-LORD POLONIUS
-HAMLET
-QUEEN GERTRUDE
-HORATIO
-MARCELLUS
-BERNARDO
+King Claudius
+Cornelius
+Voltimand
+Laertes
+Lord Polonius
+Hamlet
+Queen Gertrude
+Horatio
+Marcellus
+Bernardo
 ## SCENE III. A room in Polonius' house.
-LAERTES
-OPHELIA
-LORD POLONIUS
+Laertes
+Ophelia
+Lord Polonius
 ## SCENE IV. The platform.
-HAMLET
-HORATIO
-MARCELLUS
+Hamlet
+Horatio
+Marcellus
 ## SCENE V. Another part of the platform.
-HAMLET
+Hamlet
 Ghost
-MARCELLUS
-HORATIO
+Marcellus
+Horatio
 # ACT II
 ## SCENE I. A room in POLONIUS' house.
-LORD POLONIUS
-REYNALDO
-OPHELIA
+Lord Polonius
+Reynaldo
+Ophelia
 ## SCENE II. A room in the castle.
-KING CLAUDIUS
-QUEEN GERTRUDE
-ROSENCRANTZ
-GUILDENSTERN
-LORD POLONIUS
-VOLTIMAND
-HAMLET
+King Claudius
+Queen Gertrude
+Rosencrantz
+Guildenstern
+Lord Polonius
+Voltimand
+Hamlet
 First Player
 # ACT III
 ## SCENE I. A room in the castle.
-KING CLAUDIUS
-ROSENCRANTZ
-GUILDENSTERN
-QUEEN GERTRUDE
-LORD POLONIUS
-OPHELIA
-HAMLET
+King Claudius
+Rosencrantz
+Guildenstern
+Queen Gertrude
+Lord Polonius
+Ophelia
+Hamlet
 ## SCENE II. A hall in the castle.
-HAMLET
+Hamlet
 First Player
-LORD POLONIUS
-ROSENCRANTZ
-GUILDENSTERN
-HORATIO
-KING CLAUDIUS
-QUEEN GERTRUDE
-OPHELIA
+Lord Polonius
+Rosencrantz
+Guildenstern
+Horatio
+King Claudius
+Queen Gertrude
+Ophelia
 Prologue
 Player King
 Player Queen
-LUCIANUS
+Lucianus
 ## SCENE III. A room in the castle.
-KING CLAUDIUS
-GUILDENSTERN
-ROSENCRANTZ
-LORD POLONIUS
-HAMLET
+King Claudius
+Guildenstern
+Rosencrantz
+Lord Polonius
+Hamlet
 ## SCENE IV. The Queen's closet.
-LORD POLONIUS
-HAMLET
-QUEEN GERTRUDE
+Lord Polonius
+Hamlet
+Queen Gertrude
 Ghost
 # ACT IV
 ## SCENE I. A room in the castle.
-KING CLAUDIUS
-QUEEN GERTRUDE
+King Claudius
+Queen Gertrude
 ## SCENE II. Another room in the castle.
-HAMLET
-ROSENCRANTZ
-GUILDENSTERN
+Hamlet
+Rosencrantz
+Guildenstern
 ## SCENE III. Another room in the castle.
-KING CLAUDIUS
-ROSENCRANTZ
-HAMLET
+King Claudius
+Rosencrantz
+Hamlet
 ## SCENE IV. A plain in Denmark.
-PRINCE FORTINBRAS
+Prince Fortinbras
 Captain
-HAMLET
-ROSENCRANTZ
+Hamlet
+Rosencrantz
 ## SCENE V. Elsinore. A room in the castle.
-QUEEN GERTRUDE
+Queen Gertrude
 Gentleman
-HORATIO
-OPHELIA
-KING CLAUDIUS
-LAERTES
+Horatio
+Ophelia
+King Claudius
+Laertes
 Danes
 ## SCENE VI. Another room in the castle.
-HORATIO
+Horatio
 Servant
 First Sailor
 ## SCENE VII. Another room in the castle.
-KING CLAUDIUS
-LAERTES
+King Claudius
+Laertes
 Messenger
-QUEEN GERTRUDE
+Queen Gertrude
 # ACT V
 ## SCENE I. A churchyard.
 First Clown
 Second Clown
-HAMLET
-HORATIO
-LAERTES
+Hamlet
+Horatio
+Laertes
 First Priest
-QUEEN GERTRUDE
-KING CLAUDIUS
+Queen Gertrude
+King Claudius
 ## SCENE II. A hall in the castle.
-HAMLET
-HORATIO
-OSRIC
+Hamlet
+Horatio
+Osric
 Lord
-KING CLAUDIUS
-LAERTES
-QUEEN GERTRUDE
-PRINCE FORTINBRAS
+King Claudius
+Laertes
+Queen Gertrude
+Prince Fortinbras
 First Ambassador
