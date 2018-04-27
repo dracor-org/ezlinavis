@@ -1,0 +1,150 @@
+Ben Jonson: Volpone; or, the Fox (1606)
+Characters/speakers per scene, in order of appearance
+Extracted from this version:
+https://www.gutenberg.org/ebooks/4039
+By Frank Fischer, April 2018
+Formalisation starts with first hashtag:
+
+# ACT 1.
+## SCENE 1.1.
+Volpone
+Mosca
+Nano
+Androgyno
+Castrone
+Voltore
+Corbaccio
+Bonario
+Corvino
+# ACT 2.
+## SCENE 2.1.
+Sir Politick Would-be
+Peregrine
+Mosca
+Volpone
+Mob
+Nano
+Corvino
+## SCENE 2.2.
+Volpone
+Mosca
+## SCENE 2.3.
+Corvino
+Celia
+Servant
+Mosca
+# ACT 3.
+## SCENE 3.1.
+Mosca
+Bonario
+## SCENE 3.2.
+Volpone
+Nano
+Castrone
+Androgyno
+Lady Politick Would-be
+1 Woman
+Mosca
+## SCENE 3.3.
+Mosca
+Bonario
+## SCENE 3.4.
+Mosca
+Corvino
+Celia
+## SCENE 3.5.
+Mosca
+Bonario
+## SCENE 3.6.
+Corvino
+Celia
+Volpone
+Mosca
+Bonario
+Corbaccio
+Voltore
+# ACT 4.
+## SCENE 4.1.
+Sir Politick Would-be
+Peregrine
+Lady Politick Would-be
+Nano
+1 Woman
+Mosca
+## SCENE 4.2.
+Voltore
+Mosca
+Corvino
+Corbaccio
+1 Avocatore
+2 Avocatore
+4 Avocatore
+3 Avocatore
+Notario
+Bonario
+Celia
+Lady Politick Would-be
+# ACT 5.
+## SCENE 5.1.
+Volpone
+Mosca
+Nano
+Voltore
+Corbaccio
+Corvino
+Lady Politick Would-be
+## SCENE 5.2.
+Peregrine
+1 Merchant
+2 Merchant
+3 Merchant
+Waiting-woman
+Sir Politick Would-be
+## SCENE 5.3.
+Volpone
+Mosca
+Androgyno
+Castrone
+Nano
+## SCENE 5.4.
+Corbaccio
+Corvino
+Volpone
+Voltore
+## SCENE 5.5.
+Corbaccio
+Corvino
+Volpone
+Voltore
+Mosca
+## SCENE 5.6.
+1 Avocatore
+Notario
+2 Avocatore
+Voltore
+Volpone
+Corvino
+Corbaccio
+Celia
+Commandadore
+3 Avocatore
+Bonario
+4 Avocatore
+## SCENE 5.7.
+Volpone
+Nano
+Androgyno
+## SCENE 5.8.
+1 Avocatore
+Voltore
+Celia
+Corvino
+3 Avocatore
+Volpone
+4 Avocatore
+2 Avocatore
+Corbaccio
+Bonario
+Mosca
+Commandadore
+Androgyno
