@@ -1,0 +1,112 @@
+Mary Russell Mitford: Rienzi (1828)
+Characters/speakers per scene, in order of appearance
+Extracted from this version:
+https://github.com/ebeshero/mitford/blob/master/drama-transformation/Rienzi.xml
+By Frank Fischer, April 2018
+Formalisation starts with first hashtag:
+
+# ACT I.
+## SCENE I.
+First Citizen (I/1)
+Paolo
+Second Citizen (I/1)
+Third Citizen (I/1)
+Cola di Rienzi
+Ursini
+Frangipani
+Crowd
+Attendant
+## SCENE II.
+Claudia
+Angelo Colonna
+Cola di Rienzi
+Camillo
+Alberti
+# ACT II.
+## SCENE I.
+Stephen Colonna
+Cafarello
+Lady Colonna
+Savelli
+Cola di Rienzi
+## SCENE II.
+First Citizen (II/2)
+Second Citizen (II/2)
+Paolo
+Alberti
+Another Citizen (II/2)
+Cola di Rienzi
+Citizens (II/2)
+Angelo Colonna
+# ACT III.
+## SCENE I.
+Paolo
+Second Citizen (III/1)
+First Citizen (III/1)
+Third Citizen (III/1)
+Fourth Citizen (III/1)
+Fifth Citizen (III/1)
+Citizens (III/1)
+Ursini
+Cola di Rienzi
+Frangipani
+## SCENE II.
+Teresa
+Claudia
+Berta
+Rosa
+Cola di Rienzi
+## SCENE III.
+Stephen Colonna
+Ursini
+Angelo Colonna
+Frangipani
+Cola di Rienzi
+Savelli
+Cafarello
+# ACT IV.
+## SCENE I.
+Savelli
+Frangipani
+Cafarello
+Ursini
+Angelo Colonna
+Cola di Rienzi
+Stephen Colonna
+Claudia
+Citizen (IV/1)
+## SCENE II.
+Frangipani
+Ursini
+Angelo Colonna
+Savelli
+Cafarello
+Cola di Rienzi
+## SCENE III.
+Lady Colonna
+Stephen Colonna
+Ursini
+Angelo Colonna
+Savelli
+## SCENE IV.
+Claudia
+Cola di Rienzi
+Alberti
+Camillo
+# ACT V.
+## SCENE I.
+Alberti
+Camillo
+Cola di Rienzi
+Frangipani
+Angelo Colonna
+Claudia
+Lady Colonna
+## SCENE II.
+Lady Colonna
+First Citizen (V/2)
+Savelli
+Citizens (V/2)
+Cola di Rienzi
+Second Citizen (V/2)
+Claudia
