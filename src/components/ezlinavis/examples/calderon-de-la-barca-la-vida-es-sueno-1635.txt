@@ -1,0 +1,167 @@
+Pedro Calderón de la Barca: La vida es sueño (1635)
+Speakers per scene, in order of appearance
+Extracted from this version:
+https://www.gutenberg.org/ebooks/6363
+By Frank Fischer, April 2018
+Formalisation starts with first hashtag:
+
+# ACT THE FIRST
+## SCENE I
+Rosaura
+Clarin
+## SCENE II
+Sigismund
+Rosaura
+Clarin
+## SCENE III
+Clotaldo
+Rosaura
+Sigismund
+Clarin
+## SCENE IV
+Rosaura
+Clarin
+Clotaldo
+Soldiers (I/4)
+## SCENE V
+Astolfo
+Estrella
+## SCENE VI
+Estrella
+Astolfo
+Basilius
+All (I/6)
+## SCENE VII
+Clotaldo
+Basilius
+## SCENE VIII
+Clotaldo
+Rosaura
+Clarin
+# ACT THE SECOND
+## SCENE I
+Clotaldo
+Basilius
+## SCENE II
+Clarin
+Clotaldo
+## SCENE III
+Sigismund
+First Servant
+Second Servant
+Clarin
+Clotaldo
+## SCENE IV
+Astolfo
+Sigismund
+Second Servant
+## SCENE V
+Estrella
+Sigismund
+Clarin
+Astolfo
+Second Servant
+## SCENE VI
+Basilius
+Sigismund
+Clarin
+## SCENE VII
+Rosaura
+Clarin
+Sigismund
+## SCENE VIII
+Clotaldo
+Rosaura
+Sigismund
+Astolfo
+## SCENE IX
+Basilius
+Estrella
+Astolfo
+Sigismund
+Clotaldo
+## SCENE X
+Astolfo
+Estrella
+## SCENE XI
+Rosaura
+Astolfo
+Estrella
+## SCENE XII
+Rosaura
+## SCENE XIII
+Astolfo
+Rosaura
+## SCENE XIV
+Estrella
+Astolfo
+Rosaura
+## SCENE XV
+Estrella
+Astolfo
+## SCENE XVI
+Clotaldo
+A Servant
+Clarin
+## SCENE XVII
+Basilius
+Clotaldo
+Sigismund
+## SCENE XVIII
+Sigismund
+# ACT THE THIRD
+## SCENE I
+Clarin
+## SCENE II
+First Soldier
+Clarin
+Second Soldier
+Soldiers (III/2+3)
+## SCENE III
+Sigismund
+Clarin
+First Soldier
+Second Soldier
+Soldiers (III/2+3)
+## SCENE IV
+Clotaldo
+Sigismund
+Clarin
+## SCENE V
+Basilius
+Astolfo
+## SCENE VI
+Estrella
+## SCENE VII
+Clotaldo
+Basilius
+Estrella
+## SCENE VIII
+Rosaura
+Clotaldo
+## SCENE IX
+Sigismund
+Clarin
+## SCENE X
+Rosaura
+Sigismund
+## SCENE XI
+Clarin
+Rosaura
+## SCENE XII
+Soldiers (III/12)
+Clarin
+## SCENE XIII
+Basilius
+Clotaldo
+Astolfo
+Clarin
+## SCENE XIV
+A Soldier
+Sigismund
+Clotaldo
+Basilius
+Astolfo
+All (III/14)
+Estrella
+Rosaura
