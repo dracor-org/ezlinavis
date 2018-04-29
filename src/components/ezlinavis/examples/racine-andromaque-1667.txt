@@ -1,0 +1,94 @@
+Jean Racine: Andromaque (1667)
+Speakers per scene, in order of appearance
+Extracted from this version:
+http://www.theatre-classique.fr/pages/programmes/edition.php?t=../documents/RACINE_ANDROMAQUE.xml
+By Frank Fischer, April 2018
+Formalisation starts with first hashtag:
+
+# ACTE I
+## SCÈNE PREMIÈRE.
+Oreste
+Pylade
+## SCÈNE II.
+Oreste
+Pyrrhus
+## SCÈNE III.
+Phoenix
+Pyrrhus
+## SCÈNE IV.
+Pyrrhus
+Andromaque
+# ACTE II
+## SCÈNE PREMIÈRE.
+Hermione
+Cléone
+## SCÈNE II.
+Hermione
+Oreste
+## SCÈNE III.
+Oreste
+## SCÈNE IV.
+Pyrrhus
+Oreste
+## SCÈNE V.
+Pyrrhus
+Phoenix
+# ACTE III
+## SCÈNE PREMIÈRE.
+Pylade
+Oreste
+## SCÈNE II.
+Oreste
+Hermione
+## SCÈNE III.
+Hermione
+Cléone
+## SCÈNE IV.
+Andromaque
+Hermione
+## SCÈNE V.
+Andromaque
+Céphise
+## SCÈNE VI.
+Pyrrhus
+Phoenix
+Andromaque
+Céphise
+## SCÈNE VII.
+Pyrrhus
+## SCÈNE VIII.
+Céphise
+Andromaque
+# ACTE IV
+## SCÈNE PREMIÈRE.
+Céphise
+Andromaque
+## SCÈNE II.
+Cléone
+Hermione
+## SCÈNE III.
+Oreste
+Hermione
+## SCÈNE IV.
+Cléone
+Hermione
+## SCÈNE V.
+Pyrrhus
+Hermione
+## SCÈNE VI.
+Phoenix
+Pyrrhus
+# ACTE V
+## SCÈNE PREMIÈRE.
+Hermione
+## SCÈNE II.
+Hermione
+Cléone
+## SCÈNE III.
+Oreste
+Hermione
+## SCÈNE IV.
+Oreste
+## SCÈNE V.
+Pylade
+Oreste
