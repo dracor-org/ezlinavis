@@ -1,0 +1,105 @@
+Aristophanes: The Frogs (405 BC)
+Characters/speakers per segment, in order of appearance
+Extracted by Frank Fischer, May 2018
+English labels mostly via http://classics.mit.edu/Aristophanes/frogs.html
+Act/scene segmentation according to RUB 1154 (transl. by H. Heubner)
+https://books.google.com/books?id=UD9JAAAAIAAJ
+Formalisation starts with first hashtag:
+
+# 1st act
+## 1st scene
+Xanthias
+Dionysus
+## 2nd scene
+Heracles
+Dionysus
+Xanthias
+## 3rd scene
+Dionysus
+Xanthias
+Corpse
+## 4th scene
+Charon
+Xanthias
+Dionysus
+## 5th scene
+Chorus of Frogs
+Dionysus
+## 6th scene
+Charon
+Dionysus
+Xanthias
+## 7th scene
+Xanthias
+Dionysus
+Chorus of Blessed Mystics
+## 8th scene
+Chorus of Blessed Mystics
+Xanthias
+Dionysus
+Chorus Leader
+# 2nd act
+## 1st scene
+Dionysus
+Xanthias
+Aeacus
+## 2nd scene
+Maid-Servant
+Chorus
+## 3rd scene
+Hostess
+Plathane
+Xanthias
+Dionysus
+## 4th scene
+Chorus
+Xanthias
+## 5th scene
+Aeacus
+Dionysus
+Xanthias
+## 6th scene
+Chorus
+Chorus Leader
+# 3rd act
+## 1st scene
+Aeacus
+Xanthias
+## 2nd scene
+Chorus
+# 4th act
+## 1st scene
+Euripides
+Dionysus
+Aeschylus
+Chorus
+## 2nd scene
+Dionysus
+Aeschylus
+Euripides
+Chorus
+Chorus Leader
+## 3rd scene
+Euripides
+Dionysus
+Aeschylus
+Chorus
+## 4th scene
+Euripides
+Dionysus
+Aeschylus
+Chorus
+## 5th scene
+Dionysus
+Aeschylus
+Euripides
+## 6th scene
+Dionysus
+Pluto
+Euripides
+Aeschylus
+Chorus
+# 5th act
+Pluto
+Aeschylus
+Chorus
