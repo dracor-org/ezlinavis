@@ -1,0 +1,67 @@
+Sophocles: Antigone (441 BC)
+Characters/speakers per segment, in order of appearance
+Extracted by Frank Fischer, May 2018
+Act/scene segmentation according to http://gutenberg.spiegel.de/buch/6244/1
+English labels via https://www.gutenberg.org/files/31/31-h/31-h.htm
+Formalisation starts with first hashtag:
+
+# 1
+## 1
+Antigone
+Ismene
+Chorus of Theban Elders
+## 2
+Creon
+Chorus of Theban Elders
+## 3
+Messenger
+Creon
+Chorus of Theban Elders
+# 2
+Chorus of Theban Elders
+## 1
+Messenger
+Chorus of Theban Elders
+Creon
+Antigone
+## 2
+Chorus of Theban Elders
+Creon
+Ismene
+Antigone
+# 3
+Chorus of Theban Elders
+## 1
+Creon
+Haemon
+Chorus of Theban Elders
+## 2
+Chorus of Theban Elders
+Antigone
+## 3
+Creon
+Antigone
+Chorus of Theban Elders
+# 4
+## 1
+Antigone
+Chorus of Theban Elders
+## 2
+Teiresias
+Creon
+## 3
+Chorus of Theban Elders
+Creon
+# 5
+Chorus of Theban Elders
+## 1
+Second Messenger
+Chorus of Theban Elders
+Eurydice
+## 2
+Creon
+Chorus of Theban Elders
+## 3
+Second Messenger
+Creon
+Chorus of Theban Elders
