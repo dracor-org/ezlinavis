@@ -1,0 +1,64 @@
+Elizabeth Inchbald: Lovers’ Vows (1798)
+Characters/speakers per scene, in order of appearance
+Extracted from this version:
+https://www.gutenberg.org/ebooks/4554
+By Frank Fischer, May 2018
+Formalisation starts with first hashtag:
+
+# ACT I
+## SCENE I
+Landlord
+Agatha
+Countryman
+Farmer
+Girl
+Frederick
+Cottager
+Wife
+# ACT II
+## SCENE I
+Frederick
+Wife
+Cottager
+Agatha
+## SCENE II
+Baron
+Gentleman
+Amelia
+Count
+Servant
+Anhalt
+# Act III
+## Scene I
+Frederick
+Baron
+Count
+## SCENE II
+Amelia
+Anhalt
+Butler
+Baron
+# ACT IV
+## SCENE I
+Frederick
+Amelia
+Anhalt
+## SCENE II
+Baron
+Amelia
+Butler
+Count
+Anhalt
+Frederick
+# ACT V
+## SCENE I
+Agatha
+Cottager
+Wife
+Anhalt
+## SCENE II
+Baron
+Frederick
+Anhalt
+Amelia
+Agatha
