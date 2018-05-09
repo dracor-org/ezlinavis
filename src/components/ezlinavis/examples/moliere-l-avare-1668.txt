@@ -1,0 +1,139 @@
+Molière: L'Avare (1668)
+Speakers per scene, in order of appearance
+Extracted from this version:
+http://www.theatre-classique.fr/pages/programmes/edition.php?t=../documents/MOLIERE_AVARE.xml
+By Frank Fischer, May 2018
+Formalisation starts with first hashtag:
+
+# ACTE I
+## SCÈNE I.
+Valère
+Élise
+## SCÈNE II.
+Cléante
+Élise
+## SCÈNE III.
+Harpagon
+La Flèche
+## SCÈNE IV.
+Harpagon
+Cléante
+Élise
+## SCÈNE V.
+Harpagon
+Valère
+Élise
+# ACTE II
+## SCÈNE I.
+Cléante
+La Flèche
+## SCÈNE II.
+Maître Simon
+Harpagon
+La Flèche
+Cléante
+## SCÈNE III.
+Frosine
+Harpagon
+## SCÈNE IV.
+La Flèche
+Frosine
+## SCÈNE V.
+Harpagon
+Frosine
+# ACTE III
+## SCÈNE I.
+Harpagon
+Maître Jacques
+La Merluche
+Brindavoine
+Élise
+Cléante
+Valère
+## SCÈNE II.
+Valère
+Maître Jacques
+## SCÈNE III.
+Frosine
+Maître Jacques
+## SCÈNE IV.
+Mariane
+Frosine
+## SCÈNE V.
+Harpagon
+Frosine
+## SCÈNE VI.
+Mariane
+Élise
+Harpagon
+Frosine
+## SCÈNE VII.
+Cléante
+Mariane
+Harpagon
+Frosine
+Valère
+## SCÈNE VIII.
+Brindavoine
+Harpagon
+## SCÈNE IX.
+La Merluche
+Harpagon
+Cléante
+Valère
+# ACTE IV
+## SCÈNE I.
+Cléante
+Élise
+Mariane
+Frosine
+## SCÈNE II.
+Harpagon
+Élise
+Cléante
+## SCÈNE III.
+Harpagon
+Cléante
+## SCÈNE IV.
+Maître Jacques
+Cléante
+Harpagon
+## SCÈNE V.
+Cléante
+Harpagon
+## SCÈNE VI.
+La Flèche
+Cléante
+## SCÈNE VII.
+Harpagon
+# ACTE V
+## SCÈNE I.
+Le Commissaire
+Harpagon
+## SCÈNE II.
+Maître Jacques
+Harpagon
+Le Commissaire
+## SCÈNE III.
+Harpagon
+Valère
+Maître Jacques
+## SCÈNE IV.
+Harpagon
+Valère
+Élise
+Maître Jacques
+Frosine
+## SCÈNE V.
+Anselme
+Harpagon
+Valère
+Mariane
+Maître Jacques
+## SCÈNE VI.
+Cléante
+Harpagon
+Mariane
+Anselme
+Le Commissaire
+Maître Jacques
