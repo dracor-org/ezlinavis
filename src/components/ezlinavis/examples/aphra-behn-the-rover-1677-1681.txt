@@ -1,0 +1,203 @@
+Aphra Behn: The Rover; or, the Banish’d Cavaliers, pt. I & II (1677/1681)
+Characters/speakers per scene, in order of appearance
+Extracted from this version:
+https://www.gutenberg.org/ebooks/21339
+By Frank Fischer, May 2018
+Formalisation starts with first hashtag:
+
+# ACT I.
+## Scene I. A chamber.
+Florinda
+Hellena
+Don Pedro
+Callis
+Stephano
+## Scene II. A Long Street.
+Frederick
+Belvile
+Blunt
+Willmore
+Woman
+Hellena
+Lucetta
+Sancho
+Florinda
+Callis
+# ACT II.
+## Scene I. The Long Street.
+Willmore
+Belvile
+Blunt
+Frederick
+Bravo
+Don Pedro
+Angelica Bianca
+Moretta
+Don Antonio
+Page to Don Antonio
+## Scene II. A Fine Chamber.
+Angelica Bianca
+Willmore
+Moretta
+# ACT III.
+## Scene I. A Street.
+Florinda
+Hellena
+Valeria
+Belvile
+Blunt
+Moretta
+Willmore
+Frederick
+Sancho
+Angelica Bianca
+Callis
+## Scene II. Lucetta’s House.
+Lucetta
+Blunt
+Sancho
+Philippo
+## Scene III. The Garden, in the Night.
+Florinda
+Willmore
+Belvile
+Frederick
+Don Pedro
+Stephano
+## Scene IV. Changes to the Street.
+Willmore
+Belvile
+Frederick
+Don Antonio
+Page to Don Antonio
+Moretta
+Masqueraders
+Soldier
+Officer
+# ACT IV.
+## Scene I. A fine Room.
+Belvile
+Don Antonio
+## Scene II. The Molo.
+Florinda
+Stephano
+Don Pedro
+Belvile
+Willmore
+Angelica Bianca
+Frederick
+Moretta
+Hellena
+Sebastian
+## Scene III. A Street.
+Florinda
+Valeria
+Willmore
+Don Pedro
+Belvile
+Frederick
+Hellena
+Page to Hellena
+Blunt
+A Servant
+# ACT V.
+## Scene I. Blunt’s Chamber.
+Blunt
+Belvile
+Willmore
+Don Pedro
+Frederick
+Florinda
+Valeria
+Boy to Willmore
+Angelica Bianca
+Don Antonio
+Hellena
+Blunt’s Man
+# ACT I.
+## Scene I. A Street.
+Willmore
+Nicholas Fetherfool
+A Porter
+Blunt
+Shift
+Beaumond
+Belvile
+Aurelia
+La Nuche
+Ariadne
+Lucia
+Petronella Elenora
+Don Carlo
+# ACT II.
+## Scene I. The Street.
+Willmore
+Blunt
+Ariadne
+Lucia
+Shift
+Nicholas Fetherfool
+Don Carlo
+Hunt
+La Nuche
+Beaumond
+Aurelia
+Petronella Elenora
+## Scene II. Changes to a fine Chamber.
+Ariadne
+Lucia
+Beaumond
+# ACT III.
+## Scene I. A House.
+Shift
+Nicholas Fetherfool
+Blunt
+A Woman Giant
+A Dwarf
+Willmore
+Hunt
+La Nuche
+Ariadne
+Lucia
+Beaumond
+Aurelia
+# ACT IV.
+## Scene I. The Street, or Backside of the Piazza dark.
+Willmore
+La Nuche
+Beaumond
+Sancho
+Ariadne
+Lucia
+Abevile
+Aurelia
+Petronella Elenora
+Don Carlo
+Nicholas Fetherfool
+Harlequin
+# ACT V.
+## Scene I. A Chamber.
+Willmore
+La Nuche
+Beaumond
+Petronella Elenora
+## Scene II. The Street.
+Willmore
+Beaumond
+Ariadne
+La Nuche
+## Scene III. Willmore’s Lodging.
+Nicholas Fetherfool
+Blunt
+Harlequin
+Shift
+A Woman Giant
+Willmore
+Petronella Elenora
+Beaumond
+Ariadne
+La Nuche
+Guardian
+A Dwarf
+Aurelia
+Sancho
