@@ -1,0 +1,132 @@
+Victor Hugo: Hernani (1830)
+Speakers/groups of speakers per scene, in order of appearance
+Extracted from this version:
+http://www.theatre-classique.fr/pages/programmes/edition.php?t=../documents/HUGO_HERNANI.xml
+By Frank Fischer, May 2018
+Formalisation starts with first hashtag:
+
+# ACTE I
+## SCÈNE PREMIÈRE
+Doña Josepha
+Don Carlos
+## SCÈNE II
+Doña Sol
+Doña Josepha
+Hernani
+Don Carlos
+## SCÈNE III
+Don Ruy Gomez
+Hernani
+Doña Sol
+Don Carlos
+## SCÈNE IV
+Hernani
+# ACTE II
+## SCÈNE PREMIÈRE
+Don Carlos
+Don Sanchez
+Don Matias
+Don Ricardo
+## SCÈNE II
+Doña Sol
+Don Carlos
+## SCÈNE III
+Hernani
+Doña Sol
+Don Carlos
+## SCÈNE IV
+Doña Sol
+Hernani
+Le Montagnard
+Cris confus
+# ACTE III
+## SCÈNE PREMIÈRE
+Don Ruy Gomez
+Doña Sol
+Le Page
+## SCÈNE II
+Don Ruy Gomez
+## SCÈNE III
+Hernani
+Don Ruy Gomez
+## SCÈNE IV
+Don Ruy Gomez
+Hernani
+Doña Sol
+## SCÈNE V
+Hernani
+Doña Sol
+## SCÈNE VI
+Don Ruy Gomez
+Hernani
+Doña Sol
+Le Page
+## SCÈNE VII
+Don Carlos
+Don Ruy Gomez
+Doña Sol
+## SCÈNE VIII
+Don Ruy Gomez
+Hernani
+# ACTE IV
+## SCÈNE I
+Don Ricardo
+Don Carlos
+## SCÈNE II
+Don Carlos
+## SCÈNE III
+Deuxieme Conjuré
+Premier Conjuré
+Troisième Conjuré
+Voix dans l'ombre 1
+Voix dans l'ombre 2
+Le Duc de Gotha
+Tous (IV/3)
+Don Juan de Haro
+Le Duc de Lutzelbourg
+Un Conjuré
+Don Gil Tellez Giron
+Hernani
+Don Ruy Gomez
+## SCÈNE IV
+Don Carlos
+Hernani
+Don Ricardo
+## SCÈNE V
+Le Duc de Bavière
+Don Carlos
+La foule
+## SCÈNE VI
+Doña Sol
+Hernani
+Don Ruy Gomez
+Don Carlos
+Les Conjurés
+Tous (IV/6)
+## SCÈNE VII
+Don Carlos
+# ACTE V
+## SCÈNE I
+Don Garcie
+Don Matias
+Don Sanchez
+Don Ricardo
+Don Francisco
+La Dame
+## SCÈNE II
+Hernani
+Don Ricardo
+Don Francisco
+Don Sanchez
+## SCÈNE III
+Doña Sol
+Hernani
+## SCÈNE IV
+Hernani
+## SCÈNE V
+Le Masque
+Hernani
+## SCÈNE VI
+Doña Sol
+Hernani
+Don Ruy Gomez
