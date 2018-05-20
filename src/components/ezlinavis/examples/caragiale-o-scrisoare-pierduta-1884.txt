@@ -1,0 +1,201 @@
+Ion Luca Caragiale: O scrisoare pierdută (1884)
+Character/speaker constellation per scene
+Extracted from https://ro.wikisource.org/wiki/O_scrisoare_pierdută
+Done by Frank Fischer and Angelika Hechtl, May 2018
+Formalisation starts with first hashtag:
+
+# ACTUL I
+## Scena I
+Tipătescu
+Pristanda
+## Scena II
+Pristanda
+## Scena III
+Trahanache
+Pristanda
+Tipătescu
+Zoe
+## Scena IV
+Tipătescu
+Trahanache
+## Scena V
+Tipătescu
+Zoe
+## Scena VI
+Brânzovenescu
+Farfuridi
+Tipătescu
+Feciorul
+## Scena VII
+Zoe
+Tipătescu
+Cetățeanul
+## Scena VIII
+Pristanda
+Tipătescu
+Zoe
+Cetățeanul
+## Scena IX
+Tipătescu
+Zoe
+Pristanda
+Trahanache
+# ACTUL II
+## Scena I
+Brânzovenescu
+Farfuridi
+Trahanache
+## Scena II
+Farfuridi
+Brânzovenescu
+## Scena III
+Pristanda
+## Scena IV
+Zoe
+Pristanda
+## Scena V
+Zoe
+## Scena VI
+Tipătescu
+Zoe
+## Scena VII
+Pristanda
+Cațavencu
+## Scena VIII
+Cațavencu
+## Scena IX
+Tipătescu
+Cațavencu
+## Scena X
+Zoe
+Cațavencu
+Tipătescu
+## Scena XI
+Trahanache
+## Scena XII
+Tipătescu
+Cațavencu
+Cetățeanul
+Zoe
+## Scena XIII
+Tipătescu
+Zoe
+Cațavencu
+Brânzovenescu
+Farfuridi
+Trahanache
+Cetățeanul
+## Scena XIV
+Pristanda
+Zoe
+Tipătescu
+Farfuridi
+Brânzovenescu
+Trahanache
+Cațavencu
+Cetățeanul
+# ACTUL III
+## Scena I
+Farfuridi
+Trahanache
+Popescu
+Toți
+Cațavencu
+Grupul Cațavencu
+Ionescu
+## Scena II
+Trahanache
+Pristanda
+Voci
+## Scena III
+Cațavencu
+Popescu
+Ionescu
+Farfuridi
+Brânzovenescu
+Popescu
+Grupul Cațavencu
+## Scena IV
+Trahanache
+Zoe
+Tipătescu
+## Scena V
+Trahanache
+Cațavencu
+Ionescu
+Popescu
+Toți
+Grupul Cațavencu
+## Scena VI
+Trahanache
+Cațavencu
+Cetățeanul
+Ionescu
+Popescu
+Grupul Cațavencu
+Pristanda
+## Scena VII
+Trahanache
+Zoe
+Tipătescu
+Cațavencu
+Farfuridi
+Brânzovenescu
+Toți
+Ionescu
+Pristanda
+Cetățeanul
+Toți din fund
+Toți din față
+Grupul Cațavencu
+# ACTUL IV
+## Scena I
+Zoe
+Tipătescu
+## Scena II
+Trahanache
+Tipătescu
+Zoe
+Dandanache
+## Scena III
+Dandanache
+Zoe
+Tipătescu
+## Scena IV
+Tipătescu
+## Scena V
+Zoe
+Tipătescu
+Pristanda
+## Scena VI
+Pristanda
+Zoe
+## Scena VII
+Zoe
+Cațavencu
+## Scena VIII
+Cetățeanul
+Zoe
+Cațavencu
+## Scena IX
+Cațavencu
+Zoe
+## Scena X
+Zoe
+## Scena XI
+Tipătescu
+## Scena XII
+Trahanache
+Dandanache
+## Scena XIII
+Zoe
+Dandanache
+Tipătescu
+Trahanache
+## Scena XIV
+Farfuridi
+Dandanache
+Trahanache
+Cațavencu
+Cetățeanul
+Pristanda
