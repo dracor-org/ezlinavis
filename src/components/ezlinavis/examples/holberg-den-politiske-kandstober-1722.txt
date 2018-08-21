@@ -1,0 +1,130 @@
+Ludvig Holberg: Den Politiske Kandstøber (1722)
+Character constellations extracted from 1st edition:
+http://holbergsskrifter.dk/holberg-public/view?docId=skuespill%2FDen_Politiske_Kandstoeber%2FKandst.page&toc.depth=1
+In subsequent editions some few character constellations were changed.
+Done by Frank Fischer, August 2018.
+Formalisation starts with first hashtag:
+
+# Act. I. Sc. 1.
+Antonius
+# Sc. 2.
+Henrich
+Antonius
+# Sc. 3.
+Henrich
+# Sc. 4.
+Herman von Bremen
+Antonius
+# Sc. 5.
+Geske
+Antonius
+Drengen
+En anden Dreng
+# Sc. 6.
+Peiter
+Geske
+Antonius
+# Act. II. Sc. 1.
+Gert Bundtmager
+Sivert Pose-Kiger
+Frantz Parykmager (Knivsmed)
+Herman von Bremen
+Verten
+Richart Børstenbinder
+# Sc. 2.
+Geske
+Herman von Bremen
+Gert Bundtmager
+Verten
+# Sc. 3.
+Gert Bundtmager
+Herman von Bremen
+Frantz Parykmager (Knivsmed)
+Verten
+Richart Børstenbinder
+Sivert Pose-Kiger
+# Act. III. Sc. 1.
+Abrahams
+Sanderus
+# Sc. 2.
+Herman von Bremen
+Jochum
+Abrahams
+Sanderus
+Christoffer
+# Sc. 3.
+Herman von Bremen
+Geske
+# Sc. 4.
+Geske
+Henrich
+Herman von Bremen
+# Act. IV. Sc. 1.
+Henrich
+# Sc. 2.
+Anneke
+Henrich
+# Sc. 3.
+Engelke
+Henrich
+Anneke
+# Sc. 4.
+Geske
+Henrich
+En Pige
+Jochum
+Christoffer
+# Sc. 5.
+Madame Abrahamsens (1. Raads-Herinde)
+Geske
+Henrich
+Madame Sanderus (2. Raads-Herinde)
+# Sc. 6.
+Madame Abrahamsens (1. Raads-Herinde)
+Madame Sanderus (2. Raads-Herinde)
+# Sc. 7.
+Henrich
+Madame Abrahamsens (1. Raads-Herinde)
+# Sc. 8.
+Geske
+Madame Sanderus (2. Raads-Herinde)
+Madame Abrahamsens (1. Raads-Herinde)
+# Sc. 9.
+En anden Raads-Herinde
+Geske
+Henrich
+Arianke Grovsmids
+# Act. V. Sc. 1.
+Henrich
+1. Advocat
+En Mand
+# Sc. 2.
+1. Advocat
+Herman von Bremen
+2. Advocat
+Henrich
+Kiellingen
+# Sc. 3.
+Herman von Bremen
+Henrich
+En Borger
+En anden Borger
+En Lakei
+# Sc. 4.
+Abrahams
+Henrich
+Sanderus
+Herman von Bremen
+# Sc. 5.
+Herman von Bremen
+Henrich
+# Sc. 6.
+Herman von Bremen
+# Sc. 7.
+Antonius
+Herman von Bremen
+# Sc. 8.
+Herman von Bremen
+Geske
+Henrich
+Antonius
