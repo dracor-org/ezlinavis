@@ -1,0 +1,85 @@
+Joost van den Vondel: Gysbrecht van Aemstel (1638)
+Genre: "Treurspel" (Tragedy)
+First staging: 03-01-1638, Amsterdam
+Printed edition used: 1792, Amsterdam
+(https://www.delpher.nl/nl/boeken/view?coll=boeken&identifier=dpo%3A2677%3Ampeg21%3A0005)
+Done by Charlotte Vrielink, November 2018
+Formalisation starts with first hashtag:
+
+# ACT I
+## SCENE I.
+Gysbrecht van Aemstel
+## SCENE II.
+Willebord
+Gysbrecht van Aemstel
+## SCENE III.
+Arent van Aemstel
+Gysbrecht van Aemstel
+Vosmeer
+
+# ACT II
+## SCENE I.
+Willem van Egmont
+Diederik van Haerlem
+Hoplieden
+## SCENE II.
+Poortier
+Diederik van Haerlem
+Willebord
+## SCENE III.
+Vosmeer
+Willem van Egmont
+
+# ACT III
+## SCENE I.
+Badeloch
+Gysbrecht van Aemstel
+Heer Peter
+Bontgenoten
+Arent van Aemstel
+## SCENE II.
+Rey van Klaerissen
+## SCENE III.
+Gozewyn van Aemstel
+Klaeris van Velzen
+Rey van Klaerissen
+## SCENE IV.
+Gozywyn van Aemstel
+Klaeris van Velzen
+Rey van Klaerissen
+Gysbrecht van Aemstel
+
+# ACT IV
+## SCENE I.
+Badeloch
+Arent van Aemstel
+## SCENE II.
+Rey van Amsterdamsche Maeghden
+Badeloch
+## SCENE III.
+Gysbrecht van Aemstel
+Badeloch
+## SCENE IV.
+Gysbrecht van Aemstel
+Badeloch
+Bode
+
+# ACT V
+## SCENE I.
+Badeloch
+Arent van Aemstel
+Gysbrecht van Aemstel
+Heer Peter
+Rey van Edelingen
+## SCENE II.
+Heer van Vooren
+Gysbrecht van Aemstel
+## SCENE III.
+Gysbrecht van Aemstel
+Badeloch
+Heer Peter
+Rey van Edelingen
+Adelgund
+Veenerik
+Bode
+Rafaël
