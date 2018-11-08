@@ -1,27 +1,34 @@
-import React from 'react';
-import {Parser} from 'nearley';
-import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
-import {Sigma, EdgeShapes, NodeShapes, ForceAtlas2, NOverlap, RelativeSize, RandomizeNodePositions} from 'react-sigma';
+import React, {Component} from 'react';
+import {Parser, Grammar} from 'nearley';
+import {
+  Navbar,
+  Nav,
+  NavItem,
+  NavDropdown,
+  MenuItem
+} from 'react-bootstrap';
+import {
+  Sigma,
+  EdgeShapes,
+  NodeShapes,
+  ForceAtlas2,
+  NOverlap,
+  RelativeSize,
+  RandomizeNodePositions
+} from 'react-sigma';
 import ForceLink from 'react-sigma/lib/ForceLink';
-import Grammar from './ezlinavis/grammar.ne';
 import Info from './Info';
-import ListInput from 'components/ezlinavis/ListInputComponent';
-import Csv from 'components/ezlinavis/CsvComponent';
+import ListInput from './ezlinavis/ListInputComponent';
+import Csv from './ezlinavis/CsvComponent';
+import grammar from './ezlinavis/grammar';
 
-require('styles/Ezlinavis.styl');
+import './EzlinavisComponent.css';
+
+// load example lists
+const examples = require('../examples.json');
 
 const edgeColor = '#999';
 const nodeColor = '#555';
-
-// load example lists
-const examples = [];
-const req = require.context('./ezlinavis/examples', false, /\.txt$/);
-req.keys().forEach(key => {
-  const text = req(key);
-  const label = text.split('\n')[0];
-  examples.push({key, label, text});
-});
-console.log(examples);
 
 function getCooccurrences (scenes) {
   const map = {};
@@ -101,14 +108,13 @@ function makeGraph (scenes) {
   return {nodes, edges};
 }
 
-class EzlinavisComponent extends React.Component {
+class EzlinavisComponent extends Component {
   constructor (props) {
     super(props);
     this.state = {
       showAbout: false,
       graphLayout: 'forcelink',
       listText: '',
-      list: [],
       isValid: null,
       csv: null
     };
@@ -116,19 +122,30 @@ class EzlinavisComponent extends React.Component {
 
   selectExample (i) {
     const example = examples[i];
-    this.handleListChange(example.text);
+    const {url} = example;
+    const opts = {};
+    console.log('loading %s', url);
+    fetch(url, opts)
+      .then(response => {
+        return response.text();
+      })
+      .then(text => {
+        this.handleListChange(text);
+      })
+      .catch(error => {
+        console.log(error);
+      });
   }
 
   handleListChange (text) {
     let list = [];
     let isValid = null;
-    const parser = new Parser(Grammar.ParserRules, Grammar.ParserStart);
+    const parser = new Parser(Grammar.fromCompiled(grammar));
     try {
       parser.feed(text);
       list = parser.results[0] || {};
-      console.log(list);
       isValid = true;
-    } catch (err) {
+    } catch (error) {
       isValid = false;
     }
 
@@ -136,7 +153,7 @@ class EzlinavisComponent extends React.Component {
     const cooccurrences = getCooccurrences(scenes);
     const csv = cooccurrences.length > 0 ? makeCsv(cooccurrences) : null;
     const graph = makeGraph(scenes);
-    this.setState({listText: text, list, isValid, csv, graph});
+    this.setState({listText: text, isValid, csv, graph});
   }
 
   render () {
@@ -165,7 +182,7 @@ class EzlinavisComponent extends React.Component {
       strongGravityMode: false
     };
 
-    const graph = this.state.graph;
+    const {graph} = this.state;
 
     let layout;
     if (this.state.graphLayout === 'noverlap') {
@@ -178,31 +195,33 @@ class EzlinavisComponent extends React.Component {
 
     let sigma = null;
     if (graph && graph.nodes.length > 0) {
-      sigma = (<Sigma
-        key={`sigma-component-${this.state.listText.length}-${this.state.graphLayout}`}
-        renderer="canvas"
-        graph={graph}
-        settings={settings}
-        style={{display: 'flex', flexGrow: 1}}
+      sigma = (
+        <Sigma
+          key={`sigma-component-${this.state.listText.length}-${this.state.graphLayout}`}
+          renderer="canvas"
+          graph={graph}
+          settings={settings}
+          style={{display: 'flex', flexGrow: 1}}
         >
-        <EdgeShapes default="line"/>
-        <NodeShapes default="circle"/>
-        <RandomizeNodePositions>
-          {layout}
-          <RelativeSize initialSize={15}/>
-        </RandomizeNodePositions>
-      </Sigma>);
+          <EdgeShapes default="line"/>
+          <NodeShapes default="circle"/>
+          <RandomizeNodePositions>
+            {layout}
+            <RelativeSize initialSize={15}/>
+          </RandomizeNodePositions>
+        </Sigma>
+      );
     }
 
     const menuItems = [];
     examples.forEach((example, i) => {
       const item = (
         <MenuItem
-          key={example.key}
+          key={example.url}
           eventKey={i}
           onSelect={eventKey => this.selectExample(eventKey)}
-          >
-          {example.label}
+        >
+          {example.title}
         </MenuItem>
       );
       menuItems.push(item);
@@ -224,21 +243,24 @@ class EzlinavisComponent extends React.Component {
               title="Graph"
               id="graph-menu"
               onSelect={layout => this.setState({graphLayout: layout})}
-              >
+            >
               <MenuItem
                 eventKey="noverlap"
                 active={this.state.graphLayout === 'noverlap'}
-                >NOverlap
+              >
+                NOverlap
               </MenuItem>
               <MenuItem
                 eventKey="forcelink"
                 active={this.state.graphLayout === 'forcelink'}
-                >ForceLink
+              >
+                ForceLink
               </MenuItem>
               <MenuItem
                 eventKey="forceatlas2"
                 active={this.state.graphLayout === 'forceatlas2'}
-                >ForceAtlas2
+              >
+                ForceAtlas2
               </MenuItem>
             </NavDropdown>
             <NavItem onClick={() => this.setState({showAbout: true})}>
@@ -250,14 +272,14 @@ class EzlinavisComponent extends React.Component {
         <Info
           show={this.state.showAbout}
           onHide={() => this.setState({showAbout: false})}
-          />
+        />
 
         <div className="ezlinavis-columns">
           <ListInput
             text={this.state.listText}
             isValid={this.state.isValid}
             onListChange={this.handleListChange.bind(this)}
-            />
+          />
           <Csv data={this.state.csv}/>
           <div className="graph">{sigma}</div>
         </div>

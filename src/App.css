@@ -1,0 +1,12 @@
+/* Base Application Styles */
+#root {
+  height: 100%;
+}
+.index {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header-component {
+  padding: 20px;
+}

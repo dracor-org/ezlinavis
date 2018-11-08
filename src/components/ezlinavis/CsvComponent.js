@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 
-class CsvComponent extends React.Component {
+class CsvComponent extends Component {
   render () {
     let link = null;
     if (this.props.data) {
@@ -23,7 +24,11 @@ class CsvComponent extends React.Component {
 CsvComponent.displayName = 'EzlinavisCsvComponent';
 
 CsvComponent.propTypes = {
-  data: React.PropTypes.string
+  data: PropTypes.string
+};
+
+CsvComponent.defaultProps = {
+  data: ''
 };
 
 export default CsvComponent;

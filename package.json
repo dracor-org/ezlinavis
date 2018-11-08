@@ -1,7 +1,7 @@
 {
   "name": "ezlinavis",
   "private": true,
-  "version": "1.11.0",
+  "version": "2.0.0",
   "description": "Easy Linavis - Simple Network Visualization for Literary Texts",
   "author": "Carsten Milling <cmil@hashtable.de>",
   "license": "MIT",
@@ -9,82 +9,37 @@
     "type": "git",
     "url": "https://github.com/dlina/ezlinavis.git"
   },
-  "keywords": [],
-  "main": "",
-  "scripts": {
-    "clean": "rimraf dist/*",
-    "copy": "copyfiles -f ./src/index.html ./src/robots.txt ./dist",
-    "dist": "npm run copy & webpack --env=dist",
-    "lint": "eslint ./src",
-    "posttest": "npm run lint",
-    "release:major": "npm version major && npm publish && git push --follow-tags",
-    "release:minor": "npm version minor && npm publish && git push --follow-tags",
-    "release:patch": "npm version patch && npm publish && git push --follow-tags",
-    "serve": "node server.js --env=dev",
-    "serve:dist": "node server.js --env=dist",
-    "start": "node server.js --env=dev",
-    "test": "xo && karma start",
-    "test:watch": "karma start --autoWatch=true --singleRun=false"
-  },
   "dependencies": {
-    "core-js": "^2.0.0",
     "nearley": "^2.8.0",
     "normalize.css": "^5.0.0",
     "prop-types": "^15.5.10",
-    "react": "^15.0.0",
+    "react": "^16.6.0",
     "react-bootstrap": "^0.31.2",
     "react-debounce-input": "^3.0.0",
-    "react-dom": "^15.0.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "2.1.1",
     "react-sigma": "^1.2.17"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^6.0.0",
-    "babel-loader": "^6.0.0",
-    "babel-polyfill": "^6.3.14",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.0.15",
-    "babel-preset-stage-0": "^6.5.0",
-    "bower-webpack-plugin": "^0.1.9",
-    "chai": "^3.2.0",
-    "copyfiles": "^1.0.0",
-    "css-loader": "^0.23.0",
-    "eslint": "^3.0.0",
-    "eslint-config-xo-react": "^0.10.0",
-    "eslint-import-resolver-webpack": "^0.8.1",
-    "eslint-loader": "^1.0.0",
-    "eslint-plugin-react": "^6.10.0",
-    "file-loader": "^0.9.0",
-    "glob": "^7.0.0",
-    "isparta-instrumenter-loader": "^1.0.0",
-    "json-loader": "^0.5.4",
-    "karma": "^1.0.0",
-    "karma-chai": "^0.1.0",
-    "karma-coverage": "^1.1.2",
-    "karma-mocha": "^1.0.0",
-    "karma-mocha-reporter": "^2.0.0",
-    "karma-phantomjs-launcher": "^1.0.0",
-    "karma-sourcemap-loader": "^0.3.5",
-    "karma-webpack": "^1.7.0",
-    "less": "^2.7.2",
-    "minimist": "^1.2.0",
-    "mocha": "^3.0.0",
-    "nearley-loader": "0.0.2",
-    "null-loader": "^0.1.1",
-    "open": "0.0.5",
-    "phantomjs-prebuilt": "^2.1.16",
-    "raw-loader": "^0.5.1",
-    "react-addons-test-utils": "^15.0.0",
-    "react-hot-loader": "^1.2.9",
-    "rimraf": "^2.4.3",
-    "style-loader": "^0.13.0",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1",
-    "url-loader": "^0.5.6",
-    "webpack": "^1.12.0",
-    "webpack-dev-server": "^1.12.0",
+    "eslint-config-xo-react": "^0.17.0",
+    "eslint-plugin-react": "^7.11.1",
     "xo": "^0.23.0"
   },
+  "scripts": {
+    "start": "PORT=8000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "xo && react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "xo": {
     "extends": "xo-react",
     "space": true,
@@ -97,6 +52,7 @@
         "error",
         "always"
       ],
+      "beforeSelfClosing": "allow",
       "capitalized-comments": 0,
       "func-names": 0,
       "max-params": 0,
@@ -105,22 +61,20 @@
       "react/forbid-component-props": 0,
       "react/jsx-no-bind": 0,
       "react/jsx-space-before-closing": 0,
+      "react/jsx-tag-spacing": 0,
       "unicorn/filename-case": 0
     },
     "overrides": [
       {
-        "files": "test/**",
-        "rules": {
-          "import/no-unresolved": 0,
-          "import/no-extraneous-dependencies": 0
-        }
+        "files": "src/**.test.js",
+        "globals": [
+          "it"
+        ]
       }
     ],
-    "settings": {
-      "import/resolver": "webpack"
-    },
     "ignores": [
-      "cfg/*"
+      "src/components/ezlinavis/grammar.js",
+      "src/serviceWorker.js"
     ]
   }
 }

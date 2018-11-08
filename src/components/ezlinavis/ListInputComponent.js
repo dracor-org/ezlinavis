@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import DebounceInput from 'react-debounce-input';
 
-class ListInputComponent extends React.Component {
+class ListInputComponent extends Component {
   render () {
     const className = this.props.text === '' ?
       '' :
@@ -16,9 +17,9 @@ class ListInputComponent extends React.Component {
             element="textarea"
             placeholder="Enter list of characters or choose one from examples"
             debounceTimeout={500}
-            onChange={e => this.props.onListChange(e.target.value)}
             value={this.props.text}
-            />
+            onChange={e => this.props.onListChange(e.target.value)}
+          />
         </div>
       </div>
     );
@@ -28,13 +29,14 @@ class ListInputComponent extends React.Component {
 ListInputComponent.displayName = 'EzlinavisListInputComponent';
 
 ListInputComponent.propTypes = {
-  text: React.PropTypes.string,
-  isValid: React.PropTypes.bool,
-  onListChange: React.PropTypes.func
+  text: PropTypes.string,
+  isValid: PropTypes.bool,
+  onListChange: PropTypes.func.isRequired
 };
 
 ListInputComponent.defaultProps = {
-  text: ''
+  text: '',
+  isValid: false
 };
 
 export default ListInputComponent;
