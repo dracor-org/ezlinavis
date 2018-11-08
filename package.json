@@ -26,7 +26,7 @@
     "xo": "^0.23.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=8000 react-scripts start",
     "build": "react-scripts build",
     "test": "xo && react-scripts test",
     "eject": "react-scripts eject"
