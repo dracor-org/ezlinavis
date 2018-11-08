@@ -24,18 +24,11 @@ import grammar from './ezlinavis/grammar';
 
 import './EzlinavisComponent.css';
 
+// load example lists
+const examples = require('../examples.json');
+
 const edgeColor = '#999';
 const nodeColor = '#555';
-
-// load example lists
-const examples = [];
-const req = require.context('./ezlinavis/examples', false, /\.txt$/);
-req.keys().forEach(key => {
-  const text = req(key);
-  const label = text.split('\n')[0];
-  examples.push({key, label, text});
-});
-console.log(examples);
 
 function getCooccurrences (scenes) {
   const map = {};
@@ -130,7 +123,19 @@ class EzlinavisComponent extends Component {
 
   selectExample (i) {
     const example = examples[i];
-    this.handleListChange(example.text);
+    const {url} = example;
+    const opts = {};
+    console.log('loading %s', url);
+    fetch(url, opts)
+      .then(response => {
+        return response.text();
+      })
+      .then(text => {
+        this.handleListChange(text);
+      })
+      .catch(error => {
+        console.log(error);
+      });
   }
 
   handleListChange (text) {
@@ -214,11 +219,11 @@ class EzlinavisComponent extends Component {
     examples.forEach((example, i) => {
       const item = (
         <MenuItem
-          key={example.key}
+          key={example.url}
           eventKey={i}
           onSelect={eventKey => this.selectExample(eventKey)}
         >
-          {example.label}
+          {example.title}
         </MenuItem>
       );
       menuItems.push(item);
