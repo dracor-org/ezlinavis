@@ -115,7 +115,6 @@ class EzlinavisComponent extends Component {
       showAbout: false,
       graphLayout: 'forcelink',
       listText: '',
-      list: [],
       isValid: null,
       csv: null
     };
@@ -145,7 +144,6 @@ class EzlinavisComponent extends Component {
     try {
       parser.feed(text);
       list = parser.results[0] || {};
-      console.log(list);
       isValid = true;
     } catch (error) {
       isValid = false;
@@ -155,7 +153,7 @@ class EzlinavisComponent extends Component {
     const cooccurrences = getCooccurrences(scenes);
     const csv = cooccurrences.length > 0 ? makeCsv(cooccurrences) : null;
     const graph = makeGraph(scenes);
-    this.setState({listText: text, list, isValid, csv, graph});
+    this.setState({listText: text, isValid, csv, graph});
   }
 
   render () {
