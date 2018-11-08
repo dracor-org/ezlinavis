@@ -73,6 +73,7 @@
       }
     ],
     "ignores": [
+      "src/components/ezlinavis/grammar.js",
       "src/serviceWorker.js"
     ]
   }
