@@ -1,5 +1,5 @@
-import React from 'react';
 import {Parser} from 'nearley';
+import React, {Component} from 'react';
 import {
   Navbar,
   Nav,
@@ -115,7 +115,7 @@ function makeGraph (scenes) {
   return {nodes, edges};
 }
 
-class EzlinavisComponent extends React.Component {
+class EzlinavisComponent extends Component {
   constructor (props) {
     super(props);
     this.state = {

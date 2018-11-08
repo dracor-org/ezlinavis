@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-class CsvComponent extends React.Component {
+class CsvComponent extends Component {
   render () {
     let link = null;
     if (this.props.data) {

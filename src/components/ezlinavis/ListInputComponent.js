@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import DebounceInput from 'react-debounce-input';
 
-class ListInputComponent extends React.Component {
+class ListInputComponent extends Component {
   render () {
     const className = this.props.text === '' ?
       '' :
