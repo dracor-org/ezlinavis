@@ -1,5 +1,5 @@
-import {Parser} from 'nearley';
 import React, {Component} from 'react';
+import {Parser, Grammar} from 'nearley';
 import {
   Navbar,
   Nav,
@@ -17,10 +17,10 @@ import {
   RandomizeNodePositions
 } from 'react-sigma';
 import ForceLink from 'react-sigma/lib/ForceLink';
-import Grammar from './ezlinavis/grammar.ne';
 import Info from './Info';
-import ListInput from 'components/ezlinavis/ListInputComponent';
-import Csv from 'components/ezlinavis/CsvComponent';
+import ListInput from './ezlinavis/ListInputComponent';
+import Csv from './ezlinavis/CsvComponent';
+import grammar from './ezlinavis/grammar';
 
 import './EzlinavisComponent.css';
 
@@ -136,13 +136,13 @@ class EzlinavisComponent extends Component {
   handleListChange (text) {
     let list = [];
     let isValid = null;
-    const parser = new Parser(Grammar.ParserRules, Grammar.ParserStart);
+    const parser = new Parser(Grammar.fromCompiled(grammar));
     try {
       parser.feed(text);
       list = parser.results[0] || {};
       console.log(list);
       isValid = true;
-    } catch (err) {
+    } catch (error) {
       isValid = false;
     }
 
