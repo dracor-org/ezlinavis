@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import DebounceInput from 'react-debounce-input';
 
 class ListInputComponent extends React.Component {
@@ -28,13 +29,14 @@ class ListInputComponent extends React.Component {
 ListInputComponent.displayName = 'EzlinavisListInputComponent';
 
 ListInputComponent.propTypes = {
-  text: React.PropTypes.string,
-  isValid: React.PropTypes.bool,
-  onListChange: React.PropTypes.func
+  text: PropTypes.string,
+  isValid: PropTypes.bool,
+  onListChange: PropTypes.func.isRequired
 };
 
 ListInputComponent.defaultProps = {
-  text: ''
+  text: '',
+  isValid: false
 };
 
 export default ListInputComponent;

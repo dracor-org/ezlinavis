@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class CsvComponent extends React.Component {
   render () {
@@ -23,7 +24,11 @@ class CsvComponent extends React.Component {
 CsvComponent.displayName = 'EzlinavisCsvComponent';
 
 CsvComponent.propTypes = {
-  data: React.PropTypes.string
+  data: PropTypes.string
+};
+
+CsvComponent.defaultProps = {
+  data: ''
 };
 
 export default CsvComponent;
