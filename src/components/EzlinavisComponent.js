@@ -1,7 +1,21 @@
 import React from 'react';
 import {Parser} from 'nearley';
-import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
-import {Sigma, EdgeShapes, NodeShapes, ForceAtlas2, NOverlap, RelativeSize, RandomizeNodePositions} from 'react-sigma';
+import {
+  Navbar,
+  Nav,
+  NavItem,
+  NavDropdown,
+  MenuItem
+} from 'react-bootstrap';
+import {
+  Sigma,
+  EdgeShapes,
+  NodeShapes,
+  ForceAtlas2,
+  NOverlap,
+  RelativeSize,
+  RandomizeNodePositions
+} from 'react-sigma';
 import ForceLink from 'react-sigma/lib/ForceLink';
 import Grammar from './ezlinavis/grammar.ne';
 import Info from './Info';
