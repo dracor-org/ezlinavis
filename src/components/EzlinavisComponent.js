@@ -22,7 +22,7 @@ import Info from './Info';
 import ListInput from 'components/ezlinavis/ListInputComponent';
 import Csv from 'components/ezlinavis/CsvComponent';
 
-require('styles/Ezlinavis.styl');
+import './EzlinavisComponent.css';
 
 const edgeColor = '#999';
 const nodeColor = '#555';
