@@ -16,9 +16,9 @@ class ListInputComponent extends React.Component {
             element="textarea"
             placeholder="Enter list of characters or choose one from examples"
             debounceTimeout={500}
-            onChange={e => this.props.onListChange(e.target.value)}
             value={this.props.text}
-            />
+            onChange={e => this.props.onListChange(e.target.value)}
+          />
         </div>
       </div>
     );

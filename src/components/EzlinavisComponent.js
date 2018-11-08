@@ -179,7 +179,7 @@ class EzlinavisComponent extends React.Component {
       strongGravityMode: false
     };
 
-    const graph = this.state.graph;
+    const {graph} = this.state;
 
     let layout;
     if (this.state.graphLayout === 'noverlap') {
@@ -192,20 +192,22 @@ class EzlinavisComponent extends React.Component {
 
     let sigma = null;
     if (graph && graph.nodes.length > 0) {
-      sigma = (<Sigma
-        key={`sigma-component-${this.state.listText.length}-${this.state.graphLayout}`}
-        renderer="canvas"
-        graph={graph}
-        settings={settings}
-        style={{display: 'flex', flexGrow: 1}}
+      sigma = (
+        <Sigma
+          key={`sigma-component-${this.state.listText.length}-${this.state.graphLayout}`}
+          renderer="canvas"
+          graph={graph}
+          settings={settings}
+          style={{display: 'flex', flexGrow: 1}}
         >
-        <EdgeShapes default="line"/>
-        <NodeShapes default="circle"/>
-        <RandomizeNodePositions>
-          {layout}
-          <RelativeSize initialSize={15}/>
-        </RandomizeNodePositions>
-      </Sigma>);
+          <EdgeShapes default="line"/>
+          <NodeShapes default="circle"/>
+          <RandomizeNodePositions>
+            {layout}
+            <RelativeSize initialSize={15}/>
+          </RandomizeNodePositions>
+        </Sigma>
+      );
     }
 
     const menuItems = [];
@@ -215,7 +217,7 @@ class EzlinavisComponent extends React.Component {
           key={example.key}
           eventKey={i}
           onSelect={eventKey => this.selectExample(eventKey)}
-          >
+        >
           {example.label}
         </MenuItem>
       );
@@ -238,21 +240,24 @@ class EzlinavisComponent extends React.Component {
               title="Graph"
               id="graph-menu"
               onSelect={layout => this.setState({graphLayout: layout})}
-              >
+            >
               <MenuItem
                 eventKey="noverlap"
                 active={this.state.graphLayout === 'noverlap'}
-                >NOverlap
+              >
+                NOverlap
               </MenuItem>
               <MenuItem
                 eventKey="forcelink"
                 active={this.state.graphLayout === 'forcelink'}
-                >ForceLink
+              >
+                ForceLink
               </MenuItem>
               <MenuItem
                 eventKey="forceatlas2"
                 active={this.state.graphLayout === 'forceatlas2'}
-                >ForceAtlas2
+              >
+                ForceAtlas2
               </MenuItem>
             </NavDropdown>
             <NavItem onClick={() => this.setState({showAbout: true})}>
@@ -264,14 +269,14 @@ class EzlinavisComponent extends React.Component {
         <Info
           show={this.state.showAbout}
           onHide={() => this.setState({showAbout: false})}
-          />
+        />
 
         <div className="ezlinavis-columns">
           <ListInput
             text={this.state.listText}
             isValid={this.state.isValid}
             onListChange={this.handleListChange.bind(this)}
-            />
+          />
           <Csv data={this.state.csv}/>
           <div className="graph">{sigma}</div>
         </div>
