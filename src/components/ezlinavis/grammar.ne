@@ -6,7 +6,7 @@ headerline -> text newline {% function(d) {return d[0]} %}
 
 section -> sectiontitle characters:? {% function(d) {return {title:d[0], characters: d[1]}} %}
 
-sectiontitle -> "#":+ " ":+ text newline {% function(d) {return d[2]} %}
+sectiontitle -> "#":+ text newline {% function(d) {return d[2]} %}
 
 characters -> character newline:* {% function(d) {return [d[0]]} %}
             | characters newline character newline:* {% appendItem(0,2) %}

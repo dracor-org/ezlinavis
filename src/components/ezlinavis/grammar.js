@@ -1,4 +1,4 @@
-// Generated automatically by nearley, version 2.15.1
+// Generated automatically by nearley, version 2.20.1
 // http://github.com/Hardmath123/nearley
 (function () {
 function id(x) { return x[0]; }
@@ -25,9 +25,7 @@ var grammar = {
     {"name": "section", "symbols": ["sectiontitle", "section$ebnf$1"], "postprocess": function(d) {return {title:d[0], characters: d[1]}}},
     {"name": "sectiontitle$ebnf$1", "symbols": [{"literal":"#"}]},
     {"name": "sectiontitle$ebnf$1", "symbols": ["sectiontitle$ebnf$1", {"literal":"#"}], "postprocess": function arrpush(d) {return d[0].concat([d[1]]);}},
-    {"name": "sectiontitle$ebnf$2", "symbols": [{"literal":" "}]},
-    {"name": "sectiontitle$ebnf$2", "symbols": ["sectiontitle$ebnf$2", {"literal":" "}], "postprocess": function arrpush(d) {return d[0].concat([d[1]]);}},
-    {"name": "sectiontitle", "symbols": ["sectiontitle$ebnf$1", "sectiontitle$ebnf$2", "text", "newline"], "postprocess": function(d) {return d[2]}},
+    {"name": "sectiontitle", "symbols": ["sectiontitle$ebnf$1", "text", "newline"], "postprocess": function(d) {return d[2]}},
     {"name": "characters$ebnf$1", "symbols": []},
     {"name": "characters$ebnf$1", "symbols": ["characters$ebnf$1", "newline"], "postprocess": function arrpush(d) {return d[0].concat([d[1]]);}},
     {"name": "characters", "symbols": ["character", "characters$ebnf$1"], "postprocess": function(d) {return [d[0]]}},
