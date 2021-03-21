@@ -20,7 +20,7 @@ import ForceLink from 'react-sigma/lib/ForceLink';
 import Info from './Info';
 import ListInput from './ezlinavis/ListInputComponent';
 import Csv from './ezlinavis/CsvComponent';
-import grammar from './ezlinavis/grammar';
+import grammar from '../grammar';
 
 import './EzlinavisComponent.css';
 
