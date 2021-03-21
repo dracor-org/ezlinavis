@@ -20,15 +20,11 @@
     "react-scripts": "4.0.3",
     "react-sigma": "^1.2.17"
   },
-  "devDependencies": {
-    "eslint-config-xo-react": "^0.17.0",
-    "eslint-plugin-react": "^7.11.1",
-    "xo": "^0.23.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "PORT=8000 react-scripts start",
     "build": "react-scripts build",
-    "test": "xo && react-scripts test",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,42 +35,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "xo": {
-    "extends": "xo-react",
-    "space": true,
-    "semicolon": true,
-    "envs": [
-      "browser"
-    ],
-    "rules": {
-      "space-before-function-paren": [
-        "error",
-        "always"
-      ],
-      "beforeSelfClosing": "allow",
-      "capitalized-comments": 0,
-      "func-names": 0,
-      "max-params": 0,
-      "spaced-comment": 0,
-      "import/no-unassigned-import": 0,
-      "react/forbid-component-props": 0,
-      "react/jsx-no-bind": 0,
-      "react/jsx-space-before-closing": 0,
-      "react/jsx-tag-spacing": 0,
-      "unicorn/filename-case": 0
-    },
-    "overrides": [
-      {
-        "files": "src/**.test.js",
-        "globals": [
-          "it"
-        ]
-      }
-    ],
-    "ignores": [
-      "src/components/ezlinavis/grammar.js",
-      "src/serviceWorker.js"
-    ]
-  }
+  ]
 }
