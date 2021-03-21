@@ -37,7 +37,9 @@ function getCooccurrences (scenes) {
       return;
     }
     // make sure each character occurs only once in scene
-    const characters = scene.characters.filter((v, i, a) => a.indexOf(v) === i);
+    const characters = scene.characters
+      .map(c => c.replace(/ +$/, '')) // trim trailing spaces
+      .filter((v, i, a) => a.indexOf(v) === i);
     characters.forEach((c, i) => {
       if (i < characters.length - 1) {
         const others = characters.slice(i + 1);
