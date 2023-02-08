@@ -49,7 +49,7 @@ class Info extends React.Component {
             in our workshops on the network analysis of literary texts),
             although in principle it is also suited to handle bigger network
             data. If you want to contact us, please drop a line to
-            ffischer(at)hse.ru.
+            fr.fischer(at)fu-berlin.de.
           </p>
           <p>Version: {version}</p>
         </Modal.Body>
