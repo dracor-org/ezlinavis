@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Synopsis
 
 ```bash
-git clone https://github.com/dlina/ezlinavis.git
+git clone https://github.com/dracor-org/ezlinavis.git
 cd ezlinavis
 yarn install
 yarn test
