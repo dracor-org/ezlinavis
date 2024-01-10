@@ -4,6 +4,10 @@ Easy Linavis (Simple Network Visualisation for Literary Texts)
 
 https://ezlinavis.dracor.org
 
+## How to Cite
+
+Frank Fischer, Carsten Milling: **Easy Linavis (Simple Network Visualisation for Literary Texts).** In: HDH2017: "Sociedades, políticas, saberes". 18–20 October 2017. Málaga. Libro de resúmenes, pp. 173–176. ([doi:10.5281/zenodo.10478399](https://doi.org/10.5281/zenodo.10478399))
+
 ## Development
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
