@@ -51,6 +51,19 @@ class Info extends React.Component {
             data. If you want to contact us, please drop a line to
             fr.fischer(at)fu-berlin.de.
           </p>
+          <p>
+            Interestingly, ezlinavis has also been used in medical research
+            (<a href="https://doi.org/doi:10.1007/s00432-022-04200-0">doi:10.1007/s00432-022-04200-0</a>,
+            <a href="https://doi.org/doi:10.21873/invivo.12976">doi:10.21873/invivo.12976</a>).
+          </p>
+          <p>
+            <b>How to cite</b><br/>
+            Frank Fischer, Carsten Milling: Easy Linavis (Simple Network
+            Visualisation for Literary Texts). In: HDH2017: "Sociedades,
+            políticas, saberes". 18–20 October 2017. Málaga. Libro de resúmenes,
+            pp. 173–176.
+            (<a href="https://doi.org/doi:10.5281/zenodo.10478399">doi:10.5281/zenodo.10478399</a>)
+          </p>
           <p>Version: {version}</p>
         </Modal.Body>
         <Modal.Footer>
