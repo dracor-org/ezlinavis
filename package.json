@@ -25,10 +25,11 @@
   },
   "scripts": {
     "grammar": "nearleyc src/grammar.ne -o src/grammar.js",
-    "start": "PORT=8000 yarn grammar && react-scripts start",
-    "build": "yarn grammar && react-scripts build",
-    "test": "yarn grammar && react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "yarn grammar && vite",
+    "build": "yarn grammar && vite build",
+    "start": "yarn dev",
+    "lint": "eslint .",
+    "preview": "yarn grammar && vite preview"
   },
   "eslintConfig": {
     "extends": [
