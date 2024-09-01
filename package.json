@@ -15,7 +15,7 @@
     "prop-types": "^15.5.10",
     "react": "^16.6.0",
     "react-bootstrap": "^0.31.2",
-    "react-debounce-input": "^3.0.0",
+    "react-debounce-input": "^3.3.0",
     "react-dom": "^16.6.0",
     "react-sigma": "^1.2.17"
   },
