@@ -17,10 +17,12 @@
     "react-bootstrap": "^0.31.2",
     "react-debounce-input": "^3.0.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "^5.0.1",
     "react-sigma": "^1.2.17"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2"
+  },
   "scripts": {
     "grammar": "nearleyc src/grammar.ne -o src/grammar.js",
     "start": "PORT=8000 yarn grammar && react-scripts start",
@@ -35,14 +37,22 @@
     ],
     "rules": {
       "comma-dangle": 1,
-      "quotes": [1, "single"],
+      "quotes": [
+        1,
+        "single"
+      ],
       "no-undef": 1,
       "global-strict": 0,
       "no-extra-semi": 1,
       "no-underscore-dangle": 0,
       "no-console": 1,
       "no-unused-vars": 1,
-      "no-trailing-spaces": [1, {"skipBlankLines": true}],
+      "no-trailing-spaces": [
+        1,
+        {
+          "skipBlankLines": true
+        }
+      ],
       "no-unreachable": 1,
       "no-alert": 0,
       "react/jsx-uses-react": 1,
