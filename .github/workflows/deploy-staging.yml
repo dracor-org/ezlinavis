@@ -1,0 +1,15 @@
+name: Deploy to staging
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    uses: dracor-org/ezlinavis/.github/workflows/deployment.yml@main
+    with:
+      host: staging.dracor.org
+      deploy-path: /var/www/ezlinavis
+    secrets:
+      deploy-key: ${{ secrets.DRACOR_ORG_DEPLOY_KEY }}
+      deploy-user: ${{ secrets.DRACOR_ORG_DEPLOY_USER }}
