@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  deploy:
+  staging:
     uses: dracor-org/ezlinavis/.github/workflows/deployment.yml@main
     with:
       host: staging.dracor.org
