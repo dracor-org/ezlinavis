@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import {Component} from 'react';
 import {Parser, Grammar} from 'nearley';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 import {
@@ -122,7 +122,6 @@ class EzlinavisComponent extends Component {
     const example = examples[i];
     const {url} = example;
     const opts = {};
-    console.log('loading %s', url);
     fetch(url, opts)
       .then((response) => {
         return response.text();
@@ -131,6 +130,7 @@ class EzlinavisComponent extends Component {
         this.handleListChange(text);
       })
       .catch((error) => {
+        // eslint-disable-next-line no-console
         console.log(error);
       });
   }
@@ -144,6 +144,8 @@ class EzlinavisComponent extends Component {
       list = parser.results[0] || {};
       isValid = true;
     } catch (error) {
+      // eslint-disable-next-line no-console
+      console.log(error);
       isValid = false;
     }
 
@@ -155,8 +157,6 @@ class EzlinavisComponent extends Component {
   }
 
   render() {
-    console.log(this.state.graph);
-
     const settings = {
       maxEdgeSize: 5,
       defaultLabelSize: 15,
@@ -185,7 +185,7 @@ class EzlinavisComponent extends Component {
     let layout;
     if (this.state.graphLayout === 'noverlap') {
       layout = <NOverlap gridSize={10} maxIterations={100} />;
-    } else if (this.state.graphLayout === 'noverlap') {
+    } else if (this.state.graphLayout === 'forcelink') {
       layout = <ForceLink background easing="cubicInOut" />;
     } else {
       layout = <ForceAtlas2 {...layoutOptions} />;
