@@ -1,0 +1,40 @@
+name: Deployment
+
+on:
+  workflow_call:
+    inputs:
+      host:
+        required: true
+        type: string
+      deploy-path:
+        required: true
+        type: string
+    secrets:
+      deploy-key:
+        required: true
+      deploy-user:
+        required: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      - uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.2
+        with:
+          node-version: '20.x'
+      - name: Restore node_modules
+        uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4.0.2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+
+      - run: yarn install
+      - run: yarn build
+
+      - uses: webfactory/ssh-agent@dc588b651fe13675774614f8e6a936a468676387 # v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.deploy-key }}
+
+      - name: Deploy to ${{ inputs.host }}
+        run: rsync -rlvz --delete -e 'ssh -o StrictHostKeyChecking=no' build/ ${{ secrets.deploy-user }}@${{ inputs.host }}:${{ inputs.deploy-path }}/
