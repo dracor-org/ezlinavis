@@ -1,12 +1,6 @@
-import React, {Component} from 'react';
+import {Component} from 'react';
 import {Parser, Grammar} from 'nearley';
-import {
-  Navbar,
-  Nav,
-  NavItem,
-  NavDropdown,
-  MenuItem
-} from 'react-bootstrap';
+import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 import {
   Sigma,
   EdgeShapes,
@@ -14,7 +8,7 @@ import {
   ForceAtlas2,
   NOverlap,
   RelativeSize,
-  RandomizeNodePositions
+  RandomizeNodePositions,
 } from 'react-sigma';
 import ForceLink from 'react-sigma/lib/ForceLink';
 import Info from './Info';
@@ -25,25 +19,25 @@ import grammar from '../grammar';
 import './EzlinavisComponent.css';
 
 // load example lists
-const examples = require('../examples.json');
+import examples from '../examples.json';
 
 const edgeColor = '#999';
 const nodeColor = '#555';
 
-function getCooccurrences (scenes) {
+function getCooccurrences(scenes) {
   const map = {};
-  scenes.forEach(scene => {
+  scenes.forEach((scene) => {
     if (!scene.characters) {
       return;
     }
     // make sure each character occurs only once in scene
     const characters = scene.characters
-      .map(c => c.replace(/ +$/, '')) // trim trailing spaces
+      .map((c) => c.replace(/ +$/, '')) // trim trailing spaces
       .filter((v, i, a) => a.indexOf(v) === i);
     characters.forEach((c, i) => {
       if (i < characters.length - 1) {
         const others = characters.slice(i + 1);
-        others.forEach(o => {
+        others.forEach((o) => {
           const pair = [c, o].sort();
           const key = pair.join('|');
           if (map[key]) {
@@ -57,29 +51,31 @@ function getCooccurrences (scenes) {
   });
 
   const cooccurrences = [];
-  Object.keys(map).sort().forEach(key => {
-    cooccurrences.push(map[key]);
-  });
+  Object.keys(map)
+    .sort()
+    .forEach((key) => {
+      cooccurrences.push(map[key]);
+    });
 
   return cooccurrences;
 }
 
-function makeCsv (cooccurrences) {
+function makeCsv(cooccurrences) {
   let csv = 'Source,Type,Target,Weight\n';
-  cooccurrences.forEach(line => {
+  cooccurrences.forEach((line) => {
     line.splice(1, 0, 'Undirected');
     csv += line.join(',') + '\n';
   });
   return csv;
 }
 
-function getCharacters (scenes) {
+function getCharacters(scenes) {
   const characters = [];
-  scenes.forEach(scene => {
+  scenes.forEach((scene) => {
     if (!scene.characters) {
       return;
     }
-    scene.characters.forEach(c => {
+    scene.characters.forEach((c) => {
       if (characters.indexOf(c) === -1) {
         characters.push(c);
       }
@@ -88,15 +84,15 @@ function getCharacters (scenes) {
   return characters;
 }
 
-function makeGraph (scenes) {
+function makeGraph(scenes) {
   const characters = getCharacters(scenes);
   const nodes = [];
-  characters.forEach(c => {
+  characters.forEach((c) => {
     nodes.push({id: c, label: c});
   });
   const cooccurrences = getCooccurrences(scenes);
   const edges = [];
-  cooccurrences.forEach(cooc => {
+  cooccurrences.forEach((cooc) => {
     edges.push({
       id: cooc[0] + '|' + cooc[1],
       source: cooc[0],
@@ -104,42 +100,42 @@ function makeGraph (scenes) {
       size: cooc[2],
       // NB: we set the edge color here since the defaultEdgeColor in Sigma
       // settings does not to have any effect
-      color: edgeColor
+      color: edgeColor,
     });
   });
   return {nodes, edges};
 }
 
 class EzlinavisComponent extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props);
     this.state = {
       showAbout: false,
       graphLayout: 'forcelink',
       listText: '',
       isValid: null,
-      csv: null
+      csv: null,
     };
   }
 
-  selectExample (i) {
+  selectExample(i) {
     const example = examples[i];
     const {url} = example;
     const opts = {};
-    console.log('loading %s', url);
     fetch(url, opts)
-      .then(response => {
+      .then((response) => {
         return response.text();
       })
-      .then(text => {
+      .then((text) => {
         this.handleListChange(text);
       })
-      .catch(error => {
+      .catch((error) => {
+        // eslint-disable-next-line no-console
         console.log(error);
       });
   }
 
-  handleListChange (text) {
+  handleListChange(text) {
     let list = [];
     let isValid = null;
     const parser = new Parser(Grammar.fromCompiled(grammar));
@@ -148,6 +144,8 @@ class EzlinavisComponent extends Component {
       list = parser.results[0] || {};
       isValid = true;
     } catch (error) {
+      // eslint-disable-next-line no-console
+      console.log(error);
       isValid = false;
     }
 
@@ -158,9 +156,7 @@ class EzlinavisComponent extends Component {
     this.setState({listText: text, isValid, csv, graph});
   }
 
-  render () {
-    console.log(this.state.graph);
-
+  render() {
     const settings = {
       maxEdgeSize: 5,
       defaultLabelSize: 15,
@@ -169,7 +165,7 @@ class EzlinavisComponent extends Component {
       labelThreshold: 5,
       labelSize: 'fixed',
       drawLabels: true,
-      drawEdges: true
+      drawEdges: true,
     };
 
     const layoutOptions = {
@@ -181,18 +177,18 @@ class EzlinavisComponent extends Component {
       slowDown: 5,
       linLogMode: true,
       outboundAttractionDistribution: false,
-      strongGravityMode: false
+      strongGravityMode: false,
     };
 
     const {graph} = this.state;
 
     let layout;
     if (this.state.graphLayout === 'noverlap') {
-      layout = <NOverlap gridSize={10} maxIterations={100}/>;
-    } else if (this.state.graphLayout === 'noverlap') {
-      layout = <ForceLink background easing="cubicInOut"/>;
+      layout = <NOverlap gridSize={10} maxIterations={100} />;
+    } else if (this.state.graphLayout === 'forcelink') {
+      layout = <ForceLink background easing="cubicInOut" />;
     } else {
-      layout = <ForceAtlas2 {...layoutOptions}/>;
+      layout = <ForceAtlas2 {...layoutOptions} />;
     }
 
     let sigma = null;
@@ -205,11 +201,11 @@ class EzlinavisComponent extends Component {
           settings={settings}
           style={{display: 'flex', flexGrow: 1}}
         >
-          <EdgeShapes default="line"/>
-          <NodeShapes default="circle"/>
+          <EdgeShapes default="line" />
+          <NodeShapes default="circle" />
           <RandomizeNodePositions>
             {layout}
-            <RelativeSize initialSize={15}/>
+            <RelativeSize initialSize={15} />
           </RandomizeNodePositions>
         </Sigma>
       );
@@ -221,7 +217,7 @@ class EzlinavisComponent extends Component {
         <MenuItem
           key={example.url}
           eventKey={i}
-          onSelect={eventKey => this.selectExample(eventKey)}
+          onSelect={(eventKey) => this.selectExample(eventKey)}
         >
           {example.title}
         </MenuItem>
@@ -244,7 +240,7 @@ class EzlinavisComponent extends Component {
             <NavDropdown
               title="Graph"
               id="graph-menu"
-              onSelect={layout => this.setState({graphLayout: layout})}
+              onSelect={(layout) => this.setState({graphLayout: layout})}
             >
               <MenuItem
                 eventKey="noverlap"
@@ -282,7 +278,7 @@ class EzlinavisComponent extends Component {
             isValid={this.state.isValid}
             onListChange={this.handleListChange.bind(this)}
           />
-          <Csv data={this.state.csv}/>
+          <Csv data={this.state.csv} />
           <div className="graph">{sigma}</div>
         </div>
       </div>

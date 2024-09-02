@@ -1,3 +1,5 @@
+@preprocessor esmodule
+
 main -> header:? newline:* section:+ {% function(d) {return {header:d[0], sections:d[2]}} %}
 
 header -> headerline:+ {% function(d) {return d[0]} %}

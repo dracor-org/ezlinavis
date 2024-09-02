@@ -1,14 +1,12 @@
 // Generated automatically by nearley, version 2.20.1
 // http://github.com/Hardmath123/nearley
-(function () {
 function id(x) { return x[0]; }
 
 var appendItem =     function (a, b) { return function (d) { return d[a].concat([d[b]]); } };
 var appendItemChar = function (a, b) { return function (d) { return d[a].concat(d[b]); } };
 var empty = function (d) { return null };
-var grammar = {
-    Lexer: undefined,
-    ParserRules: [
+let Lexer = undefined;
+let ParserRules = [
     {"name": "main$ebnf$1", "symbols": ["header"], "postprocess": id},
     {"name": "main$ebnf$1", "symbols": [], "postprocess": function(d) {return null;}},
     {"name": "main$ebnf$2", "symbols": []},
@@ -40,12 +38,6 @@ var grammar = {
     {"name": "newline", "symbols": ["newline$string$1"]},
     {"name": "newline", "symbols": [{"literal":"\n"}]},
     {"name": "newline", "symbols": [{"literal":"\r"}], "postprocess": empty}
-]
-  , ParserStart: "main"
-}
-if (typeof module !== 'undefined'&& typeof module.exports !== 'undefined') {
-   module.exports = grammar;
-} else {
-   window.grammar = grammar;
-}
-})();
+];
+let ParserStart = "main";
+export default { Lexer, ParserRules, ParserStart };

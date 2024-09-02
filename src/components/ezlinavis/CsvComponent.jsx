@@ -1,13 +1,18 @@
-import React, {Component} from 'react';
+import {Component} from 'react';
 import PropTypes from 'prop-types';
 
 class CsvComponent extends Component {
-  render () {
+  render() {
     let link = null;
     if (this.props.data) {
-      const uri = 'data:text/csv;base64,' +
+      const uri =
+        'data:text/csv;base64,' +
         btoa(unescape(encodeURIComponent(this.props.data)));
-      link = <a href={uri} download="ezlinavis.csv">download CSV</a>;
+      link = (
+        <a href={uri} download="ezlinavis.csv">
+          download CSV
+        </a>
+      );
     }
 
     return (
@@ -24,11 +29,11 @@ class CsvComponent extends Component {
 CsvComponent.displayName = 'EzlinavisCsvComponent';
 
 CsvComponent.propTypes = {
-  data: PropTypes.string
+  data: PropTypes.string,
 };
 
 CsvComponent.defaultProps = {
-  data: ''
+  data: '',
 };
 
 export default CsvComponent;
