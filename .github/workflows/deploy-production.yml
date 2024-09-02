@@ -1,0 +1,16 @@
+name: Deploy to production
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  production:
+    uses: dracor-org/ezlinavis/.github/workflows/deployment.yml@main
+    with:
+      host: dracor.org
+      deploy-path: /var/www/ezlinavis
+    secrets:
+      deploy-key: ${{ secrets.DRACOR_ORG_DEPLOY_KEY }}
+      deploy-user: ${{ secrets.DRACOR_ORG_DEPLOY_USER }}
