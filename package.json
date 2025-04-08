@@ -31,11 +31,11 @@
   },
   "scripts": {
     "grammar": "nearleyc src/grammar.ne -o src/grammar.js",
-    "dev": "yarn grammar && vite",
-    "build": "yarn grammar && vite build",
-    "start": "yarn dev",
+    "dev": "pnpm run grammar && vite",
+    "build": "pnpm run grammar && vite build",
+    "start": "pnpm run dev",
     "lint": "eslint src",
-    "preview": "yarn grammar && vite preview"
+    "preview": "pnpm run grammar && vite preview"
   },
   "browserslist": {
     "production": [
@@ -49,5 +49,5 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "yarn@4.7.0+sha512.5a0afa1d4c1d844b3447ee3319633797bcd6385d9a44be07993ae52ff4facabccafb4af5dcd1c2f9a94ac113e5e9ff56f6130431905884414229e284e37bb7c9"
+  "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971"
 }
