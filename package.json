@@ -20,14 +20,14 @@
     "react-sigma": "^1.2.17"
   },
   "devDependencies": {
-    "@eslint/js": "^9.22.0",
-    "@vitejs/plugin-react": "^4.3.4",
-    "eslint": "^9.22.0",
-    "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-prettier": "^5.2.3",
+    "@eslint/js": "^9.36.0",
+    "@vitejs/plugin-react": "^5.0.3",
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-react": "^7.37.4",
-    "prettier": "^3.5.3",
-    "vite": "^6.2.7"
+    "prettier": "^3.6.2",
+    "vite": "^7.1.6"
   },
   "scripts": {
     "grammar": "nearleyc src/grammar.ne -o src/grammar.js",
