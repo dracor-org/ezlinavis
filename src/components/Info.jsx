@@ -50,7 +50,26 @@ class Info extends React.Component {
             fr.fischer(at)fu-berlin.de.
           </p>
           <p>
-            Interestingly, ezlinavis has also been used in medical research (
+            <em>ezlinavis</em> is widely used in teaching, and several
+            extensive tutorials and teaching modules are available (
+            <a href="https://doi.org/10.48694/fortext.3781">
+              doi:10.48694/fortext.3781
+            </a>
+            ,
+            <a href="https://doi.org/10.48694/fortext.3784">
+              doi:10.48694/fortext.3784
+            </a>
+            ).
+          </p>
+          <p>
+            <em>ezlinavis</em> has also been used in research well beyond its
+            originally intended use case, and we are always interested in
+            learning more about its fields of application. Notable examples
+            include linguistics (
+            <a href="https://doi.org/10.3726/JIG572_245">
+              doi:10.3726/JIG572_245
+            </a>
+            ) and medical research (
             <a href="https://doi.org/doi:10.1007/s00432-022-04200-0">
               doi:10.1007/s00432-022-04200-0
             </a>
