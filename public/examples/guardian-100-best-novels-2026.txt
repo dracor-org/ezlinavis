@@ -1,11 +1,17 @@
 The Guardian: The 100 Best Novels of All Time (16 May 2026)
 https://www.theguardian.com/books/ng-interactive/2026/may/12/the-100-best-novels-of-all-time
-172 authors, critics and academics were asked to name their top 10 novels of all time.
-We grouped voters who selected the same novels, creating a network of voting communities.
-Done by Frank Fischer, 16 May 2026.
+The Guardian polled 172 authors, critics and academics for their top ten
+novels, then scored each title by how often and how highly it was ranked
+rather than by vote count alone, producing the top 100.
+A few initial errors were corrected in the online version of the ranking
+around 29 May 2026; this corrected version is used here.
+The list below records ranks 1 to 100 together with every voter for each
+novel, forming a network of voting communities.
+Compiled by Frank Fischer (https://orcid.org/0000-0003-2419-6629),
+16 May 2026, updated 21 June 2026.
 Formalisation starts with first hashtag:
 
-# Middlemarch by George Eliot, 1871
+# 001 Middlemarch by George Eliot, 1871 (56 votes)
 Freya Johnston
 Merve Emre
 Sarah Moss
@@ -62,7 +68,7 @@ Elizabeth Day
 Jem Calder
 Lily King
 Lauren Elkin
-# Beloved by Toni Morrison, 1987
+# 002 Beloved by Toni Morrison, 1987 (43 votes)
 Merve Emre
 Kit de Waal
 Imogen Russell Williams
@@ -106,7 +112,7 @@ Damian Barr
 Lily King
 Lauren Elkin
 Daisy Johnson
-# Ulysses by James Joyce, 1914
+# 003 Ulysses by James Joyce, 1922 (36 votes)
 Maggie O’Farrell
 Merve Emre
 Jon Day
@@ -143,7 +149,7 @@ Alexandra Harris
 Ben Okri
 James Meek
 John Lanchester
-# To the Lighthouse by Virginia Woolf, 1927
+# 004 To the Lighthouse by Virginia Woolf, 1927 (31 votes)
 Merve Emre
 Hermione Lee
 Jon Day
@@ -175,7 +181,7 @@ Ella Creamer
 Lily King
 Saba Sams
 Doireann Ní Ghríofa
-# In Search of Lost Time by Marcel Proust, 1913–27
+# 005 In Search of Lost Time by Marcel Proust, 1913–27 (27 votes)
 Eimear McBride
 Salman Rushdie
 Chris Power
@@ -203,7 +209,7 @@ Alex Clark
 Ben Okri
 John Lanchester
 Lily King
-# Anna Karenina by Leo Tolstoy, 1878
+# 006 Anna Karenina by Leo Tolstoy, 1878 (26 votes)
 Freya Johnston
 Amanda Craig
 Eimear McBride
@@ -230,7 +236,7 @@ Clare Clark
 Arifa Akbar
 Jo Hamya
 Tom Crewe
-# War and Peace by Leo Tolstoy, 1869
+# 007 War and Peace by Leo Tolstoy, 1869 (20 votes)
 Chris Power
 Yan Lianke
 Andrew Solomon
@@ -251,7 +257,7 @@ Maaza Mengiste
 Ben Okri
 John Lanchester
 Jem Calder
-# Jane Eyre by Charlotte Brontë, 1847
+# 008 Jane Eyre by Charlotte Brontë, 1847 (21 votes)
 Maggie O’Farrell
 Kit de Waal
 Sarah Moss
@@ -273,7 +279,7 @@ Susanna Rustin
 Dinah Birch
 Tahmima Anam
 Doireann Ní Ghríofa
-# Pride and Prejudice by Jane Austen, 1710 [recte 1813]
+# 009 Pride and Prejudice by Jane Austen, 1813 (20 votes)
 Meg Rosoff
 Yael van der Wouden
 Esi Edugyan
@@ -294,7 +300,7 @@ Marcel Theroux
 Ben Okri
 Elizabeth Day
 Lily King
-# Madame Bovary by Gustave Flaubert, 1856
+# 010 Madame Bovary by Gustave Flaubert, 1856 (19 votes)
 Freya Johnston
 Kit de Waal
 Juan Gabriel Vasquez
@@ -314,7 +320,7 @@ Ian McEwan
 Marcel Theroux
 Clare Clark
 Michael Donkor
-# The Great Gatsby by F Scott Fitzgerald, 1925
+# 011 The Great Gatsby by F Scott Fitzgerald, 1925 (20 votes)
 Amanda Craig
 Sam Leith
 Sarah Churchwell
@@ -335,7 +341,7 @@ Aida Edemariam
 Charlotte Northedge
 Emma Loffhagen
 RF Kuang
-# Bleak House by Charles Dickens, 1852–3
+# 012 Bleak House by Charles Dickens, 1852–3 (19 votes)
 Jon Day
 Jude Cook
 Sarah Waters
@@ -355,7 +361,7 @@ Mark Haddon
 David Nicholls
 Ian Rankin
 Naoise Dolan
-# Emma by Jane Austen, 1815
+# 013 Emma by Jane Austen, 1815 (18 votes)
 Sarah Churchwell
 Blake Morrison
 John Mullan
@@ -374,7 +380,7 @@ Aida Edemariam
 Liese Spencer
 Emma Loffhagen
 Naoise Dolan
-# Mrs Dalloway by Virginia Woolf, 1925
+# 014 Mrs Dalloway by Virginia Woolf, 1925 (18 votes)
 Sarah Moss
 Sandra Newman
 John Self
@@ -393,8 +399,8 @@ Liese Spencer
 Lily King
 Lauren Elkin
 Doireann Ní Ghríofa
-# Moby-Dick by Herman Melville, 1851
-Tanjll Rashid
+# 015 Moby-Dick by Herman Melville, 1851 (18 votes)
+Tanjil Rashid
 Alberto Manguel
 Eimear McBride
 Sam Leith
@@ -412,7 +418,7 @@ Stephen King
 Stuart Kelly
 Ben Okri
 John Lanchester
-# Nineteen Eighty-Four by George Orwell, 1949
+# 016 Nineteen Eighty-Four by George Orwell, 1949 (19 votes)
 Meg Rosoff
 Alberto Manguel
 Eimear McBride
@@ -432,7 +438,7 @@ Sara Collins
 Marcel Theroux
 Dorian Lynskey
 Arifa Akbar
-# One Hundred Years of Solitude by Gabriel García Márquez, 1967
+# 017 One Hundred Years of Solitude by Gabriel García Márquez, 1967 (18 votes)
 Alberto Manguel
 Salman Rushdie
 Juan Gabriel Vasquez
@@ -451,7 +457,7 @@ Ben Okri
 Michael Donkor
 RF Kuang
 Daisy Johnson
-# Persuasion by Jane Austen, 1817
+# 018 Persuasion by Jane Austen, 1817 (17 votes)
 Freya Johnston
 Amanda Craig
 Sarah Moss
@@ -469,7 +475,7 @@ Lisa Allardice
 Charlotte Northedge
 Jem Calder
 Lily King
-# The Life and Opinions of Tristram Shandy, Gentleman by Laurence Sterne, 1759
+# 019 The Life and Opinions of Tristram Shandy, Gentleman by Laurence Sterne, 1759 (17 votes)
 Sam Leith
 Sandra Newman
 Rishi Dastidar
@@ -487,7 +493,7 @@ Charlotte Higgins
 Stuart Kelly
 Alexandra Harris
 Liese Spencer
-# Wuthering Heights by Emily Brontë, 1847
+# 020 Wuthering Heights by Emily Brontë, 1847 (15 votes)
 Eimear McBride
 John Boyne
 Nina Allan
@@ -503,7 +509,7 @@ Kate Mosse
 Matt Haig
 Arifa Akbar
 Doireann Ní Ghríofa
-# The Portrait of a Lady by Henry James, 1881
+# 021 The Portrait of a Lady by Henry James, 1881 (16 votes)
 Merve Emre
 Hermione Lee
 Sam Leith
@@ -520,7 +526,7 @@ Susanna Rustin
 David Nicholls
 Lisa Allardice
 Jem Calder
-# Things Fall Apart by Chinua Achebe, 1958
+# 022 Things Fall Apart by Chinua Achebe, 1958 (14 votes)
 Mazen Maarouf
 Sarah Waters
 Adam Roberts
@@ -535,8 +541,8 @@ Tahmima Anam
 Diana Evans
 Michael Donkor
 Emma Loffhagen
-# Midnight's Children by Salman Rushdie, 1981
-Tanjll Rashid
+# 023 Midnight's Children by Salman Rushdie, 1981 (13 votes)
+Tanjil Rashid
 Shahidha Bari
 Rishi Dastidar
 Jan Carson
@@ -549,7 +555,7 @@ Justine Jordan
 Sara Collins
 Dinah Birch
 Tahmima Anam
-# The Remains of the Day by Kazuo Ishiguro, 1989
+# 024 The Remains of the Day by Kazuo Ishiguro, 1989 (13 votes)
 Jon Day
 Kit de Waal
 John Self
@@ -563,7 +569,7 @@ Sara Collins
 Clare Clark
 Dorian Lynskey
 RF Kuang
-# Lolita by Vladimir Nabokov, 1955
+# 025 Lolita by Vladimir Nabokov, 1955 (13 votes)
 Merve Emre
 Sam Leith
 Rachel Kushner
@@ -577,7 +583,7 @@ Jo Hamya
 Michael Donkor
 Elizabeth Day
 Saba Sams
-# Don Quixote by Miguel de Cervantes, 1605/15
+# 026 Don Quixote by Miguel de Cervantes, 1605/15 (11 votes)
 Alberto Manguel
 Salman Rushdie
 Juan Gabriel Vasquez
@@ -589,8 +595,8 @@ Claire Armitstead
 Elif Shafak
 Matt Haig
 Ben Okri
-# The Trial by Franz Kafka, 1925
-Tanjll Rashid
+# 027 The Trial by Franz Kafka, 1925 (11 votes)
+Tanjil Rashid
 Salman Rushdie
 Elif Batuman
 PD Smith
@@ -601,7 +607,7 @@ Adam Thirlwell
 Colm Tóibín
 Parinoush Saniee
 Alain Mabanckou
-# The Brothers Karamazov by Fyodor Dostoyevsky, 1879–80
+# 028 The Brothers Karamazov by Fyodor Dostoyevsky, 1879–80 (10 votes)
 Chris Power
 Yan Lianke
 Chloe Aridjis
@@ -612,7 +618,7 @@ Guy Gunaratne
 Kieran Goddard
 Ben Okri
 RF Kuang
-# Pale Fire by Vladimir Nabokov, 1962
+# 029 Pale Fire by Vladimir Nabokov, 1962 (10 votes)
 Nina Allan
 Steven Poole
 Elif Batuman
@@ -623,7 +629,7 @@ Xan Brooks
 Houman Barekat
 Sarah Crown
 RF Kuang
-# Frankenstein by Mary Shelley, 1818
+# 030 Frankenstein by Mary Shelley, 1818 (10 votes)
 Alberto Manguel
 Chloe Aridjis
 Fiona Sampson
@@ -634,7 +640,7 @@ Lucas Rijneveld
 Kate Mosse
 Katherine Rundell
 Arifa Akbar
-# The Prime of Miss Jean Brodie by Muriel Spark, 1961
+# 031 The Prime of Miss Jean Brodie by Muriel Spark, 1961 (10 votes)
 John Self
 Fiona Sturges
 Sinéad Gleeson
@@ -645,7 +651,7 @@ Liese Spencer
 Damian Barr
 Saba Sams
 Ian Rankin
-# The God of Small Things by Arundhati Roy, 1997
+# 032 The God of Small Things by Arundhati Roy, 1997 (10 votes)
 Nadifa Mohamed
 Yagnishsing Dawoor
 Jack Edwards
@@ -656,7 +662,7 @@ Charlotte Northedge
 Emma Loffhagen
 Saba Sams
 Daisy Johnson
-# David Copperfield by Charles Dickens, 1849–50
+# 033 David Copperfield by Charles Dickens, 1849–50 (10 votes)
 Maggie O’Farrell
 Freya Johnston
 John Boyne
@@ -667,7 +673,7 @@ Ali Smith
 Nina Stibbe
 Dinah Birch
 Marcel Theroux
-# Wolf Hall by Hilary Mantel, 2009
+# 034 Wolf Hall by Hilary Mantel, 2009 (10 votes)
 Meg Rosoff
 Sarah Moss
 Sandra Newman
@@ -678,7 +684,7 @@ Justine Jordan
 Maaza Mengiste
 Clare Clark
 RF Kuang
-# Great Expectations by Charles Dickens, 1861
+# 035 Great Expectations by Charles Dickens, 1861 (9 votes)
 Amanda Craig
 Kit de Waal
 Salman Rushdie
@@ -688,7 +694,7 @@ Ahdaf Soueif
 Laura Wilson
 Liese Spencer
 Elizabeth Day
-# The Handmaid's Tale by Margaret Atwood, 1985
+# 036 The Handmaid's Tale by Margaret Atwood, 1985 (9 votes)
 Fiona Sturges
 Anne Enright
 Beejay Silcox
@@ -698,7 +704,7 @@ Sara Collins
 Lisa Allardice
 Arifa Akbar
 Charlotte Northedge
-# Invisible Man by Ralph Ellison, 1952
+# 037 Invisible Man by Ralph Ellison, 1952 (9 votes)
 Merve Emre
 Sandra Newman
 Rachel Kushner
@@ -708,7 +714,7 @@ Xan Brooks
 Alex Clark
 Sara Collins
 Ben Okri
-# The Age of Innocence by Edith Wharton, 1920
+# 038 The Age of Innocence by Edith Wharton, 1920 (9 votes)
 Salman Rushdie
 Sandra Newman
 Jude Cook
@@ -718,7 +724,7 @@ Geoff Dyer
 Melissa Broder
 Colm Tóibín
 Dorian Lynskey
-# Their Eyes Were Watching God by Zora Neale Hurston, 1937
+# 039 Their Eyes Were Watching God by Zora Neale Hurston, 1937 (8 votes)
 Nikesh Shukla
 Bernardine Evaristo
 Lara Feigel
@@ -727,7 +733,7 @@ Sinéad Gleeson
 Ella Creamer
 Emma Loffhagen
 Damian Barr
-# Song of Solomon by Toni Morrison, 1977
+# 040 Song of Solomon by Toni Morrison, 1977 (7 votes)
 Colum McCann
 Guy Gunaratne
 Dinah Birch
@@ -735,7 +741,7 @@ Diana Evans
 Maaza Mengiste
 Ian Rankin
 Naoise Dolan
-# Heart of Darkness by Joseph Conrad, 1899
+# 041 Heart of Darkness by Joseph Conrad, 1899 (7 votes)
 Sam Leith
 Juan Gabriel Vasquez
 Chloe Aridjis
@@ -743,7 +749,7 @@ Derek Owusu
 Kevin Power
 Maya Jasanoff
 Dorian Lynskey
-# The Magic Mountain by Thomas Mann, 1924
+# 042 The Magic Mountain by Thomas Mann, 1924 (7 votes)
 Eimear McBride
 Pratinav Anil
 Chloe Aridjis
@@ -751,7 +757,7 @@ Daniel Kehlmann
 Sarah Bakewell
 Ian McEwan
 James Meek
-# Housekeeping by Marilynne Robinson, 1980
+# 043 Housekeeping by Marilynne Robinson, 1980 (7 votes)
 Merve Emre
 Sarah Waters
 Yiyun Li
@@ -759,7 +765,7 @@ Joe Dunthorne
 Kieran Goddard
 David Nicholls
 Liese Spencer
-# Giovanni's Room by James Baldwin, 1956
+# 044 Giovanni's Room by James Baldwin, 1956 (7 votes)
 Benjamin Myers
 Charlotte Mendelson
 Richard Osman
@@ -767,7 +773,7 @@ Guy Gunaratne
 Sophie Mackintosh
 Damian Barr
 Naoise Dolan
-# The Golden Notebook by Doris Lessing, 1962
+# 045 The Golden Notebook by Doris Lessing, 1962 (7 votes)
 Lara Feigel
 Natasha Walter
 Lisa Tuttle
@@ -775,295 +781,296 @@ Rebecca Liu
 Alex Needham
 Alex Clark
 Saba Sams
-# The Leopard by Giuseppe Tomasi di Lampedusa, 1958
-Tanjll Rashid
+# 046 The Leopard by Giuseppe Tomasi di Lampedusa, 1958 (6 votes)
+Tanjil Rashid
 Christobel Kent
 Olivia Laing
 Ahdaf Soueif
 David Shariatmadari
 John Lanchester
-# Vanity Fair by William Makepeace Thackeray, 1848
+# 047 Vanity Fair by William Makepeace Thackeray, 1848 (6 votes)
 Amanda Craig
 Rishi Dastidar
 Jude Cook
 Christobel Kent
 Charlotte Higgins
 Elizabeth Day
-# The Metamorphosis by Franz Kafka, 1915
+# 048 The Metamorphosis by Franz Kafka, 1915 (6 votes)
 Alberto Manguel
 Chloe Aridjis
 Candice Carty Williams
 Sayaka Murata
 Elif Shafak
 Ian McEwan
-# A Fine Balance by Rohinton Mistry, 1995
+# 049 A Fine Balance by Rohinton Mistry, 1995 (6 votes)
 Amanda Craig
 Nadifa Mohamed
 Roxane Gay
 Claire Messud
 Clare Clark
 Florence Knapp
-# Wide Sargasso Sea by Jean Rhys, 1966
+# 050 Wide Sargasso Sea by Jean Rhys, 1966 (6 votes)
 Nadifa Mohamed
 Anne Enright
 Jack Edwards
 Sara Collins
 Jo Hamya
 Saba Sams
-# My Brilliant Friend by Elena Ferrante, 2011
+# 051 My Brilliant Friend by Elena Ferrante, 2011 (6 votes)
 Samantha Ellis
 Douglas Stuart
 Natasha Walter
 Susanna Rustin
 Charlotte Northedge
 Ella Creamer
-# The Golden Bowl by Henry James, 1904
+# 052 The Golden Bowl by Henry James, 1904 (5 votes)
 Ian Patterson
 Michael Chabon
 Jacqueline Rose
 Colm Tóibín
 Catherine Taylor
-# The Transit of Venus by Shirley Hazzard, 1980
+# 053 The Transit of Venus by Shirley Hazzard, 1980 (6 votes)
 Esi Edugyan
 Charlotte Mendelson
 Geoff Dyer
 Yiyun Li
 David Nicholls
 Lily King
-# Orlando by Virginia Woolf, 1928
+# 054 Orlando by Virginia Woolf, 1928 (5 votes)
 Katharine Viner
 Michael Chabon
 Kathryn Hughes
 Adam Thirlwell
 Elif Shafak
-# The Waves by Virginia Woolf, 1931
+# 055 The Waves by Virginia Woolf, 1931 (5 votes)
 Jude Cook
 Jacqueline Rose
 Guy Gunaratne
 Chigozie Obioma
 Alexandra Harris
-# Mansfield Park by Jane Austen, 1814
+# 056 Mansfield Park by Jane Austen, 1814 (5 votes)
 Jude Cook
 Ben Markovits
 Alex Needham
 James Meek
 Tom Crewe
-# The Sound and the Fury by William Faulkner, 1929
+# 057 The Sound and the Fury by William Faulkner, 1929 (5 votes)
 Merve Emre
 Melissa Harrison
 Kevin Power
 Michael Donkor
 Lily King
-# Disgrace by JM Coetzee, 1999
+# 058 Disgrace by JM Coetzee, 1999 (5 votes)
 Douglas Stuart
 Valeria Luiselli
 Samantha Harvey
 Kieran Goddard
 James Meek
-# Never Let Me Go by Kazuo Ishiguro, 2005
+# 059 Never Let Me Go by Kazuo Ishiguro, 2005 (5 votes)
 Lucy Knight
 Beejay Silcox
 M. John Harrison
 Sayaka Murata
 Charlotte Northedge
-# Howards End by EM Forster, 1910
+# 060 Howards End by EM Forster, 1910 (5 votes)
 John Boyne
 Andrew Solomon
 Sarah Bakewell
 David Nicholls
 Elizabeth Day
-# The Rings of Saturn by WG Sebald, 1995
+# 061 The Rings of Saturn by WG Sebald, 1995 (5 votes)
 Olivia Laing
 Joe Dunthorne
 Guy Gunaratne
 Claire Messud
 Doireann Ní Ghríofa
-# Half of a Yellow Sun by Chimamanda Ngozi Adichie, 2006
+# 062 Half of a Yellow Sun by Chimamanda Ngozi Adichie, 2006 (5 votes)
 Katharine Viner
 Yagnishsing Dawoor
 Diana Evans
 Charlotte Northedge
 Emma Loffhagen
-# White Teeth by Zadie Smith, 2000
+# 063 White Teeth by Zadie Smith, 2000 (5 votes)
 Yagnishsing Dawoor
 Yiyun Li
 Jeet Thayil
 Derek Owusu
 Emma Loffhagen
-# The Good Soldier by Ford Madox Ford, 1915
+# 064 The Good Soldier by Ford Madox Ford, 1915 (5 votes)
 Anne Enright
 Steven Poole
 Lucy Knight
 Jack Edwards
 Alexandra Harris
-# The Color Purple by Alice Walker, 1982
+# 065 The Color Purple by Alice Walker, 1982 (4 votes)
 Maggie O’Farrell
 Claire Armitstead
 Emma Loffhagen
 Damian Barr
-# The Master and Margarita by Mikhail Bulgakov, 1966–67
+# 066 The Master and Margarita by Mikhail Bulgakov, 1966–67 (5 votes)
 Salman Rushdie
 Philippe Sands
 Elif Shafak
 Parinoush Saniee
 Marcel Theroux
-# The Man Without Qualities by Robert Musil, 1930–43
+# 067 The Man Without Qualities by Robert Musil, 1930–43 (4 votes)
 Ian Patterson
 PD Smith
 Sukhdev Sandhu
 Adam Thirlwell
-# Blood Meridian by Cormac McCarthy, 1985
+# 068 Blood Meridian by Cormac McCarthy, 1985 (4 votes)
 Esi Edugyan
 Joe Dunthorne
 Chigozie Obioma
 Xan Brooks
-# Crime and Punishment by Fyodor Dostoevsky, 1866
+# 069 Crime and Punishment by Fyodor Dostoevsky, 1866 (4 votes)
 Eimear McBride
 Juan Gabriel Vasquez
 Liese Spencer
 Ian Rankin
-# Jude the Obscure by Thomas Hardy, 1895
+# 070 Jude the Obscure by Thomas Hardy, 1895 (4 votes)
 Chris Power
 Douglas Stuart
 Sukhdev Sandhu
 Kieran Goddard
-# Kindred by Octavia E Butler, 1979
+# 071 The Outsider by Albert Camus, 1942 (4 votes)
+Joanne Harris
+Sayaka Murata
+Rebecca Liu
+Colm Tóibín
+# 072 Kindred by Octavia E Butler, 1979 (4 votes)
 Imogen Russell Williams
 Yael van der Wouden
 Bernardine Evaristo
 Lisa Tuttle
-# Our Mutual Friend by Charles Dickens, 1864–5
+# 073 Our Mutual Friend by Charles Dickens, 1864–5 (4 votes)
 Shahidha Bari
 William Boyd
 Justine Jordan
 Ian McEwan
-# Austerlitz by WG Sebald, 2001
+# 074 Austerlitz by WG Sebald, 2001 (4 votes)
 Nina Allan
 Sarah Waters
 Alex Needham
 Kieran Goddard
-# Nervous Conditions by Tsitsi Dangarembga, 1988
+# 075 Nervous Conditions by Tsitsi Dangarembga, 1988 (4 votes)
 Jon Day
 Natasha Walter
 Catherine Taylor
 Maaza Mengiste
-# The Bluest Eye by Toni Morrison, 1970
+# 076 The Bluest Eye by Toni Morrison, 1970 (4 votes)
 Kate Mosse
 Maya Jaggi
 Jennifer Egan
 Michael Donkor
-# Dracula by Bram Stoker, 1897
+# 077 Dracula by Bram Stoker, 1897 (4 votes)
 Jan Carson
 Joshua Cohen
 Damian Barr
 Doireann Ní Ghríofa
-# The Rainbow by DH Lawrence, 1915
-Lara Feigel
-Catherine Taylor
-Tessa Hadley
-Ella Creamer
-# A House for Mr Biswas by VS Naipaul, 1961
-Amit Chaudhuri
-Maya Jasanoff
-Sukhdev Sandhu
-Aida Edemariam
-# Go Tell It on the Mountain by James Baldwin, 1953
-Shahidha Bari
-Derek Owusu
-Nina Stibbe
-Maaza Mengiste
-# Rebecca by Daphne du Maurier, 1938
-Jan Carson
-Elif Shafak
-Lisa Allardice
-Doireann Ní Ghríofa
-# Buddenbrooks by Thomas Mann, 1901
-Maya Jasanoff
-Colm Tóibín
-RF Kuang
-Naoise Dolan
-# The End of the Affair by Graham Greene, 1951
-Kit de Waal
-Sam Leith
-Jan Carson
-Sophie Mackintosh
-# A Farewell to Arms by Ernest Hemingway, 1929
-Steven Poole
-Christobel Kent
-Yiyun Li
-Ahdaf Soueif
-# The Talented Mr Ripley by Patricia Highsmith, 1955
-Nina Allan
-Olivia Laing
-Joe Dunthorne
-Richard Osman
-# The Vegetarian by Han Kang, 2007
-Sayaka Murata
-Sophie Mackintosh
-Tahmima Anam
-Emma Loffhagen
-# The Turn of the Screw by Henry James, 1898
-Julie Myerson
-Kate Mosse
-Kathryn Hughes
-Lisa Tuttle
-# The Line of Beauty by Alan Hollinghurst, 2004
-Douglas Stuart
-Philippe Sands
-Alex Needham
-Dorian Lynskey
-# Ragtime by EL Doctorow, 1975
-Daniel Kehlmann
-Colum McCann
-Joe Dunthorne
-Dorian Lynskey
-# The Left Hand of Darkness by Ursula K Le Guin, 1969
-Amanda Craig
-Beejay Silcox
-Michael Chabon
-John Lanchester
-# Jacob's Room by Virginia Woolf, 1922
-M. John Harrison
-Mark Haddon
-Alexandra Harris
-# Life and Fate by Vasily Grossman, 1980
-Sarah Bakewell
-Philippe Sands
-Alex Needham
-# Sentimental Education by Gustave Flaubert, 1869
-Christobel Kent
-Maya Jasanoff
-Lisa Tuttle
-# Invisible Cities by Italo Calvino, 1972
-John Self
-Matt Haig
-James Meek
-# The Known World by Edward P Jones, 2003
-Roxane Gay
-Uzma Aslam Khan
-Maaza Mengiste
-# The Return of the Native by Thomas Hardy, 1878
-Jude Cook
-Alexandra Harris
-David Shariatmadari
-# Pedro Páramo by Juan Rulfo, 1955
-Yan Lianke
-Valeria Luiselli
-Alain Mabanckou
-# Catch-22 by Joseph Heller, 1961
-Meg Rosoff
-Sian Cain
-Justine Jordan
-# The Road by Cormac McCarthy, 2006
-Kit de Waal
-Sarah Waters
-Valeria Luiselli
-# The Go-Between by LP Hartley, 1953
-Clare Clark
-Aida Edemariam
-David Shariatmadari
-# My Ántonia by Willa Cather, 1918
+# 078 My Ántonia by Willa Cather, 1918 (4 votes)
 Hermione Lee
 Xan Brooks
 Tahmima Anam
 Alexandra Harris
+# 079 The Rainbow by DH Lawrence, 1915 (4 votes)
+Lara Feigel
+Catherine Taylor
+Tessa Hadley
+Ella Creamer
+# 080 A House for Mr Biswas by VS Naipaul, 1961 (4 votes)
+Amit Chaudhuri
+Maya Jasanoff
+Sukhdev Sandhu
+Aida Edemariam
+# 081 Go Tell It on the Mountain by James Baldwin, 1953 (4 votes)
+Shahidha Bari
+Derek Owusu
+Nina Stibbe
+Maaza Mengiste
+# 082 Rebecca by Daphne du Maurier, 1938 (4 votes)
+Jan Carson
+Elif Shafak
+Lisa Allardice
+Doireann Ní Ghríofa
+# 083 Buddenbrooks by Thomas Mann, 1901 (4 votes)
+Maya Jasanoff
+Colm Tóibín
+RF Kuang
+Naoise Dolan
+# 084 The End of the Affair by Graham Greene, 1951 (4 votes)
+Kit de Waal
+Sam Leith
+Jan Carson
+Sophie Mackintosh
+# 085 A Farewell to Arms by Ernest Hemingway, 1929 (4 votes)
+Steven Poole
+Christobel Kent
+Yiyun Li
+Ahdaf Soueif
+# 086 The Talented Mr Ripley by Patricia Highsmith, 1955 (4 votes)
+Nina Allan
+Olivia Laing
+Joe Dunthorne
+Richard Osman
+# 087 The Vegetarian by Han Kang, 2007 (4 votes)
+Sayaka Murata
+Sophie Mackintosh
+Tahmima Anam
+Emma Loffhagen
+# 088 The Turn of the Screw by Henry James, 1898 (4 votes)
+Julie Myerson
+Kate Mosse
+Kathryn Hughes
+Lisa Tuttle
+# 089 The Line of Beauty by Alan Hollinghurst, 2004 (4 votes)
+Douglas Stuart
+Philippe Sands
+Alex Needham
+Dorian Lynskey
+# 090 Ragtime by EL Doctorow, 1975 (4 votes)
+Daniel Kehlmann
+Colum McCann
+Joe Dunthorne
+Dorian Lynskey
+# 091 The Left Hand of Darkness by Ursula K Le Guin, 1969 (4 votes)
+Amanda Craig
+Beejay Silcox
+Michael Chabon
+John Lanchester
+# 092 Jacob's Room by Virginia Woolf, 1922 (3 votes)
+M. John Harrison
+Mark Haddon
+Alexandra Harris
+# 093 Life and Fate by Vasily Grossman, 1980 (3 votes)
+Sarah Bakewell
+Philippe Sands
+Alex Needham
+# 094 Sentimental Education by Gustave Flaubert, 1869 (3 votes)
+Christobel Kent
+Maya Jasanoff
+Lisa Tuttle
+# 095 Invisible Cities by Italo Calvino, 1972 (3 votes)
+John Self
+Matt Haig
+James Meek
+# 096 The Known World by Edward P Jones, 2003 (3 votes)
+Roxane Gay
+Uzma Aslam Khan
+Maaza Mengiste
+# 097 The Return of the Native by Thomas Hardy, 1878 (3 votes)
+Jude Cook
+Alexandra Harris
+David Shariatmadari
+# 098 Pedro Páramo by Juan Rulfo, 1955 (3 votes)
+Yan Lianke
+Valeria Luiselli
+Alain Mabanckou
+# 099 Catch-22 by Joseph Heller, 1961 (3 votes)
+Meg Rosoff
+Sian Cain
+Justine Jordan
+# 100 The Road by Cormac McCarthy, 2006 (3 votes)
+Kit de Waal
+Sarah Waters
+Valeria Luiselli
