@@ -10,11 +10,13 @@ export default function CsvComponent({data = ''}: Props) {
     : null;
 
   return (
-    <div className="relative flex flex-1 flex-col border-l border-gray-500 p-2.5">
-      {uri && <DownloadButton href={uri} name="ezlinavis.csv" type="csv" />}
-      <div className="absolute inset-x-0 top-[30px] bottom-0 p-2.5">
-        <pre className="m-0 h-full w-full overflow-scroll text-xs">{data}</pre>
-      </div>
+    <div className="flex min-w-0 flex-1 flex-col border-l border-gray-500 p-2.5">
+      {uri && (
+        <div className="mb-2 [&_svg]:w-8" title="Download CSV">
+          <DownloadButton href={uri} name="ezlinavis.csv" type="csv" />
+        </div>
+      )}
+      <pre className="m-0 min-h-0 flex-1 overflow-auto text-xs">{data}</pre>
     </div>
   );
 }
