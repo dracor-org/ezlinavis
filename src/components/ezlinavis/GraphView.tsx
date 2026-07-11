@@ -49,25 +49,36 @@ function LoadGraph({scenes}: {scenes: Scene[]}) {
   return null;
 }
 
-function ForceAtlasLayout() {
+const FORCEATLAS_DURATION_MS = 2000;
+const NOVERLAP_DURATION_MS = 2000;
+
+function ForceAtlasLayout({scenes}: {scenes: Scene[]}) {
   const {start, stop} = useWorkerLayoutForceAtlas2({
     settings: {gravity: 3, slowDown: 5, linLogMode: true},
   });
   useEffect(() => {
     start();
-    return () => stop();
-  }, [start, stop]);
+    const t = setTimeout(stop, FORCEATLAS_DURATION_MS);
+    return () => {
+      clearTimeout(t);
+      stop();
+    };
+  }, [start, stop, scenes]);
   return null;
 }
 
-function NoverlapLayout() {
+function NoverlapLayout({scenes}: {scenes: Scene[]}) {
   const {start, stop} = useWorkerLayoutNoverlap({
     settings: {gridSize: 10},
   });
   useEffect(() => {
     start();
-    return () => stop();
-  }, [start, stop]);
+    const t = setTimeout(stop, NOVERLAP_DURATION_MS);
+    return () => {
+      clearTimeout(t);
+      stop();
+    };
+  }, [start, stop, scenes]);
   return null;
 }
 
@@ -97,7 +108,11 @@ export default function GraphView({scenes, layout}: Props) {
       }}
     >
       <LoadGraph scenes={scenes} />
-      {layout === 'forceatlas2' ? <ForceAtlasLayout /> : <NoverlapLayout />}
+      {layout === 'forceatlas2' ? (
+        <ForceAtlasLayout scenes={scenes} />
+      ) : (
+        <NoverlapLayout scenes={scenes} />
+      )}
       <RefreshOnSceneChange scenes={scenes} />
     </SigmaContainer>
   );
