@@ -43,9 +43,11 @@ function buildGraph(scenes: Scene[]): Graph {
 
 function LoadGraph({scenes}: {scenes: Scene[]}) {
   const loadGraph = useLoadGraph();
+  const sigma = useSigma();
   useEffect(() => {
     loadGraph(buildGraph(scenes));
-  }, [scenes, loadGraph]);
+    sigma.getCamera().setState({x: 0.5, y: 0.5, ratio: 1, angle: 0});
+  }, [scenes, loadGraph, sigma]);
   return null;
 }
 
