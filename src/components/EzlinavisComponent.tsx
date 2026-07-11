@@ -73,14 +73,14 @@ export default function EzlinavisComponent() {
             </MenuButton>
             <MenuItems
               anchor="bottom end"
-              className="mt-1 max-h-96 w-96 overflow-auto rounded bg-white text-sm text-black shadow-lg [--anchor-gap:4px]"
+              className="mt-1 max-h-[80vh] w-96 overflow-auto rounded bg-white text-xs text-black shadow-lg [--anchor-gap:4px]"
             >
               {examples.map((example, i) => (
                 <MenuItem key={example.url}>
                   <button
                     type="button"
                     onClick={() => selectExample(i)}
-                    className="block w-full px-4 py-2 text-left data-focus:bg-gray-100"
+                    className="block w-full px-3 py-1 text-left data-focus:bg-gray-100"
                   >
                     {example.title}
                   </button>
