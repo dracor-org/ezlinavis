@@ -1,4 +1,4 @@
-import {useCallback, useMemo, useState} from 'react';
+import {useCallback, useMemo, useRef, useState} from 'react';
 import {Menu, MenuButton, MenuItem, MenuItems} from '@headlessui/react';
 import Info from './Info';
 import ListInput from './ezlinavis/ListInputComponent';
@@ -6,7 +6,6 @@ import Csv from './ezlinavis/CsvComponent';
 import GraphView, {type GraphLayout} from './ezlinavis/GraphView';
 import {getCooccurrences, makeCsv} from '../lib/cooccurrences';
 import {parseList} from '../lib/parseList';
-import {useDebouncedValue} from '../lib/useDebouncedValue';
 
 import examples from '../examples.json';
 
@@ -19,24 +18,42 @@ export default function EzlinavisComponent() {
   const [showAbout, setShowAbout] = useState(false);
   const [graphLayout, setGraphLayout] = useState<GraphLayout>('forceatlas2');
   const [listText, setListText] = useState('');
+  const [parseText, setParseText] = useState('');
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | undefined>(
+    undefined
+  );
 
-  const debouncedText = useDebouncedValue(listText, 500);
-  const parsed = useMemo(() => parseList(debouncedText), [debouncedText]);
+  const parsed = useMemo(() => parseList(parseText), [parseText]);
   const cooccurrences = useMemo(
     () => getCooccurrences(parsed.scenes),
     [parsed.scenes]
   );
   const csv = cooccurrences.length > 0 ? makeCsv(cooccurrences) : null;
-  const isValid = debouncedText === '' ? undefined : parsed.isValid;
+  const isValid = parseText === '' ? undefined : parsed.isValid;
 
-  const selectExample = useCallback((i: number) => {
-    const example = examples[i];
-    fetch(example.url)
-      .then((response) => response.text())
-      .then((text) => setListText(text))
-      // eslint-disable-next-line no-console
-      .catch((error) => console.log(error));
+  const handleUserEdit = useCallback((text: string) => {
+    setListText(text);
+    clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => setParseText(text), 500);
   }, []);
+
+  const loadText = useCallback((text: string) => {
+    clearTimeout(debounceRef.current);
+    setListText(text);
+    setParseText(text);
+  }, []);
+
+  const selectExample = useCallback(
+    (i: number) => {
+      const example = examples[i];
+      fetch(example.url)
+        .then((response) => response.text())
+        .then((text) => loadText(text))
+        // eslint-disable-next-line no-console
+        .catch((error) => console.log(error));
+    },
+    [loadText]
+  );
 
   return (
     <div className="flex h-dvh flex-col">
@@ -110,7 +127,7 @@ export default function EzlinavisComponent() {
         <ListInput
           text={listText}
           isValid={isValid}
-          onListChange={setListText}
+          onListChange={handleUserEdit}
         />
         <Csv data={csv} />
         <div className="flex flex-3 flex-col border-l border-gray-500 p-1">
