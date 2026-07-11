@@ -137,7 +137,7 @@ class EzlinavisComponent extends Component {
 
   handleListChange(text) {
     let list = [];
-    let isValid = null;
+    let isValid;
     const parser = new Parser(Grammar.fromCompiled(grammar));
     try {
       parser.feed(text);

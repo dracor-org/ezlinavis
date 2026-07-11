@@ -50,8 +50,8 @@ class Info extends React.Component {
             fr.fischer(at)fu-berlin.de.
           </p>
           <p>
-            <em>ezlinavis</em> is widely used in teaching, and several
-            extensive tutorials and teaching modules are available (
+            <em>ezlinavis</em> is widely used in teaching, and several extensive
+            tutorials and teaching modules are available (
             <a href="https://doi.org/10.48694/fortext.3781">
               doi:10.48694/fortext.3781
             </a>
