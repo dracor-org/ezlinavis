@@ -26,6 +26,12 @@ importers:
       '@react-sigma/core':
         specifier: ^5.0.6
         version: 5.0.6(graphology@0.26.0(graphology-types@0.24.8))(react@19.2.7)(sigma@3.0.3(graphology-types@0.24.8))
+      '@react-sigma/layout-circular':
+        specifier: ^5.0.6
+        version: 5.0.6(graphology-layout@0.6.1(graphology-types@0.24.8))(graphology@0.26.0(graphology-types@0.24.8))(react@19.2.7)(sigma@3.0.3(graphology-types@0.24.8))
+      '@react-sigma/layout-force':
+        specifier: ^5.0.6
+        version: 5.0.6(graphology-layout-force@0.2.4(graphology-types@0.24.8))(graphology@0.26.0(graphology-types@0.24.8))(react@19.2.7)(sigma@3.0.3(graphology-types@0.24.8))
       '@react-sigma/layout-forceatlas2':
         specifier: ^5.0.6
         version: 5.0.6(graphology-layout-forceatlas2@0.10.1(graphology-types@0.24.8))(graphology@0.26.0(graphology-types@0.24.8))(react@19.2.7)(sigma@3.0.3(graphology-types@0.24.8))
@@ -38,6 +44,9 @@ importers:
       graphology-layout:
         specifier: ^0.6.1
         version: 0.6.1(graphology-types@0.24.8)
+      graphology-layout-force:
+        specifier: ^0.2.4
+        version: 0.2.4(graphology-types@0.24.8)
       graphology-layout-forceatlas2:
         specifier: ^0.10.1
         version: 0.10.1(graphology-types@0.24.8)
@@ -634,8 +643,18 @@ packages:
       react: ^18.0.0 || ^19.0.0
       sigma: ^3.0.2
 
+  '@react-sigma/layout-circular@5.0.6':
+    resolution: {integrity: sha512-sXo/zPAlIyh7VooYSTkjQUoTsMDr5dIIzRZvMtZpGcOoxwF2UfRRl6qWyKDh0t/VfLniqiWng0sfWFS27x15Qg==}
+    peerDependencies:
+      graphology-layout: 0.6.1
+
   '@react-sigma/layout-core@5.0.6':
     resolution: {integrity: sha512-69ec5IrzJamrzSuccBwnjvse2dMmIUGmoxlFnOIoAhqqpNVEnzsrwVRd5G13tAdk30FyxvKw/E1dEgOP8lQM8g==}
+
+  '@react-sigma/layout-force@5.0.6':
+    resolution: {integrity: sha512-/2WQTqvnnhXDaLezZxaJ2+GyaUvgZikDnhA5yUUp9yQg4kilaZ0pxxXZujwXyNUT6qaVja7Afa4eIBRlWXudEg==}
+    peerDependencies:
+      graphology-layout-force: ^0.2.4
 
   '@react-sigma/layout-forceatlas2@5.0.6':
     resolution: {integrity: sha512-BYd+6iDMRrpNUxm7xWhtiLLn7sksoH6xHLXvhbDOtbCIVUEceS57Mxbe4NGZs5zR//+YBIGAbwxQKIk3KrhnMQ==}
@@ -1784,6 +1803,11 @@ packages:
 
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
+
+  graphology-layout-force@0.2.4:
+    resolution: {integrity: sha512-NYZz0YAnDkn5pkm30cvB0IScFoWGtbzJMrqaiH070dYlYJiag12Oc89dbVfaMaVR/w8DMIKxn/ix9Bqj+Umm9Q==}
+    peerDependencies:
+      graphology-types: '>=0.19.0'
 
   graphology-layout-forceatlas2@0.10.1:
     resolution: {integrity: sha512-ogzBeF1FvWzjkikrIFwxhlZXvD2+wlY54lqhsrWprcdPjopM2J9HoMweUmIgwaTvY4bUYVimpSsOdvDv1gPRFQ==}
@@ -3623,9 +3647,27 @@ snapshots:
       react: 19.2.7
       sigma: 3.0.3(graphology-types@0.24.8)
 
+  '@react-sigma/layout-circular@5.0.6(graphology-layout@0.6.1(graphology-types@0.24.8))(graphology@0.26.0(graphology-types@0.24.8))(react@19.2.7)(sigma@3.0.3(graphology-types@0.24.8))':
+    dependencies:
+      '@react-sigma/layout-core': 5.0.6(graphology@0.26.0(graphology-types@0.24.8))(react@19.2.7)(sigma@3.0.3(graphology-types@0.24.8))
+      graphology-layout: 0.6.1(graphology-types@0.24.8)
+    transitivePeerDependencies:
+      - graphology
+      - react
+      - sigma
+
   '@react-sigma/layout-core@5.0.6(graphology@0.26.0(graphology-types@0.24.8))(react@19.2.7)(sigma@3.0.3(graphology-types@0.24.8))':
     dependencies:
       '@react-sigma/core': 5.0.6(graphology@0.26.0(graphology-types@0.24.8))(react@19.2.7)(sigma@3.0.3(graphology-types@0.24.8))
+    transitivePeerDependencies:
+      - graphology
+      - react
+      - sigma
+
+  '@react-sigma/layout-force@5.0.6(graphology-layout-force@0.2.4(graphology-types@0.24.8))(graphology@0.26.0(graphology-types@0.24.8))(react@19.2.7)(sigma@3.0.3(graphology-types@0.24.8))':
+    dependencies:
+      '@react-sigma/layout-core': 5.0.6(graphology@0.26.0(graphology-types@0.24.8))(react@19.2.7)(sigma@3.0.3(graphology-types@0.24.8))
+      graphology-layout-force: 0.2.4(graphology-types@0.24.8)
     transitivePeerDependencies:
       - graphology
       - react
@@ -5209,6 +5251,11 @@ snapshots:
   gopd@1.2.0: {}
 
   graceful-fs@4.2.11: {}
+
+  graphology-layout-force@0.2.4(graphology-types@0.24.8):
+    dependencies:
+      graphology-types: 0.24.8
+      graphology-utils: 2.5.2(graphology-types@0.24.8)
 
   graphology-layout-forceatlas2@0.10.1(graphology-types@0.24.8):
     dependencies:

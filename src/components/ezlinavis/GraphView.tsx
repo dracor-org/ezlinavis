@@ -3,12 +3,14 @@ import Graph from 'graphology';
 import {SigmaContainer, useLoadGraph, useSigma} from '@react-sigma/core';
 import {useWorkerLayoutForceAtlas2} from '@react-sigma/layout-forceatlas2';
 import {useWorkerLayoutNoverlap} from '@react-sigma/layout-noverlap';
+import {useWorkerLayoutForce} from '@react-sigma/layout-force';
+import {useLayoutCircular} from '@react-sigma/layout-circular';
 import '@react-sigma/core/lib/style.css';
 
 import type {Scene} from '../../lib/cooccurrences';
 import {getCharacters, getCooccurrences} from '../../lib/cooccurrences';
 
-export type GraphLayout = 'noverlap' | 'forceatlas2';
+export type GraphLayout = 'noverlap' | 'forceatlas2' | 'force' | 'circular';
 
 const nodeColor = '#555';
 const edgeColor = '#999';
@@ -53,6 +55,7 @@ function LoadGraph({scenes}: {scenes: Scene[]}) {
 
 const FORCEATLAS_DURATION_MS = 2000;
 const NOVERLAP_DURATION_MS = 2000;
+const FORCE_DURATION_MS = 2000;
 
 function ForceAtlasLayout({scenes}: {scenes: Scene[]}) {
   const {start, stop} = useWorkerLayoutForceAtlas2({
@@ -84,6 +87,27 @@ function NoverlapLayout({scenes}: {scenes: Scene[]}) {
   return null;
 }
 
+function ForceLayout({scenes}: {scenes: Scene[]}) {
+  const {start, stop} = useWorkerLayoutForce();
+  useEffect(() => {
+    start();
+    const t = setTimeout(stop, FORCE_DURATION_MS);
+    return () => {
+      clearTimeout(t);
+      stop();
+    };
+  }, [start, stop, scenes]);
+  return null;
+}
+
+function CircularLayout({scenes}: {scenes: Scene[]}) {
+  const {assign} = useLayoutCircular();
+  useEffect(() => {
+    assign();
+  }, [assign, scenes]);
+  return null;
+}
+
 function RefreshOnSceneChange({scenes}: {scenes: Scene[]}) {
   const sigma = useSigma();
   useEffect(() => {
@@ -110,11 +134,10 @@ export default function GraphView({scenes, layout}: Props) {
       }}
     >
       <LoadGraph scenes={scenes} />
-      {layout === 'forceatlas2' ? (
-        <ForceAtlasLayout scenes={scenes} />
-      ) : (
-        <NoverlapLayout scenes={scenes} />
-      )}
+      {layout === 'forceatlas2' && <ForceAtlasLayout scenes={scenes} />}
+      {layout === 'noverlap' && <NoverlapLayout scenes={scenes} />}
+      {layout === 'force' && <ForceLayout scenes={scenes} />}
+      {layout === 'circular' && <CircularLayout scenes={scenes} />}
       <RefreshOnSceneChange scenes={scenes} />
     </SigmaContainer>
   );

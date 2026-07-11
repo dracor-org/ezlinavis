@@ -12,6 +12,8 @@ import examples from '../examples.json';
 const layoutLabels: Record<GraphLayout, string> = {
   noverlap: 'NOverlap',
   forceatlas2: 'ForceAtlas2',
+  force: 'Force',
+  circular: 'Circular',
 };
 
 export default function EzlinavisComponent() {
@@ -96,19 +98,21 @@ export default function EzlinavisComponent() {
               anchor="bottom end"
               className="mt-1 w-40 rounded bg-white text-sm text-black shadow-lg [--anchor-gap:4px]"
             >
-              {(['noverlap', 'forceatlas2'] as const).map((l) => (
-                <MenuItem key={l}>
-                  <button
-                    type="button"
-                    onClick={() => setGraphLayout(l)}
-                    className={`block w-full px-4 py-2 text-left data-focus:bg-gray-100 ${
-                      graphLayout === l ? 'font-semibold' : ''
-                    }`}
-                  >
-                    {layoutLabels[l]}
-                  </button>
-                </MenuItem>
-              ))}
+              {(['noverlap', 'forceatlas2', 'force', 'circular'] as const).map(
+                (l) => (
+                  <MenuItem key={l}>
+                    <button
+                      type="button"
+                      onClick={() => setGraphLayout(l)}
+                      className={`block w-full px-4 py-2 text-left data-focus:bg-gray-100 ${
+                        graphLayout === l ? 'font-semibold' : ''
+                      }`}
+                    >
+                      {layoutLabels[l]}
+                    </button>
+                  </MenuItem>
+                )
+              )}
             </MenuItems>
           </Menu>
           <button
