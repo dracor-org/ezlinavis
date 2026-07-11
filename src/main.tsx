@@ -1,7 +1,7 @@
-import ReactDOM from 'react-dom';
-import 'normalize.css/normalize.css';
+import {createRoot} from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-// React 16 API — will migrate to createRoot when we upgrade to React 18/19.
-ReactDOM.render(<App />, document.getElementById('root'));
+const container = document.getElementById('root');
+if (!container) throw new Error('Missing #root element');
+createRoot(container).render(<App />);

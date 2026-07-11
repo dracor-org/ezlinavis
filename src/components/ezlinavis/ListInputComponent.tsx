@@ -1,29 +1,29 @@
-import DebounceInput from 'react-debounce-input';
-
 interface Props {
-  text?: string;
+  text: string;
   isValid?: boolean;
   onListChange: (text: string) => void;
 }
 
 export default function ListInputComponent({
-  text = '',
-  isValid = false,
+  text,
+  isValid,
   onListChange,
 }: Props) {
-  const className = text === '' ? '' : isValid ? 'valid' : 'invalid';
+  const borderColor =
+    text === ''
+      ? 'border-gray-300'
+      : isValid
+        ? 'border-green-400'
+        : 'border-red-400';
 
   return (
-    <div className="listinput-component">
-      <div className={className}>
-        <DebounceInput
-          element="textarea"
+    <div className="relative flex-1">
+      <div className={`absolute inset-0 border-l-8 ${borderColor}`}>
+        <textarea
+          className="h-full w-full resize-none border-none p-2.5 outline-none"
           placeholder="Enter list of characters or choose one from examples"
-          debounceTimeout={500}
           value={text}
-          onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
-            onListChange(e.target.value)
-          }
+          onChange={(e) => onListChange(e.target.value)}
         />
       </div>
     </div>

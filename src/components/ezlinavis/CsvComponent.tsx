@@ -1,3 +1,5 @@
+import {DownloadButton} from '@dracor/react';
+
 interface Props {
   data?: string | null;
 }
@@ -8,14 +10,10 @@ export default function CsvComponent({data = ''}: Props) {
     : null;
 
   return (
-    <div className="csv-component">
-      {uri && (
-        <a href={uri} download="ezlinavis.csv">
-          download CSV
-        </a>
-      )}
-      <div>
-        <pre>{data}</pre>
+    <div className="relative flex flex-1 flex-col border-l border-gray-500 p-2.5">
+      {uri && <DownloadButton href={uri} name="ezlinavis.csv" type="csv" />}
+      <div className="absolute inset-x-0 top-[30px] bottom-0 p-2.5">
+        <pre className="m-0 h-full w-full overflow-scroll text-xs">{data}</pre>
       </div>
     </div>
   );
