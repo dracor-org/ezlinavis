@@ -17,7 +17,10 @@ export function parseList(text: string): ParseResult {
   const parser = new Parser(Grammar.fromCompiled(grammar));
   try {
     parser.feed(text);
-    const list = (parser.results[0] as ParsedList) ?? {header: null, sections: []};
+    const list = (parser.results[0] as ParsedList) ?? {
+      header: null,
+      sections: [],
+    };
     return {
       isValid: true,
       scenes: list.sections ?? [],

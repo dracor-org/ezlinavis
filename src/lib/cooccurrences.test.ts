@@ -16,10 +16,7 @@ describe('getCharacters', () => {
   });
 
   it('skips scenes with null characters', () => {
-    const scenes: Scene[] = [
-      {characters: null},
-      {characters: ['Alice']},
-    ];
+    const scenes: Scene[] = [{characters: null}, {characters: ['Alice']}];
     expect(getCharacters(scenes)).toEqual(['Alice']);
   });
 
@@ -77,7 +74,7 @@ describe('makeCsv', () => {
       ['Alice', 'Carol', 1],
     ]);
     expect(csv).toBe(
-      'Source,Type,Target,Weight\nAlice,Undirected,Bob,2\nAlice,Undirected,Carol,1\n',
+      'Source,Type,Target,Weight\nAlice,Undirected,Bob,2\nAlice,Undirected,Carol,1\n'
     );
   });
 

@@ -41,7 +41,10 @@ describe('parseList', () => {
       const text = readFileSync(join(examplesDir, file), 'utf-8');
       const result = parseList(text);
       expect(result.isValid, `${file} should parse`).toBe(true);
-      expect(result.scenes.length, `${file} should have sections`).toBeGreaterThan(0);
+      expect(
+        result.scenes.length,
+        `${file} should have sections`
+      ).toBeGreaterThan(0);
     }
   });
 });
