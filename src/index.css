@@ -4,11 +4,7 @@
 @source '../node_modules/@dracor/react';
 
 html,
-body,
-#root {
-  height: 100%;
-}
-
 body {
   margin: 0;
+  overscroll-behavior: none;
 }

@@ -39,7 +39,7 @@ export default function EzlinavisComponent() {
   }, []);
 
   return (
-    <div className="flex h-full flex-col">
+    <div className="flex h-dvh flex-col">
       <nav className="flex items-center justify-between bg-gray-800 px-4 py-2 text-white">
         <button
           type="button"
@@ -106,7 +106,7 @@ export default function EzlinavisComponent() {
 
       <Info show={showAbout} onHide={() => setShowAbout(false)} />
 
-      <div className="flex flex-1 items-stretch border-t border-[#a57878]">
+      <div className="flex min-h-0 flex-1 items-stretch overflow-hidden border-t border-[#a57878]">
         <ListInput
           text={listText}
           isValid={isValid}
