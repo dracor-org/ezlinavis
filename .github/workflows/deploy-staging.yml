@@ -7,10 +7,9 @@ on:
 
 jobs:
   staging:
-    uses: dracor-org/ezlinavis/.github/workflows/deployment.yml@main
+    uses: ./.github/workflows/deployment.yml
+    # environment secrets only reach the reusable workflow this way
+    secrets: inherit
     with:
+      environment: staging
       host: staging.dracor.org
-      deploy-path: /var/www/ezlinavis
-    secrets:
-      deploy-key: ${{ secrets.DRACOR_ORG_DEPLOY_KEY }}
-      deploy-user: ${{ secrets.DRACOR_ORG_DEPLOY_USER }}
